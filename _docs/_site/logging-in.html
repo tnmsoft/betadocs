@@ -1,0 +1,24 @@
+<p>Before you can access &lt;%= lcShortAppName %&gt;, you have to log in. Enter the user name and password you were assigned (initially, these are both “admin”).&lt;%= iif(llMultiple, ‘ You can also choose the data source you wish to use (a data source is a particular database you want to report on). You can change to a different data source any time by choosing the Change Data Source function from the Tools menu.’, ‘’) %&gt;
+&lt;% if llUsersCanRegister %&gt;</p>
+
+<p>If you don’t have a user name, click the <em>Click here to register if you don’t have an account</em> link and enter your email address when prompted. Your email address is your user name and you’ll be emailed a password to use, which you can later change using the Change Password function in the Tools menu if you wish.
+&lt;% endif llUsersCanRegister %&gt;</p>
+
+<p>&lt;% if llAllowPasswordResets %&gt;</p>
+
+<p>If you don’t remember your password, click the <em>Forgot password?</em> link and enter your user name. An email will be sent to you with instructions on resetting your password. You’ll need to have your email address filled in for this process to work.</p>
+
+<p>&lt;% endif llAllowPasswordResets %&gt;</p>
+
+<p>When you first use &lt;%= lcShortAppName %&gt;, it runs as a &lt;%= lcDemoDays %&gt;-day “unactivated” version. This version has all of the features of the full-working program, except it only functions for &lt;%= lcDemoDays %&gt; days after running it for the first time. Once the unactivated period has expired, the following message appears on the Login page: “The demo period has expired. Please log in with an administrator account to resolve this issue.” As the message suggests, login as “admin” or some other administrative user. See the <a href="vfps://Topic/_1OB12J4U4">Managing Licenses</a> topic for information on how to add a license or enter an extension code.
+&lt;% if llManageDSN %&gt;</p>
+
+<p>&lt;%= lcShortAppName %&gt; connects to your database using an ODBC data source name (DSN). The first time you run it, no DSNs have been set up in &lt;%= lcShortAppName %&gt;, so you are prompted to go to the <a href="vfps://Topic/_41V0MOT9F">Setup Wizard</a> to do so.
+&lt;% endif llManageDSN %&gt;&lt;% if llManageConnString %&gt;</p>
+
+<p>&lt;%= lcShortAppName %&gt; connects to your database using a connection string. The first time you run it, the connection string hasn’t been set up in &lt;%= lcShortAppName %&gt;, so you are prompted to go to the <a href="vfps://Topic/_41V0MOT9F">Setup Wizard</a> to do so.
+&lt;% endif llManageConnString %&gt;</p>
+
+<p>The <a href="vfps://Topic/_1QI0T7QOT">Reports Explorer</a> appears next. You can select an existing report and print or preview it, or create a new report if you are using a <a href="vfps://Topic/_0XZ0TJQ4Q">Report Designer license</a>.</p>
+
+<p>To display help information, choose Help Topics from the Help menu.</p>

@@ -1,0 +1,24 @@
+<p>&lt;%= lcShortAppName %&gt; is licensed on a per-user basis. That means each user who wants to create and/or run reports requires a license. Here’s how licensing works:</p>
+
+<ul>
+  <li>
+    <p>Until &lt;%= lcShortAppName %&gt; has been activated, it runs in “unactivated” mode. You can use it this way for up to &lt;%= lcDemoDays %&gt; days after the first time it was run. To activate the software, use the <a href="vfps://Topic/_1OB12J4U4">License Manager</a> to add a license.</p>
+  </li>
+  <li>
+    <p>Licensing information is stored in a file named SFQuery.lic in the Licenses subdirectory of the program folder.</p>
+  </li>
+  <li>
+    <p>There are two types of licenses: Report Designer and Report Viewer. A Report Designer license allows a user to create new reports, edit reports, and copy reports. With a Report Viewer license, the user can only run reports.</p>
+  </li>
+  <li>
+    <p>There’s a subset of these license types: Subscription. A normal license can be used even if your <a href="vfps://Topic/_24B0X7B2S">software maintenance</a> expires because you’ve purchased the software. A subscription license, on the other hand, isn’t purchased outright but is instead paid for on a subscription basis similar to subscribing to a magazine. If you stop making subscription payments, the license becomes inactive and you can no longer use the software.</p>
+  </li>
+  <li>
+    <p>Users in the Administrator role (such as the ADMIN user) are the only ones who have access to the <a href="vfps://Topic/_03H0Z63ZZ">Security</a> dialog. In that dialog, an administrative user can define user names and specify which users use which license type. For example, Mary may be assigned a Report Designer license while Bob gets a Report Viewer license.</p>
+  </li>
+  <li>
+    <p>When you log in, &lt;%= lcShortAppName %&gt; does two checks. The first is how many users are currently running &lt;%= lcShortAppName %&gt;. If all licenses are currently in use (for example, five users are currently in &lt;%= lcShortAppName %&gt; and there are five licenses in total), you are informed of this and returned to the Login page. The second check is whether another user is logged in with the same user name. If so, you are informed of this and returned to the Login page. So, &lt;%= lcShortAppName %&gt; licensing is sometime called “concurrent use” because only as many users as there are licenses can be logged in at the same time.</p>
+  </li>
+</ul>
+
+<p>The Setup function in the Tools menu, which is only available for users in the Administrator role, can be used to <a href="vfps://Topic/_1OB12J4U4">manage licenses</a>.</p>
