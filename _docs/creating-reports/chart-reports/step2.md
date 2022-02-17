@@ -51,4 +51,4 @@ Like the *Available fields* list, the *Selected fields* list includes the ![](/a
 
 To scroll the list of fields, drag the scroll bar at the right of the list or use your mouse wheel.
 
-> @icon-info-circle Unlike the other report wizards, with the Chart Wizard, you set the properties of the fields in step 3.
+> <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Unlike the other report wizards, with the Chart Wizard, you set the properties of the fields in step 3.

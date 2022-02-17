@@ -6,7 +6,7 @@ parent: Configuration
 ---
 {{ site.app_name }} has a scheduler to run certain reports at certain times. For example, you may have a report named Daily Activities that you want emailed to someone every morning at 7:00 am.
 
-> @icon-info-circle Creating a new schedule requires email settings to be set in the [Options]({% link _docs/configuration/configuration.md %}) dialog. If they aren't, you get a warning message and the Schedule Wizard doesn't open.
+> <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Creating a new schedule requires email settings to be set in the [Options]({% link _docs/configuration/configuration.md %}) dialog. If they aren't, you get a warning message and the Schedule Wizard doesn't open.
 
 To schedule one or more reports, choose Schedule from the New menu to bring up the Schedule Wizard. Note that depending on how security is set up, the Schedule Wizard may not be available to all users.
 
@@ -32,7 +32,7 @@ In step 2, choose which reports the schedule should run. Like the Reports Explor
 
 Click the ![](/assets/images/add.png) button to add a report to the *Selected reports* list. Click the ![](/assets/images/deleteicon.png) button to remove a report from the *Selected reports* list.
 
-> @icon-info-circle Only reports without ask-at-runtime filter conditions are displayed, since a schedule can't stop to ask for the values of such a report.
+> <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Only reports without ask-at-runtime filter conditions are displayed, since a schedule can't stop to ask for the values of such a report.
 
 ![](/assets/images/schedule3.png)
 

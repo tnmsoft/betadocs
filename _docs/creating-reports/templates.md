@@ -30,7 +30,7 @@ To edit the layout of a template, click the ![](/assets/images/document_text_ima
 
 * Some objects need to be moved or resized as the report width adjusts based on the number of fields that appear in the report. For example, the [ReportTitle] object stretches horizontally so it's as wide as the report and the Page Number object is moved to the right so it's at the right edge of the report.
 
-> @icon-info-circle If you add an image to a template, the image file must exist in {{ site.app_name }}'s folder structure. We recommend putting it into the Images folder and referencing it from there in the template.
+> <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> If you add an image to a template, the image file must exist in {{ site.app_name }}'s folder structure. We recommend putting it into the Images folder and referencing it from there in the template.
 
 ## Template components
 A template has two types of components that define how a report looks: styles and objects. Styles are like style sheets in Microsoft Word: they define how objects of a certain type should look (font, color, and so on). Objects specify which styles are used by certain fields and which fixed objects should appear in the report, such as lines, boxes, image, etc.

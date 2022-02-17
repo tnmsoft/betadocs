@@ -27,7 +27,7 @@ A report's advanced layout is edited in the Report Designer window. The Report D
 
 * Field List: displays the fields and parameters in the result set for the report.
 
-> @icon-info-circle To close the Report Designer, close the browser tab it appears in.
+> <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> To close the Report Designer, close the browser tab it appears in.
 
 # Layout Area
 The Layout Area displays the layout of the report.

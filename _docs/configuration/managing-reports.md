@@ -8,7 +8,7 @@ You may find a need for a report that is similar to an existing report. The Copy
 
 To delete the selected report, click the ![](/assets/images/deleteicon.png) button beside the report name. You are asked to confirm that the report should be deleted. If you confirm its deletion, the report is removed from the list in the Reports Explorer. Note that if a report has more than one tag, deleting it from one tag deletes it from all other tags.
 
-> @icon-info-circle This button may not be enabled for all reports.
+> <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> This button may not be enabled for all reports.
 
 If you need to delete multiple reports at once, or assign a tenant or role to multiple reports, you can use the Manage Reports dialog to do so.
 {% if site.has_tenants %}
