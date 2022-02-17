@@ -55,13 +55,14 @@ At the left of the page is a list of roles; click one in the list to select it. 
  Tenant the tenant the role belongs to; this isn't available for the Administrator, Everyone, or Tenant Administrator roles. Select the desired tenant from the drop-down list of tenants or No tenant if the role is available to all tenants.
 
  Resources this tab allows you to define which features the members of the role have access to. For example, if members can schedule reports, turn on the Use the Scheduler setting. If members can edit the properties of fields in a report but not add or remove fields, turn on the Change field properties in report wizards setting and turn off the Add and remove fields in report wizards setting.
-% if llDataGroups %
+{% if site.has_datagroups %}
 
  Data groups this tab allows you to define which data groups the members of the role have access to. To indicate that members of the role have access to a particular data group, click the ![](/assets/images/add.png) button to add the data group to the Data groups in roles list. To remove access to the data group, click the ![](/assets/images/deleteicon.png) button.
-% endif llDataGroups %% if llMultiple %
+{% endif %}
+{% if site.has_multidatasource %}
 
  Data sources this tab allows you to define which data sources the members of the role have access to. To indicate that members of the role have access to a particular data source, click the ![](/assets/images/add.png) button to add the data source to the Data sources in roles list. To remove access to the data source, click the ![](/assets/images/deleteicon.png) button.
-% endif llMultiple %ul
+{% endif %}
 
 Click the ![](/assets/images/exporticon.png) button to save changes to the user.
 
