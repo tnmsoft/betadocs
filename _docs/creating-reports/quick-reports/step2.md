@@ -57,16 +57,16 @@ Each field may also show a status indicator to help you quickly see whether a fi
 <th>Symbol</th><th>Description</th>
 </tr>
 <tr>
-<td align="center"><img src="images/FIELDSORTED.png" /></td><td>This report is TopicLink([sorted],[_0380PFG2N]) on this field.</td>
+<td align="center">![](/assets/images/fieldsorted.png)</td><td>This report is [sorted]({% link _docs/creating-reports/quick-reports/step3.md %}) on this field.</td>
 </tr>
 <tr>
-<td align="center"><img src="images/FIELDGROUPED.png" /></td><td>This report is TopicLink([grouped],[_0380PFG2N]) on this field.</td>
+<td align="center">![](/assets/images/fieldgrouped.png)</td><td>This report is [grouped]({% link _docs/creating-reports/quick-reports/step3.md %}) on this field.</td>
 </tr>
 <tr>
-<td align="center"><img src="images/FIELDNOTDISPLAYED.png" /></td><td>This field doesn't appear in the report because its <i>Display in report</i> setting is turned off.</td>
+<td align="center">![](/assets/images/fieldnotdisplayed.png)</td><td>This field doesn't appear in the report because its <i>Display in report</i> setting is turned off.</td>
 </tr>
 <tr>
-<td align="center"><img src="images/FIELDNOTINSUMMARY.png" /></td><td>This field won't appear in the report because the report's TopicLink([Summary setting],[_0380PFG2P]) is turned on and this field isn't grouped, included in the group header of a grouped field, or summarized.</td>
+<td align="center">![](/assets/images/fieldnotinsummary.png)</td><td>This field won't appear in the report because the report's [Summary setting]({% link _docs/creating-reports/quick-reports/step3.md %}) is turned on and this field isn't grouped, included in the group header of a grouped field, or summarized.</td>
 </tr>
 </table><br />
 
