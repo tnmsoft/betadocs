@@ -4,11 +4,11 @@ title: Security
 nav_order: 4
 parent: Configuration
 ---
-The Security function in the Tools menu allows administrators to add, edit, and delete users who are authorized to use %= lcShortAppName % and define roles those users fall into. Roles are key to %= lcShortAppName % security; when a report is created, one of the options is which roles have rights to that report. This is sometimes referred to a role-based security, where a particular group of users have a role, such as clerks or managers.
+The Security function in the Tools menu allows administrators to add, edit, and delete users who are authorized to use {{ site.app_name }} and define roles those users fall into. Roles are key to {{ site.app_name }} security; when a report is created, one of the options is which roles have rights to that report. This is sometimes referred to a role-based security, where a particular group of users have a role, such as clerks or managers.
 
-In addition, you can define tenants, which are different organizations that can access %= lcShortAppName % but only see their own data.
+In addition, you can define tenants, which are different organizations that can access {{ site.app_name }} but only see their own data.
 
-When %= lcShortAppName % is first installed, a single user with the name admin and password admin is authorized to use %= lcShortAppName %. There are also three roles Administrator, Tenant Administrator, and Everyone. The Administrator role consists of those users who can access the Security dialog. Tenant Administrators can also access the Security dialog but only to manage users and roles for their tenant. All %= lcShortAppName % users are automatically members of the Everyone group.
+When {{ site.app_name }} is first installed, a single user with the name admin and password admin is authorized to use {{ site.app_name }}. There are also three roles Administrator, Tenant Administrator, and Everyone. The Administrator role consists of those users who can access the Security dialog. Tenant Administrators can also access the Security dialog but only to manage users and roles for their tenant. All {{ site.app_name }} users are automatically members of the Everyone group.
 
 If the logged-in user is a member of the Administrator role, the Security function appears in the Tools menu. When this function is chosen, the following dialog appears
 
@@ -17,7 +17,7 @@ If the logged-in user is a member of the Administrator role, the Security functi
 There are three pages of information in this dialog. The Users page allows you to add, edit, or remove users. The Roles page allows you to add, edit, or remove roles. The Tenants page allows you to add, edit, or remove tenants.
 
 ## Users
-The Users page allows you to maintain the users authorized to access %= lcShortAppName %. At the left of the page is a list of authorized users; click one in the list to select it. Above the list is a count of the number of users currently logged in. To the right are properties about the selected user. The properties are
+The Users page allows you to maintain the users authorized to access {{ site.app_name }}. At the left of the page is a list of authorized users; click one in the list to select it. Above the list is a count of the number of users currently logged in. To the right are properties about the selected user. The properties are
 
  User name the name of the user.
 
