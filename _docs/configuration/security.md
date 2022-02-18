@@ -19,25 +19,25 @@ There are three pages of information in this dialog. The Users page allows you t
 ## Users
 The Users page allows you to maintain the users authorized to access {{ site.app_name }}. At the left of the page is a list of authorized users; click one in the list to select it. Above the list is a count of the number of users currently logged in. To the right are properties about the selected user. The properties are
 
- User name the name of the user.
+* *User name* the name of the user.
 
- Password the user's password.
+* *Password* the user's password.
 
- Email address the user's email address. If an error occurs and the user chooses to submit a support ticket, this is the email address used for the ticket. This address is also used when you email a report to all users in a role.
+* *Email address* the user's email address. If an error occurs and the user chooses to submit a support ticket, this is the email address used for the ticket. This address is also used when you email a report to all users in a role.
 
- Active turn this on (the default) for an active user or off for an inactive one. An inactive user can't log into the application.
+* *Active* turn this on (the default) for an active user or off for an inactive one. An inactive user can't log into the application.
 
- License type this setting indicates whether this user can create reports or not. If it's set to Report Viewer, the New, Copy, and Edit functions in the Reports Explorer are disabled for that user. If it's set to Report Designer, those functions are enabled. A Subscription Report Viewer or Report Designer is a license that expires.
+* *License type* this setting indicates whether this user can create reports or not. If it's set to Report Viewer, the New, Copy, and Edit functions in the Reports Explorer are disabled for that user. If it's set to Report Designer, those functions are enabled. A Subscription Report Viewer or Report Designer is a license that expires.
 
- Last login this displays the last date and time the user logged in.
+* *Last login* this displays the last date and time the user logged in.
 
- Roles the roles the user belongs to. Click in the Roles area to display a drop-down list of roles. Select one from the list to add that role to the user. To remove a role, click the x to the left of its name. You can add as many roles as you wish to a user. If the user is responsible for maintaining users and roles for their tenant, add Tenant Administrator to their list of roles.
+* *Roles* the roles the user belongs to. Click in the Roles area to display a drop-down list of roles. Select one from the list to add that role to the user. To remove a role, click the x to the left of its name. You can add as many roles as you wish to a user. If the user is responsible for maintaining users and roles for their tenant, add Tenant Administrator to their list of roles.
 
- Tenant the tenant the user belongs to. Select the desired tenant from the drop-down list of tenants or No tenant if the user doesn't belong to any tenant (usually only the ADMIN user).
+* *Tenant* the tenant the user belongs to. Select the desired tenant from the drop-down list of tenants or No tenant if the user doesn't belong to any tenant (usually only the ADMIN user).
 
- Currently logged in display Yes or No depending on whether the user is currently logged in.
+* *Currently logged in* display Yes or No depending on whether the user is currently logged in.
 
- Force log off click this button to log the user off. This may be necessary if, for example, you plan to do maintenance on the application.
+* *Force log off* click this button to log the user off. This may be necessary if, for example, you plan to do maintenance on the application.
 
 Click the ![](/assets/images/exporticon.png) button to save changes to the user.
 
@@ -50,18 +50,18 @@ The Roles page allows you to maintain roles.
 
 At the left of the page is a list of roles; click one in the list to select it. To the right are properties of the selected role. The properties are
 
- Role name the name of the role. This is disabled for the Administrator and Everyone roles but is available for any other role.
+* *Role name* the name of the role. This is disabled for the Administrator and Everyone roles but is available for any other role.
 
- Tenant the tenant the role belongs to; this isn't available for the Administrator, Everyone, or Tenant Administrator roles. Select the desired tenant from the drop-down list of tenants or No tenant if the role is available to all tenants.
+* *Tenant* the tenant the role belongs to; this isn't available for the Administrator, Everyone, or Tenant Administrator roles. Select the desired tenant from the drop-down list of tenants or No tenant if the role is available to all tenants.
 
- Resources this tab allows you to define which features the members of the role have access to. For example, if members can schedule reports, turn on the Use the Scheduler setting. If members can edit the properties of fields in a report but not add or remove fields, turn on the Change field properties in report wizards setting and turn off the Add and remove fields in report wizards setting.
+* *Resources* this tab allows you to define which features the members of the role have access to. For example, if members can schedule reports, turn on the Use the Scheduler setting. If members can edit the properties of fields in a report but not add or remove fields, turn on the Change field properties in report wizards setting and turn off the Add and remove fields in report wizards setting.
 {% if site.has_datagroups %}
 
- Data groups this tab allows you to define which data groups the members of the role have access to. To indicate that members of the role have access to a particular data group, click the ![](/assets/images/add.png) button to add the data group to the Data groups in roles list. To remove access to the data group, click the ![](/assets/images/deleteicon.png) button.
+* *Data groups* this tab allows you to define which data groups the members of the role have access to. To indicate that members of the role have access to a particular data group, click the ![](/assets/images/add.png) button to add the data group to the Data groups in roles list. To remove access to the data group, click the ![](/assets/images/deleteicon.png) button.
 {% endif %}
 {% if site.has_multidatasource %}
 
- Data sources this tab allows you to define which data sources the members of the role have access to. To indicate that members of the role have access to a particular data source, click the ![](/assets/images/add.png) button to add the data source to the Data sources in roles list. To remove access to the data source, click the ![](/assets/images/deleteicon.png) button.
+* *Data sources* this tab allows you to define which data sources the members of the role have access to. To indicate that members of the role have access to a particular data source, click the ![](/assets/images/add.png) button to add the data source to the Data sources in roles list. To remove access to the data source, click the ![](/assets/images/deleteicon.png) button.
 {% endif %}
 
 Click the ![](/assets/images/exporticon.png) button to save changes to the user.
@@ -73,11 +73,11 @@ The Tenants page allows you to maintain tenants. At the left of the page is a li
 
 ![](/assets/images/securitytenants.png)
 
- Name the name of the tenant.
+* *Name* the name of the tenant.
 
- Tenant ID the ID of the tenant. This is only needed if tenants share a database and records are identified by an ID.
+* *Tenant ID* the ID of the tenant. This is only needed if tenants share a database and records are identified by an ID.
 
- Data source the data source users in the tenant connect to. Select the desired data source from the drop-down list. This is only used if each tenant uses a different database.
+* *Data source* the data source users in the tenant connect to. Select the desired data source from the drop-down list. This is only used if each tenant uses a different database.
 
 Click the ![](/assets/images/exporticon.png) button to save changes to the tenant.
 
