@@ -52,23 +52,13 @@ Like the *Available fields* list, the *Selected fields* list includes the ![](/a
 
 Each field may also show a status indicator to help you quickly see whether a field is grouped, sorted, or not displayed in the report.
 
-<table class="detailtable table-striped">
-<tr>
-<th>Symbol</th><th>Description</th>
-</tr>
-<tr>
-<td align="center">![](/assets/images/fieldsorted.png)</td><td>This report is [sorted]({% link _docs/creating-reports/quick-reports/step3.md %}) on this field.</td>
-</tr>
-<tr>
-<td align="center">![](/assets/images/fieldgrouped.png)</td><td>This report is [grouped]({% link _docs/creating-reports/quick-reports/step3.md %}) on this field.</td>
-</tr>
-<tr>
-<td align="center">![](/assets/images/fieldnotdisplayed.png)</td><td>This field doesn't appear in the report because its <i>Display in report</i> setting is turned off.</td>
-</tr>
-<tr>
-<td align="center">![](/assets/images/fieldnotinsummary.png)</td><td>This field won't appear in the report because the report's [Summary setting]({% link _docs/creating-reports/quick-reports/step3.md %}) is turned on and this field isn't grouped, included in the group header of a grouped field, or summarized.</td>
-</tr>
-</table><br />
+| Symbol       | Description       | 
+|:-------------|:------------------|
+| ![](/assets/images/fieldsorted.png)       | This report is [sorted]({% link _docs/creating-reports/quick-reports/step3.md %}) on this field. |
+| ![](/assets/images/fieldgrouped.png)      | This report is [grouped]({% link _docs/creating-reports/quick-reports/step3.md %}) on this field. |
+| ![](/assets/images/fieldnotdisplayed.png) | This field doesn't appear in the report because its *Display in report* setting is turned off.  | 
+| ![](/assets/images/fieldnotinsummary.png) | This field won't appear in the report because the report's [Summary setting]({% link _docs/creating-reports/quick-reports/step3.md %}) is turned on and this field isn't grouped, included in the group header of a grouped field, or summarized. |
+
 
 To scroll the list of fields, drag the scroll bar at the right of the list or use your mouse wheel.
 
