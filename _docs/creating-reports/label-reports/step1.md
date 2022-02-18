@@ -7,7 +7,7 @@ grand_parent: Creating Reports
 ---
 The first step in this wizard is to enter the following information:
 
-![](/assets/images/LabelWizard1.png)
+![](/assets/images/labelwizard1.png)
 {% if site.has_datagroups %}
 * *Show all data groups*: turn this on to see all tables in all modules in step 2 of the wizard.
 

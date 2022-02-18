@@ -33,7 +33,7 @@ You can also choose *Custom/empty format*. This allows you to enter a custom for
 <th>Symbol</th><th>Description</th>
 </tr>
 <tr>
-<td align="center">c<i>n</i></td><td>Displays the value using the currency settings based on the TopicLink([Locale],[_04A0XWFXE]) setting (for example, "$" as the currency symbol, "," as the thousands separator, and "." as the decimal separator in North America) and the number of decimal places specified as <i>n</i>. For example, 4132 formatted as c2 displays as $4,132.00 in North America and &#128;4.132,00 in Germany.</td>
+<td align="center">c<i>n</i></td><td>Displays the value using the currency settings based on the Locale setting (for example, "$" as the currency symbol, "," as the thousands separator, and "." as the decimal separator in North America) and the number of decimal places specified as <i>n</i>. For example, 4132 formatted as c2 displays as $4,132.00 in North America and &#128;4.132,00 in Germany.</td>
 </tr>
 <tr>
 <td align="center">0</td><td>A place holder for a digit, padded with a zero if necessary. For example, 4132 formatted as 000000 displays as 004132.</td>

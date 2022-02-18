@@ -20,4 +20,4 @@ For a more in-depth discussion of the individual steps in the wizard, please see
 
 When working with the wizard steps in a report created using SQL Passthrough, the *Available Fields* list aren't visible in [Step 2]({% link _docs/creating-reports/formatting-values.md %}) since the fields for a SQL Passthrough report are defined by the SQL statement you entered.
 
-![](/assets/images/SQLPassthroughStep2.png)
+![](/assets/images/sqlpassthroughstep2.png)

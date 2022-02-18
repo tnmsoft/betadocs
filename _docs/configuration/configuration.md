@@ -68,7 +68,7 @@ Click the *Test settings* button to test that the email settings are correct by 
 
 The Saved Email Addresses page allows you to manage any email addresses that have been saved after being entered in the export options for a report. To remove an email address that has been saved, select it in the list, and then click the ![](/assets/images/deleteicon.png) button.
 
-![](/assets/images/optionsserverl.png)
+![](/assets/images/optionsserver.png)
 
 The Server Settings page is only available for users in the Administrator role. The options are:
 
