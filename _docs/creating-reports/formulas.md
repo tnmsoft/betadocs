@@ -13,7 +13,7 @@ A grouping formula is more complicated. It calculates a value but it goes throug
 To create your own formulas, click the Create New Formula button in Step 2 of the report wizards or choose Formulas from the Tools menu and click the Create New Formula button in the Formulas dialog to bring up the Formula Editor.
 
 {% if site.has_tenants %}
-![](/assets/images/formulasformulasttenant.png)
+![](/assets/images/formulasformulatenant.png)
 {% else %}
 ![](/assets/images/formulasformula.png)
 {% endif %}
