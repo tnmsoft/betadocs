@@ -105,29 +105,14 @@ The options in the Format page are:
 
 * *Control type*: this option determines how the field is displayed. The default is Label.
 
-    <table class="detailtable table-striped">
-    <tr>
-    <th>Type</th><th>Description</th><th>Example</th>
-    </tr>
-    <tr>
-    <td>Label</td><td>Displays the text of the field content.</td><td>Aniseed Syrup</td>
-    </tr>
-    <tr>
-    <td>Bar Code</td><td>Displays the content as a bar code. See below for additional options.</td><td><img src="images/Barcode.png" /></td>
-    </tr>
-    <tr>
-    <td>Checkbox</td><td>Displays a box with a checkmark in it if the field value is true or unchecked if false.</td><td><img src="images/Checkbox.png" /></td>
-    </tr>
-    <tr>
-    <td>Image</td><td>Displays an image.</td><td><img src="images/Image.png" /></td>
-    </tr>
-    <tr>
-    <td>Rich Text</td><td>Displays formatted text if the field contains Rich Text Format (RTF) or HTML.</td><td><img src="images/RichText.png" /></td>
-    </tr>
-    <tr>
-    <td>Zip Code</td><td>Displays the content graphically as a U.S. zip code.</td><td><img src="images/Zipcode.png" /></td>
-    </tr>
-    </table><br />
+| Type       | Description       | Example |
+|:-------------|:------------------|
+| Label | Displays the text of the field content. | Aniseed Syrup |
+| Bar Code | Displays the content as a bar code. See below for additional options. | ![](/assets/images/barcode.png) |
+| Checkbox | Displays a box with a checkmark in it if the field value is true or unchecked if false. | ![](/assets/images/checkbox.png) |
+| Image| Displays an image. | ![](/assets/images/image.png) |
+| Rich Text | Displays formatted text if the field contains Rich Text Format (RTF) or HTML. | ![](/assets/images/richtext.png) |
+| Zip Code | Displays the content graphically as a U.S. zip code. | ![](/assets/images/zipcode.png) |
 
     If you choose Bar Code for *Control type*, additional choices appear:
 
