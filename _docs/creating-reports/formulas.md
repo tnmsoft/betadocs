@@ -13,7 +13,7 @@ A grouping formula is more complicated. It calculates a value but it goes throug
 To create your own formulas, click the Create New Formula button in Step 2 of the report wizards or choose Formulas from the Tools menu and click the Create New Formula button in the Formulas dialog to bring up the Formula Editor.
 
 {% if site.has_tenants %}
-![](/assets/images/formulasformulastenant.png)
+![](/assets/images/formulasformulasttenant.png)
 {% else %}
 ![](/assets/images/formulasformula.png)
 {% endif %}
@@ -72,7 +72,7 @@ The first option in the expression builder is the expression for the formula. Yo
 
         Transaction.Amount * 0.05
 
-    The expression can contain any of the built-in functions; see the [Expressions and Function Reference]({% link _docs/reference/function-reference.md %}) topic for information on expression and the functions available to be used.
+The expression can contain any of the built-in functions; see the [Expressions and Function Reference]({% link _docs/reference/function-reference.md %}) topic for information on expression and the functions available to be used.
 
 Select the table to choose fields from with the *Table* control, then click the ![](/assets/images/add.png) beside a field to add its real name to the end of the expression.
 
