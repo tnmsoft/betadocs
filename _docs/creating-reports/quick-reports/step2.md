@@ -114,15 +114,18 @@ The options in the Format page are:
 | Rich Text | Displays formatted text if the field contains Rich Text Format (RTF) or HTML. | ![](/assets/images/richtext.png) |
 | Zip Code | Displays the content graphically as a U.S. zip code. | ![](/assets/images/zipcode.png) |
 
-    If you choose Bar Code for *Control type*, additional choices appear:
+    
+	
+	
+If you choose Bar Code for *Control type*, additional choices appear:
 
-    ![](/assets/images/barcodeoptions.png)
+![](/assets/images/barcodeoptions.png)
 
-    * *Bar code type*: numerous bar code types are available, including Code 128 (the default), QR Code (for creating QR codes capable of being scanned by smart phones), and PostNet for U.S. zip codes.
+* *Bar code type*: numerous bar code types are available, including Code 128 (the default), QR Code (for creating QR codes capable of being scanned by smart phones), and PostNet for U.S. zip codes.
 
-    * *Show text on bar code*: if this is turned on, the text of the field's value appears along with the bar code.
+* *Show text on bar code*: if this is turned on, the text of the field's value appears along with the bar code.
 
-    * *Size*: specify the height and width for the bar code.
+* *Size*: specify the height and width for the bar code.
 
 ![](/assets/images/quickfieldproperties3.png)
 
