@@ -31,251 +31,47 @@ The settings on the General page are:
 
 * *Chart type*: select the type of chart you want from the drop-down list. The choices are shown in the following table. The "Series" column shows "Single" for chart types that only appear when there's no series field, "Multiple" for chart types that only appear when there is a series field, and "Both" for either case.
 
-    <table class="detailtable table-striped">
-    <tr>
-    <th>Type</th><th>Description</th><th>Series</th><th>Sample</th>
-    </tr>
-    <tr>
-    <td>Area</td>
-    <td>Displays series as filled areas on a diagram, with each data point displayed as a peak or hollow in the area. This is useful when you need to show trends for several series on the same diagram and also show the relationship of the parts to the whole.</td>
-    <td align="center">Both</td>
-    <td align="center"><img src="images/Charts/Area.png" /></td>
-    </tr>
-    <tr>
-    <td>Area 3D</td>
-    <td>A 3-D version of an area chart.</td>
-    <td align="center">Both</td>
-    <td align="center"><img src="images/Charts/Area3D.png" /></td>
-    </tr>
-    <tr>
-    <td>Bar</td>
-    <td>Displays series as individual bars, grouped by category, and the height of each bar is determined by the series value.</td>
-    <td align="center">Both</td>
-    <td align="center"><img src="images/Charts/Bar.png" /></td>
-    </tr>
-    <tr>
-    <td>Bar 3D</td>
-    <td>A 3-D version of a bar chart.</td>
-    <td align="center">Both</td>
-    <td align="center"><img src="images/Charts/Bar3D.png" /></td>
-    </tr>
-    <tr>
-    <td>Doughnut</td>
-    <td>Similar to a pie chart but with a hole in the middle</td>
-    <td align="center">Single</td>
-    <td align="center"><img src="images/Charts/Doughnut.png" /></td>
-    </tr>
-    <tr>
-    <td>Doughnut 3D</td>
-    <td>A 3-D version of a doughnut chart.</td>
-    <td align="center">Single</td>
-    <td align="center"><img src="images/Charts/Doughnut3D.png" /></td>
-    </tr>
-    <tr>
-    <td>Funnel</td>
-    <td>A chart that resembles a funnel. This is often used for values that decrease with time, stage, or other measure, such as a sales funnel.</td>
-    <td align="center">Single</td>
-    <td align="center"><img src="images/Charts/Funnel.png" /></td>
-    </tr>
-    <tr>
-    <td>Funnel 3D</td>
-    <td>A 3-D version of a funnel chart.</td>
-    <td align="center">Single</td>
-    <td align="center"><img src="images/Charts/Funnel3D.png" /></td>
-    </tr>
-    <tr>
-    <td>Full Stacked Area</td>
-    <td>Similar to an area chart but the value of each data point is stacked with all the other corresponding data point values so the height of the area is always the full height of the chart. This is useful for comparing the percentage values of several series for the same category value.</td>
-    <td align="center">Multiple</td>
-    <td align="center"><img src="images/Charts/FullStackedArea.png" /></td>
-    </tr>
-    <tr>
-    <td>Full Stacked Area 3D</td>
-    <td>The 3-D version of a Full Stacked Area chart.</td>
-    <td align="center">Multiple</td>
-    <td align="center"><img src="images/Charts/FullStackedArea3D.png" /></td>
-    </tr>
-    <tr>
-    <td>Full Stacked Bar</td>
-    <td>Similar to a bar chart but the value of each data point is stacked with all the other corresponding data point values so the height of the bar is always the full height of the chart. This is useful for comparing the percentage values of several series for the same category value.</td>
-    <td align="center">Multiple</td>
-    <td align="center"><img src="images/Charts/FullStackedBar.png" /></td>
-    </tr>
-    <tr>
-    <td>Full Stacked Bar 3D</td>
-    <td>The 3-D version of a Full Stacked Bar chart.</td>
-    <td align="center">Multiple</td>
-    <td align="center"><img src="images/Charts/FullStackedBar3D.png" /></td>
-    </tr>
-    <tr>
-    <td>Full Stacked Line</td>
-    <td>Similar to a line chart but the value of each data point is stacked with all the other corresponding data point values so the top line is always at the top of the chart. This is useful to compare how much each series adds to the total value for a given category value.</td>
-    <td align="center">Multiple</td>
-    <td align="center"><img src="images/Charts/FullStackedLine.png" /></td>
-    </tr>
-    <tr>
-    <td>Full Stacked Line 3D</td>
-    <td>The 3-D version of a Full Stacked Line chart.</td>
-    <td align="center">Multiple</td>
-    <td align="center"><img src="images/Charts/FullStackedLine3D.png" /></td>
-    </tr>
-    <tr>
-    <td>Full Stacked Spline Area</td>
-    <td>Similar to a Full Stack Area chart but with smooth, rounded lines.</td>
-    <td align="center">Multiple</td>
-    <td align="center"><img src="images/Charts/FullStackedSplineArea.png" /></td>
-    </tr>
-    <tr>
-    <td>Full Stacked Spline Area 3D</td>
-    <td>The 3-D version of a Full Stacked Spline Area chart.</td>
-    <td align="center">Multiple</td>
-    <td align="center"><img src="images/Charts/FullStackedSplineArea3D.png" /></td>
-    </tr>
-    <tr>
-    <td>Line</td>
-    <td>Displays values connected by lines. This is useful to show trends for several series on the same chart and to compare the values of several series for the same category values.</td>
-    <td align="center">Both</td>
-    <td align="center"><img src="images/Charts/Line.png" /></td>
-    </tr>
-    <tr>
-    <td>Line 3D</td>
-    <td>A 3-D version of a line chart.</td>
-    <td align="center">Both</td>
-    <td align="center"><img src="images/Charts/Line3D.png" /></td>
-    </tr>
-    <tr>
-    <td>Manhattan Bar</td>
-    <td>A bar chart in which the bars are arranged front-to-back instead of side-by-side. So called because it resembles the tall buildings in Manhattan.</td>
-    <td align="center">Multiple</td>
-    <td align="center"><img src="images/Charts/ManhattanBar.png" /></td>
-    </tr>
-    <tr>
-    <td>Pie</td>
-    <td>Useful to compare the percentage values of different points in the same series and to show these values as easy to understand pie slices.</td>
-    <td align="center">Single</td>
-    <td align="center"><img src="images/Charts/Pie.png" /></td>
-    </tr>
-    <tr>
-    <td>Pie 3D</td>
-    <td>A 3-D version of a pie chart.</td>
-    <td align="center">Single</td>
-    <td align="center"><img src="images/Charts/Pie3D.png" /></td>
-    </tr>
-    <tr>
-    <td>Point</td>
-    <td>Displays each data value as a point.</td>
-    <td align="center">Both</td>
-    <td align="center"><img src="images/Charts/Point.png" /></td>
-    </tr>
-    <tr>
-    <td>Scatter Line</td>
-    <td>Displays data points in the same order as they are in the result set, as opposed to other chart types that sort their points in some way.</td>
-    <td align="center">Both</td>
-    <td align="center"><img src="images/Charts/ScatterLine.png" /></td>
-    </tr>
-    <tr>
-    <td>Spline</td>
-    <td>Similar to a line chart but with a smooth, rounded line.</td>
-    <td align="center">Both</td>
-    <td align="center"><img src="images/Charts/Spline.png" /></td>
-    </tr>
-    <tr>
-    <td>Spline 3D</td>
-    <td>A 3-D version of a spline chart.</td>
-    <td align="center">Both</td>
-    <td align="center"><img src="images/Charts/Spline3D.png" /></td>
-    </tr>
-    <tr>
-    <td>Spline Area</td>
-    <td>Similar to an area chart but with smooth, rounded lines.</td>
-    <td align="center">Both</td>
-    <td align="center"><img src="images/Charts/SplineArea.png" /></td>
-    </tr>
-    <tr>
-    <td>Spline Area 3D</td>
-    <td>A 3-D version of a spline area chart.</td>
-    <td align="center">Both</td>
-    <td align="center"><img src="images/Charts/SplineArea3D.png" /></td>
-    </tr>
-    <tr>
-    <td>Stacked Area</td>
-    <td>Similar to an area chart but the value of each data point is stacked with all the other corresponding data point values. This is useful to compare both the point values and their total for the same category value.</td>
-    <td align="center">Both</td>
-    <td align="center"><img src="images/Charts/StackedArea.png" /></td>
-    </tr>
-    <tr>
-    <td>Stacked Area 3D</td>
-    <td>A 3-D version of a stacked area chart.</td>
-    <td align="center">Both</td>
-    <td align="center"><img src="images/Charts/StackedArea3D.png" /></td>
-    </tr>
-    <tr>
-    <td>Stacked Bar</td>
-    <td>Similar to a bar chart but the value of each data point is stacked with all the other corresponding data point values. This is useful to compare both the point values and their total for the same category value.</td>
-    <td align="center">Both</td>
-    <td align="center"><img src="images/Charts/StackedBar.png" /></td>
-    </tr>
-    <tr>
-    <td>Stacked Bar 3D</td>
-    <td>A 3-D version of a stacked bar chart.</td>
-    <td align="center">Both</td>
-    <td align="center"><img src="images/Charts/StackedBar3D.png" /></td>
-    </tr>
-    <tr>
-    <td>Stacked Line</td>
-    <td>Similar to a line chart but the value of each data point is stacked with all the other corresponding data point values. This is useful to compare both the point values and their total for the same category value.</td>
-    <td align="center">Both</td>
-    <td align="center"><img src="images/Charts/StackedLine.png" /></td>
-    </tr>
-    <tr>
-    <td>Stacked Line 3D</td>
-    <td>A 3-D version of a stacked line chart.</td>
-    <td align="center">Both</td>
-    <td align="center"><img src="images/Charts/StackedLine3D.png" /></td>
-    </tr>
-    <tr>
-    <td>Stacked Spline Area</td>
-    <td>Similar to a spline area chart but the value of each data point is stacked with all the other corresponding data point values. This is useful to compare both the point values and their total for the same category value.</td>
-    <td align="center">Both</td>
-    <td align="center"><img src="images/Charts/StackedSplineArea.png" /></td>
-    </tr>
-    <tr>
-    <td>Stacked Spline Area 3D</td>
-    <td>A 3-D version of a stacked spline area chart.</td>
-    <td align="center">Both</td>
-    <td align="center"><img src="images/Charts/StackedSplineArea3D.png" /></td>
-    </tr>
-    <tr>
-    <td>Step Area</td>
-    <td>Similar to an area chart but with discrete steps instead of lines.</td>
-    <td align="center">Both</td>
-    <td align="center"><img src="images/Charts/StepArea.png" /></td>
-    </tr>
-    <tr>
-    <td>Step Area 3D</td>
-    <td>A 3-D version of a step area chart.</td>
-    <td align="center">Both</td>
-    <td align="center"><img src="images/Charts/StepArea3D.png" /></td>
-    </tr>
-    <tr>
-    <td>Step Line</td>
-    <td>Similar to a line chart but with discrete steps instead of lines.</td>
-    <td align="center">Both</td>
-    <td align="center"><img src="images/Charts/StepLine.png" /></td>
-    </tr>
-    <tr>
-    <td>Step Line 3D</td>
-    <td>A 3-D version of a step line chart.</td>
-    <td align="center">Both</td>
-    <td align="center"><img src="images/Charts/StepLine3D.png" /></td>
-    </tr>
-    <tr>
-    <td>SwiftPlot</td>
-    <td>Similar to a point chart but used when there are a large amount of data points so the scale is compressed.</td>
-    <td align="center">Both</td>
-    <td align="center"><img src="images/Charts/SwiftPlot.png" /></td>
-    </tr>
-    </table><br />
+| Type | Description | Series | Sample |
+| Area | Displays series as filled areas on a diagram, with each data point displayed as a peak or hollow in the area. This is useful when you need to show trends for several series on the same diagram and also show the relationship of the parts to the whole. | Both | ![](/assets/images/charts/area.png) |
+| Area 3D | A 3-D version of an area chart. | Both | ![](/assets/images/charts/area3d.png) |
+| Bar | Displays series as individual bars, grouped by category, and the height of each bar is determined by the series value. | Both | ![](/assets/images/charts/bar.png) |
+| Bar 3D | A 3-D version of a bar chart. | Both | ![](/assets/images/charts/bar3d.png) |
+| Doughnut | Similar to a pie chart but with a hole in the middle | Single | ![](/assets/images/charts/doughnut.png) |
+| Doughnut 3D | A 3-D version of a doughnut chart. | Single | ![](/assets/images/charts/doughnut3d.png) |
+| Funnel | A chart that resembles a funnel. This is often used for values that decrease with time, stage, or other measure, such as a sales funnel. | Single | ![](/assets/images/charts/funnel.png) |
+| Funnel 3D | A 3-D version of a funnel chart. | Single | ![](/assets/images/charts/funnel3d.png) |
+| Full Stacked Area | Similar to an area chart but the value of each data point is stacked with all the other corresponding data point values so the height of the area is always the full height of the chart. This is useful for comparing the percentage values of several series for the same category value. | Multiple | ![](/assets/images/charts/fullstackedarea.png) |
+| Full Stacked Area 3D | The 3-D version of a Full Stacked Area chart. | Multiple | ![](/assets/images/charts/fullstackedarea3d.png) |
+| Full Stacked Bar | Similar to a bar chart but the value of each data point is stacked with all the other corresponding data point values so the height of the bar is always the full height of the chart. This is useful for comparing the percentage values of several series for the same category value. | Multiple | ![](/assets/images/charts/fullstackedbar.png) |
+| Full Stacked Bar 3D | The 3-D version of a Full Stacked Bar chart. | Multiple | ![](/assets/images/charts/fullstackedbar3d.png) |
+| Full Stacked Line | Similar to a line chart but the value of each data point is stacked with all the other corresponding data point values so the top line is always at the top of the chart. This is useful to compare how much each series adds to the total value for a given category value. | Multiple | ![](/assets/images/charts/fullstackedline.png) |
+| Full Stacked Line 3D | The 3-D version of a Full Stacked Line chart. | Multiple | ![](/assets/images/charts/fullstackedline3d.png) |
+| Full Stacked Spline Area | Similar to a Full Stack Area chart but with smooth, rounded lines. | Multiple | ![](/assets/images/charts/fullstackedsplinearea.png) |
+| Full Stacked Spline Area 3D | The 3-D version of a Full Stacked Spline Area chart. | Multiple | ![](/assets/images/charts/fullstackedsplinearea3d.png) |
+| Line | Displays values connected by lines. This is useful to show trends for several series on the same chart and to compare the values of several series for the same category values. | Both | ![](/assets/images/charts/line.png) |
+| Line 3D | A 3-D version of a line chart. | Both | ![](/assets/images/charts/line3d.png) |
+| Manhattan Bar | A bar chart in which the bars are arranged front-to-back instead of side-by-side. So called because it resembles the tall buildings in Manhattan. | Multiple | ![](/assets/images/charts/manhattanbar.png) |
+| Pie | Useful to compare the percentage values of different points in the same series and to show these values as easy to understand pie slices. | Single | ![](/assets/images/charts/pie.png) |
+| Pie 3D | A 3-D version of a pie chart. | Single | ![](/assets/images/charts/pie3d.png) |
+| Point | Displays each data value as a point. | Both | ![](/assets/images/charts/point.png) |
+| Scatter Line | Displays data points in the same order as they are in the result set, as opposed to other chart types that sort their points in some way. | Both | ![](/assets/images/charts/scatterline.png) |
+| Spline | Similar to a line chart but with a smooth, rounded line. | Both | ![](/assets/images/charts/spline.png) |
+| Spline 3D | A 3-D version of a spline chart. | Both | ![](/assets/images/charts/spline3d.png) |
+| Spline Area | Similar to an area chart but with smooth, rounded lines. | Both | ![](/assets/images/charts/splinearea.png) |
+| Spline Area 3D | A 3-D version of a spline area chart. | Both | ![](/assets/images/charts/splinearea3d.png) |
+| Stacked Area | Similar to an area chart but the value of each data point is stacked with all the other corresponding data point values. This is useful to compare both the point values and their total for the same category value. | Both | ![](/assets/images/charts/stackedarea.png) |
+| Stacked Area 3D | A 3-D version of a stacked area chart. | Both | ![](/assets/images/charts/stackedarea3d.png) |
+| Stacked Bar | Similar to a bar chart but the value of each data point is stacked with all the other corresponding data point values. This is useful to compare both the point values and their total for the same category value. | Both | ![](/assets/images/charts/stackedbar.png) |
+| Stacked Bar 3D | A 3-D version of a stacked bar chart. | Both | ![](/assets/images/charts/stackedbar3d.png) |
+| Stacked Line | Similar to a line chart but the value of each data point is stacked with all the other corresponding data point values. This is useful to compare both the point values and their total for the same category value. | Both | ![](/assets/images/charts/stackedline.png) |
+| Stacked Line 3D | A 3-D version of a stacked line chart. | Both | ![](/assets/images/charts/stackedline3d.png) |
+| Stacked Spline Area | Similar to a spline area chart but the value of each data point is stacked with all the other corresponding data point values. This is useful to compare both the point values and their total for the same category value. | Both | ![](/assets/images/charts/stackedsplinearea.png) |
+| Stacked Spline Area 3D | A 3-D version of a stacked spline area chart. | Both | ![](/assets/images/charts/stackedsplinearea3d.png) |
+| Step Area | Similar to an area chart but with discrete steps instead of lines. | Both | ![](/assets/images/charts/steparea.png) |
+| Step Area 3D | A 3-D version of a step area chart. | Both | ![](/assets/images/charts/steparea3d.png) |
+| Step Line | Similar to a line chart but with discrete steps instead of lines. | Both | ![](/assets/images/charts/stepline.png) |
+| Step Line 3D | A 3-D version of a step line chart. | Both | ![](/assets/images/charts/stepline3d.png) |
+| SwiftPlot | Similar to a point chart but used when there are a large amount of data points so the scale is compressed. | Both | ![](/assets/images/charts/swiftplot.png) |
 
 In addition to whether there is a series field or not, there are some other rules regarding which chart types are available. Generally, the chart type you select for the first series affects the choices available for the rest of the series because not all chart types are compatible with each other. Here are the rules:
 

@@ -18,23 +18,23 @@ To scroll the list of fields, drag the scroll bar at the right of the list or us
 
 {{ site.app_name }} by default displays fields in alphabetical order. This makes it easy to find a field in the list. However, sometimes it makes more sense to display fields in the order they appear in the table. For example, for typical address fields, you would see this order alphabetically:
 
-Address
-City
-Contact Name
-Country
-Customer Name
-Postal Code
-Region
+* Address
+* City
+* Contact Name
+* Country
+* Customer Name
+* Postal Code
+* Region
 
 whereas they'd appear like this in table order:
 
-Customer Name
-Contact Name
-Address
-City
-Region
-Postal Code
-Country
+* Customer Name
+* Contact Name
+* Address
+* City
+* Region
+* Postal Code
+* Country
 
 Click the ![](/assets/images/sortorder.png) button to display fields in table order. Click ![](/assets/images/sortname.png) to display them alphabetically.
 

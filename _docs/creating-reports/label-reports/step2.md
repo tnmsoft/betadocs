@@ -18,23 +18,23 @@ To scroll the list of fields, drag the scroll bar at the right of the list or us
 
 {{ site.app_name }} by default displays fields in alphabetical order. This makes it easy to find a field in the list. However, sometimes it makes more sense to display fields in the order they appear in the table. For example, for typical address fields, you would see this order alphabetically:
 
-Address
-City
-Contact Name
-Country
-Customer Name
-Postal Code
-Region
+* Address
+* City
+* Contact Name
+* Country
+* Customer Name
+* Postal Code
+* Region
 
 whereas they'd appear like this in table order:
 
-Customer Name
-Contact Name
-Address
-City
-Region
-Postal Code
-Country
+* Customer Name
+* Contact Name
+* Address
+* City
+* Region
+* Postal Code
+* Country
 
 Click the ![](/assets/images/sortorder.png) button to display fields in table order. Click ![](/assets/images/sortname.png) to display them alphabetically.
 
@@ -65,39 +65,24 @@ The options in the Format page of this dialog are:
 
 * *Control type*: this option determines how the field is displayed. The default is Label.
 
-    <table class="detailtable table-striped">
-    <tr>
-    <th>Type</th><th>Description</th><th>Example</th>
-    </tr>
-    <tr>
-    <td>Label</td><td>Displays the text of the field content.</td><td>Aniseed Syrup</td>
-    </tr>
-    <tr>
-    <td>Bar Code</td><td>Displays the content as a bar code. See below for additional options.</td><td><img src="images/Barcode.png" /></td>
-    </tr>
-    <tr>
-    <td>Checkbox</td><td>Displays a box with a checkmark in it if the field value is true or unchecked if false.</td><td><img src="images/Checkbox.png" /></td>
-    </tr>
-    <tr>
-    <td>Image</td><td>Displays an image.</td><td><img src="images/Image.png" /></td>
-    </tr>
-    <tr>
-    <td>Rich Text</td><td>Displays formatted text if the field contains Rich Text Format (RTF) or HTML.</td><td><img src="images/RichText.png" /></td>
-    </tr>
-    <tr>
-    <td>Zip Code</td><td>Displays the content graphically as a U.S. zip code.</td><td><img src="images/Zipcode.png" /></td>
-    </tr>
-    </table><br />
+| Type       | Description       | Example |
+|:-------------|:------------------|
+| Label | Displays the text of the field content. | Aniseed Syrup |
+| Bar Code | Displays the content as a bar code. See below for additional options. | ![](/assets/images/barcode.png) |
+| Checkbox | Displays a box with a checkmark in it if the field value is true or unchecked if false. | ![](/assets/images/checkbox.png) |
+| Image| Displays an image. | ![](/assets/images/image.png) |
+| Rich Text | Displays formatted text if the field contains Rich Text Format (RTF) or HTML. | ![](/assets/images/richtext.png) |
+| Zip Code | Displays the content graphically as a U.S. zip code. | ![](/assets/images/zipcode.png) |
 
-    If you choose Bar Code for *Control type*, additional choices appear:
+If you choose Bar Code for *Control type*, additional choices appear:
 
-    ![](/assets/images/barcodeoptions.png)
+![](/assets/images/barcodeoptions.png)
 
-    * *Bar code type*: numerous bar code types are available, including Code 128 (the default), QR Code (for creating QR codes capable of being scanned by smart phones), and PostNet for U.S. zip codes.
+* *Bar code type*: numerous bar code types are available, including Code 128 (the default), QR Code (for creating QR codes capable of being scanned by smart phones), and PostNet for U.S. zip codes.
 
-    * *Show text on bar code*: if this is turned on, the text of the field's value appears along with the bar code.
+* *Show text on bar code*: if this is turned on, the text of the field's value appears along with the bar code.
 
-    * *Size*: specify the height and width for the bar code.
+* *Size*: specify the height and width for the bar code.
 
 ![](/assets/images/labelfieldproperties2.png)
 

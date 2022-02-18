@@ -26,152 +26,27 @@ A condition is made up of either three or four parts, depending on whether it's 
 ## Operator
 How the field is compared to the value is called the *operator*. There are several operators available; they are shown in the table below. Some operators use more than one value; for example, *is between* requires two values (as in "Order Date is between 01/10/96 and 12/31/96"). Other operators do not use any value; for example, "Zip code is blank" is either true or not without needing a value.
 
-<table class="detailtable table-striped">
-<tr>
-<th>Operator</th><th>Description</th>
-</tr>
-<tr>
-<td>equals</td><td><p>The data stored in the field must exactly match the value you specify.</p>
-
-<p>Example: Last Name equals Johns</p>
-
-<p>The report shows only records with "Johns" as the last name. Records with "Johnston," "Johnson," and "Johnstone" are not included.</p></td>
-</tr>
-<tr>
-<td>does not equal</td><td><p>The data stored in the field may be anything but the value you specify.</p>
-
-<p>Example: City does not equal Calgary</p></td>
-</tr>
-<tr>
-<td>begins with</td><td><p>The data in the field starts with the value specified.</p>
-
-<p>Example: Last Name begins with Johns</p>
-
-<p>The report shows records with "Johns," "Johnston," "Johnson," and "Johnstone" as the last name.</p>
-
-<p>This operator only appears for string fields.</p></td>
-</tr>
-<tr>
-<td>does not begin with</td><td><p>The data in the field starts with anything but the value specified.</p>
-
-<p>Example: Last Name does not begins with Johns</p>
-
-<p>The report shows records other than those with "Johns," "Johnston," "Johnson," and "Johnstone" as the last name.</p>
-
-<p>This operator only appears for string fields.</p></td>
-</tr>
-<tr>
-<td>ends with</td><td><p>The data in the field ends with the value specified.</p>
-
-<p>Example: Last Name ends with son</p>
-
-<p>The report shows records with "Kingston" and "Johnson" but not "Johnston" as the last name.</p>
-
-<p>This operator only appears for string fields.</p></td>
-</tr>
-<tr>
-<td>does not end with</td><td><p>The data in the field ends with anything but the value specified.</p>
-
-<p>Example: Last Name does not end with son</p>
-
-<p>The report shows records other than those with "Kingston" and "Johnson" as the last name.</p>
-
-<p>This operator only appears for string fields.</p></td>
-</tr>
-<tr>
-<td>contains</td><td><p>The field has the specified value anywhere in the data it contains.</p>
-
-<p>Example: Outline contains Federal Gov</p>
-
-<p>All records with "Federal Gov" somewhere in the Outline field are included.</p>
-
-<p>This operator only appears for string fields.</p></td>
-</tr>
-<tr>
-<td>does not contain</td><td><p>The field does not have the specified value anywhere in the data it contains.</p>
-
-<p>Example: Outline does not contain Federal Gov</p>
-
-<p>This operator only appears for string fields.</p></td>
-</tr>
-<tr>
-<td>is blank</td><td><p>Includes all records where the specific field is empty or contains an unknown (null) value.</p>
-
-<p>Example: ZipCode is blank</p></td>
-</tr>
-<tr>
-<td>is not blank</td><td><p>Includes records where the specific field contains data.</p>
-
-<p>Example: ZipCode is not blank</p></td>
-</tr>
-<tr>
-<td>greater than</td><td><p>Includes records where the specific field contains a value in excess of the specified value.</p>
-
-<p>Example: Amount is greater than 100</p>
-
-<p>Example: City is greater than M</p></td>
-</tr>
-<tr>
-<td>greater than or equal</td><td><p>Includes records where the specific field contains a value in excess of or equal to the specified value.</p>
-
-<p>Example: Amount is greater than or equal to 100</p>
-
-<p>Example: City is greater than or equal to M</p></td>
-</tr>
-<tr>
-<td>less than</td><td><p>Includes records where the specific field contains a value under the specified value.</p>
-
-<p>Example: Amount is less than 100</p>
-
-<p>Example: City is less than M</p></td>
-</tr>
-<tr>
-<td>less than or equal</td><td><p>Includes records where the specific field contains a value under or equal to the specified value.</p>
-
-<p>Example: Amount less than or equal to 100</p>
-
-<p>Example: CITY is less than or equal to M</p></td>
-</tr>
-<tr>
-<td>is between</td><td><p>Includes records where the specific field contains values in a specified range.</p>
-
-<p>Example: Amount is between 150 and 250</p>
-
-<p>Example: Date Started is between 05/01/94 and 12/31/94</p></td>
-</tr>
-<tr>
-<td>is not between</td><td><p>Includes records where the specific field does not contain values in a specified range.</p>
-
-<p>Example: Amount is not between 150 and 250</p>
-
-<p>Example: Date Started is not between 05/01/94 and 12/31/94</p></td>
-</tr>
-<tr>
-<td>is one of</td><td><p>Includes records where the specific field contains one of up to ten specified values. The equivalent expression would be created using ten separate "equals" conditions.</p>
-
-<p>Example: City is one of Tokyo, Calgary, New York</p></td>
-</tr>
-<tr>
-<td>is not one of</td><td><p>Includes records where the specific field does not contain one of up to ten specified values. The equivalent expression would be created using ten separate "does not equal" conditions.</p>
-
-<p>Example: City is not one of Tokyo, Calgary, New York</p></td>
-</tr>
-<tr>
-<td>is Yes</td><td><p>Includes records where the specific field contains Yes or true.</p>
-
-<p>Example: Active is Yes</p>
-
-<p>This operator only appears for Boolean (true or false or yes or no) fields.</p></td>
-</tr>
-<tr>
-<td>is No</td><td><p>Includes records where the specific field contains No or false.</p>
-
-<p>Example: Active is No</p>
-
-<p>This operator only appears for Boolean (true or false or yes or no) fields.</p></td>
-</td>
-</tr>
-</table>
+| Operator | Description | Example | Info |
+| equals | The data stored in the field must exactly match the value you specify. | Last Name equals Johns | The report shows only records with "Johns" as the last name. Records with "Johnston," "Johnson," and "Johnstone" are not included. |
+| does not equal | The data stored in the field may be anything but the value you specify. | City does not equal Calgary | |
+| begins with | The data in the field starts with the value specified. | Last Name begins with Johns | The report shows records with "Johns," "Johnston," "Johnson," and "Johnstone" as the last name. This operator only appears for string fields. |
+| does not begin with | The data in the field starts with anything but the value specified. | Last Name does not begins with Johns | The report shows records other than those with "Johns," "Johnston," "Johnson," and "Johnstone" as the last name. This operator only appears for string fields. |
+| ends with | The data in the field ends with the value specified. | Last Name ends with son | The report shows records with "Kingston" and "Johnson" but not "Johnston" as the last name. This operator only appears for string fields. |
+| does not end with | The data in the field ends with anything but the value specified. | Last Name does not end with son | The report shows records other than those with "Kingston" and "Johnson" as the last name. This operator only appears for string fields. |
+| contains | The field has the specified value anywhere in the data it contains. | Outline contains Federal Gov | All records with "Federal Gov" somewhere in the Outline field are included. This operator only appears for string fields. |
+| does not contain | The field does not have the specified value anywhere in the data it contains. | Outline does not contain Federal Gov | This operator only appears for string fields. |
+| is blank | Includes all records where the specific field is empty or contains an unknown (null) value. | ZipCode is blank | |
+| is not blank | Includes records where the specific field contains data. | ZipCode is not blank | |
+| greater than | Includes records where the specific field contains a value in excess of the specified value. | Amount is greater than 100 *OR* City is greater than M | |
+| greater than or equal | Includes records where the specific field contains a value in excess of or equal to the specified value. | Amount is greater than or equal to 100 *OR* City is greater than or equal to M | |
+| less than | Includes records where the specific field contains a value under the specified value. | Amount is less than 100 *OR* City is less than M | |
+| less than or equal | Includes records where the specific field contains a value under or equal to the specified value. | Amount less than or equal to 100 *OR* CITY is less than or equal to M | |
+| is between | Includes records where the specific field contains values in a specified range. | Amount is between 150 and 250 *OR* Date Started is between 05/01/94 and 12/31/94 | |
+| is not between | Includes records where the specific field does not contain values in a specified range. | Amount is not between 150 and 250 *OR* Date Started is not between 05/01/94 and 12/31/94 | |
+| is one of | Includes records where the specific field contains one of up to ten specified values. The equivalent expression would be created using ten separate "equals" conditions. | City is one of Tokyo, Calgary, New York | |
+| is not one of | Includes records where the specific field does not contain one of up to ten specified values. The equivalent expression would be created using ten separate "does not equal" conditions. | City is not one of Tokyo, Calgary, New York | |
+| is Yes | Includes records where the specific field contains Yes or true. | Active is Yes | This operator only appears for Boolean (true or false or yes or no) fields. |
+| is No | Includes records where the specific field contains No or false. | Active is No | This operator only appears for Boolean (true or false or yes or no) fields. | 
 
 ## Connection
 Conditions are connected together with a *connection*. The connection can be either *AND* or *OR*. The AND connection means the two conditions it connects must both be true for a record to be included in the report, while the OR connection means that either one or both can be true for a record to be included.
