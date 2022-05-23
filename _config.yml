@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Horizon Reports
+title: Horizon Reports Test
 email: support@horizon-reports.com
-app_name: Horizon Reports
-has_datagroups: true
+app_name: Horizon Reports Test Docs
+has_datagroups: false
 has_multilanguage: true
 has_multidatasource: true
 has_tenants: true
@@ -31,7 +31,7 @@ users_can_register: true
 allow_password_reset: true
 manage_dsn: false
 support_center: true
-support_kb: true
+support_kb: false
 demo_days: 30
 company: TNM Software
 description: >- # this means to ignore newlines until "baseurl:"
