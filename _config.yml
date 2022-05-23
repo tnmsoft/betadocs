@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Horizon Reports Test
+title: Horizon Reports
 email: support@horizon-reports.com
-app_name: Horizon Reports Test Docs
-has_datagroups: false
+app_name: Horizon Reports
+has_datagroups: true
 has_multilanguage: true
 has_multidatasource: true
 has_tenants: true
