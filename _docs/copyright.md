@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Copyright
-nav_order: 8
+nav_order: 9
 parent: Home
 ---
 {{ site.app_name }} is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. This software is licensed, not sold. Except as expressly provided in any written license agreement from TNM Software, the furnishing of this software does not give you any license to any of TNM Software's patents, trademarks, copyrights, or other intellectual property.
