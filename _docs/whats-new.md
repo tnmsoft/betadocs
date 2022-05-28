@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Current Release
+title: What's New in this Release
 nav_order: 2
-has_children: true
 parent: Home
 ---
 

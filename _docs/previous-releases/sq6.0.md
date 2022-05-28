@@ -3,10 +3,10 @@ layout: default
 title: Stonefield Query 6.0
 nav_order: 1
 parent: Previous Releases
-grand_parent: Current Release
+grand_parent: Home
 ---
 
-#New Features
+# New Features
 
 * Administrators can now create usage reports. When creating a new quick report, use the new "Usage" table to access this data.
 
@@ -30,7 +30,7 @@ grand_parent: Current Release
 
 * Added several new loading indicators.
 
-##Bug Fixes
+## Bug Fixes
 
 * Fixed a bug where resizing for a springy field was impacting fields in other rows than the current one.
 
