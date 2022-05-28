@@ -6,7 +6,7 @@ parent: Previous Releases
 grand_parent: Home
 ---
 
-# Version 5.1
+# New Features
 
 * You can now specify a page field for Cross Tab reports.
 
