@@ -3,6 +3,7 @@ layout: default
 title: Stonefield Query 6.0
 nav_order: 1
 parent: Previous Releases
+grand_parent: Current Release
 ---
 
 #New Features
