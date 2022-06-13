@@ -20,7 +20,7 @@ demo_days: 30
 company: TNM Software
 description: Documentation for Horizon Reports ad hoc reporting software
 url: "https://docs.horizon-reports.com" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  tmansuy
+
 
 
 # Build settings
@@ -68,6 +68,7 @@ aux_links_new_tab: false
 #ga_tracking: UA-5555555-55
 #ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default)
 
+github_username:  tmansuy
 
 # Define Jekyll collections
 collections:
