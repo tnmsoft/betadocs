@@ -117,6 +117,8 @@ The Point Labels page allows you to control the appearance of the point labels, 
 
 * *Visible*: turn this setting off if you don't want point labels to appear or on if you do want them to appear.
 
+* *Point label position*: this controls where the point labels appear in the diagram. 
+
 * *Resolve overlap mode*: this controls how to resolve labels that overlap when there are many data points or the values are long. The choices are:
 
     * *None*: does nothing.

@@ -94,9 +94,13 @@ The templates that come with {{ site.app_name }} have the following objects:
 
 * *GroupFooterSummaryFieldTemplate*: a placeholder for summary fields in a group footer band. Its horizontal and vertical position determines the location of these objects and its Tag property contains "GroupFooterSummaryFieldTemplate." Its Style property is set to "GroupFooterSummaryFieldStyle". As with GroupHeadingTemplate, there may be more than one of these and the same concepts apply.
 
+* *GroupFooterSummaryTypeTemplate*: a placeholder for summarization type in a group footer band. Its horizontal and vertical position determines the location of these objects and its Tag property contains "GroupFooterSummaryTypeTemplate". Its Style property is set to "GroupFooterSummaryFieldStyle". Use this template object to show the type of summary being performed for a given column in a group footer.
+
 * *RecordCount*: displays the record count at the end of the report.
 
 * *SummaryFieldTemplate*: a placeholder for summary fields at the end of the report. Its position isn't important but its Tag property contains "SummaryFieldTemplate." Its Style property is set to "SummaryFieldStyle".
+
+* *SummaryFieldTypeTemplate*: a placeholder for summarization type at the end of the report. Its position isn't important but its Tag property contains "SummaryFieldTypeTemplate." Its Style property is set to "SummaryFieldStyle". Use this template object to show the type of summary being performed for a given column in a report footer.
 
 A template may have other objects as well. For example, the Standard template has lines above and below the column headings and a line above the summary fields in the ReportFooter band. The Professional - Blue template, shown in the picture above, has panels in the PageHeader and GroupHeader bands that contain the placeholder objects and a line about the summary fields in the ReportFooter band.
 
