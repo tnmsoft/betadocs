@@ -3,7 +3,6 @@ layout: default
 title: Add Dashboard Items
 nav_order: 1
 parent: Dashboard Designer
-grand_parent: Creating Reports
 ---
 # Add Dashboard Items
 You can add **dashboard items** to display visual or textual information in a dashboard.
