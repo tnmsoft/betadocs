@@ -8,7 +8,7 @@ grand_parent: Creating Reports
 # Add Dashboard Items
 You can add **dashboard items** to display visual or textual information in a dashboard.
 
-To create a dashboard item, click the corresponding button in the [Toolbox](ui-elements/toolbox.md) or drag an item from the Toolbox into the dashboard surface.
+To create a dashboard item, click the corresponding button in the [Toolbox]({% link _docs/creating-reports/dashboard-designer/ui-elements/toolbox.md %}) or drag an item from the Toolbox into the dashboard surface.
 
 ![wdd-add-dashboard-item](/assets/images/dashboards/img124596.png)
 
