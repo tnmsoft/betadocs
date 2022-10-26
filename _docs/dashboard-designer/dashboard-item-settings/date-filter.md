@@ -27,7 +27,7 @@ Click the **Dimension** placeholder in the data section and select the required 
 
 ![](/assets/images/dashboards/datefilter-web-data-binding.png)
 
-For details, see the [Bind Dashboard Items to Data](../bind-dashboard-items-to-data.md) topic.
+For details, see the [Bind Dashboard Items to Data]({% link _docs/dashboard-designer/bind-dashboard-items-to-data/index.md %}) topic.
 
 ## Date Picker
 

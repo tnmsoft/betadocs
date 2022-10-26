@@ -16,7 +16,7 @@ This creates an empty dashboard item, which you can now configure.
 ![wdd-empty-dashboard-item](/assets/images/dashboards/img124597.png)
 
 To completely design a dashboard item, perform the following steps.
-* [Bind](bind-dashboard-items-to-data.md) the dashboard item to data.
+* [Bind]({% link _docs/dashboard-designer/bind-dashboard-items-to-data/index.md %}) the dashboard item to data.
 * Set specific dashboard item settings based on its type. To learn more, see [Dashboard Item Settings]({% link _docs/dashboard-designer/dashboard-item-settings/index.md %}).
 * Perform the required [data shaping](data-shaping.md) operations (such as [grouping](data-shaping/grouping.md), [sorting](data-shaping/sorting.md), [filtering](data-shaping/filtering.md), etc.).
 * Use the [interactivity](interactivity.md) features to enable interaction between various dashboard items.

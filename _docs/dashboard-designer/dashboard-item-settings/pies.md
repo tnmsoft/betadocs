@@ -11,7 +11,7 @@ The Pie dashboard item displays a series of pies or donuts that represent the co
 ![wdd-dashboard-items-pies](/assets/images/dashboards/img125125.png)
 
 ## Providing Data
-The **Web Dashboard** allows you to bind various dashboard items to data in a virtually uniform manner. To learn more, see the [Bind Dashboard Items to Data](../../bind-dashboard-items-to-data.md) topic.
+The **Web Dashboard** allows you to bind various dashboard items to data in a virtually uniform manner. To learn more, see the [Bind Dashboard Items to Data]({% link _docs/dashboard-designer/bind-dashboard-items-to-data/index.md %}) topic.
 
 The only difference is in the data sections that the required dashboard item has. This topic describes how to bind a **Pie** dashboard item to data.
 
