@@ -20,7 +20,7 @@ You can manage coloring for the following dashboard items.
 * [Pie]({% link _docs/dashboard-designer/dashboard-item-settings/pies.md %})
 * [Pie Map]({% link _docs/dashboard-designer/dashboard-item-settings/geo-point-maps.md %})
 * [Range Filter]({% link _docs/dashboard-designer/dashboard-item-settings/range-filter.md %})
-* [Treemap]({% link _docs/dashboard-designer/dashboard-item-settings/tree-map.md %})
+* [Treemap]({% link _docs/dashboard-designer/dashboard-item-settings/treemap.md %})
 
 ## <a name="overview"/>Color Schemes Overview
 The dashboard provides two ways of coloring dashboard item elements.
