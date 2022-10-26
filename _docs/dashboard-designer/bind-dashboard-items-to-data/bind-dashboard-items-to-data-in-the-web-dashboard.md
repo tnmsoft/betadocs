@@ -18,15 +18,15 @@ To bind a dashboard item to data, invoke the dashboard item's [Bindings](../ui-e
 
 The image below displays the [Grid](../dashboard-item-settings/grid.md) dashboard item, that binded to _Sales Person_ query of the _SQL Data Source_, and corresponding [data sections](../dashboard-item-settings/grid/providing-data.md).
 
-![wdd-bindings-menu](../../../images/img124590.png)
+![wdd-bindings-menu](/assets/images/dashboards/img124590.png)
 
 To populate a dashboard item with data, click a placeholder and choose the required field in the invoked list of data source's available fields.
 
-![wdd-add-data-tem](../../../images/img125350.png)
+![wdd-add-data-tem](/assets/images/dashboards/img125350.png)
 
 To rename the data item, go to the **Options** section and specify the data item's caption.
 
-![WDD-rename-data-item](../../../images/img124591.png)
+![WDD-rename-data-item](/assets/images/dashboards/img124591.png)
 
 > [!NOTE]
 > To learn how to bind a specific dashboard item to data, see the **Providing Data** topic for the [required dashboard item](../dashboard-item-settings.md).
@@ -34,19 +34,19 @@ To rename the data item, go to the **Options** section and specify the data item
 ## <a name="modify"/>Modify Binding
 You can modify data binding by dragging a data item within a data section. To do this, drag the data item to the required position.
 
-![wdd-replace-data-item](../../../images/img124592.png)
+![wdd-replace-data-item](/assets/images/dashboards/img124592.png)
 
 ## <a name="clear"/>Clear Binding
-You can remove the data item by clicking the **Remove** (![WDD-icon-delete-data-source](../../../images/img124585.png)) icon in the data item container.
+You can remove the data item by clicking the **Remove** (![WDD-icon-delete-data-source](/assets/images/dashboards/img124585.png)) icon in the data item container.
 
-![wdd-grid-delete-data-item](../../../images/img125482.png)
+![wdd-grid-delete-data-item](/assets/images/dashboards/img125482.png)
 
 ## <a name="specify"/>Specify a Data Source
 A dashboard can contain several data sources. By default, a dashboard item is bound to the first [available data source](../provide-data/manage-data-sources.md).
 
 You can change the default  data source (or a data member / query, optionally) of dashboard items. For this, go to the dashboard item's [Bindings](../ui-elements/dashboard-item-menu.md) menu and click the **Data / Filtering** button.
 
-![wdd-data-filtering-section](../../../images/img125086.png)
+![wdd-data-filtering-section](/assets/images/dashboards/img125086.png)
 
 In the invoked section you can change the data source (data member) for the selected dashboard item. Click **OK** to save the changes.
 

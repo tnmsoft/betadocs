@@ -26,7 +26,7 @@ You can manage coloring for the following dashboard items.
 The dashboard provides two ways of coloring dashboard item elements.
 * **Global color scheme**. This color scheme provides consistent colors for identical values across the dashboard. The image below shows the dashboard containing Pie and Chart dashboard items. Pie segments and chart series points corresponding to _Beverages_, _Condiments_ and _Confections_ dimension values are colored using identical colors from the default palette.
 	
-	![wdd-coloring-global-scheme](../../../images/img126076.png)
+	![wdd-coloring-global-scheme](/assets/images/dashboards/img126076.png)
 	
 	> [!IMPORTANT]
 	> When a global color scheme is used, the dashboard reserves automatically generated colors for certain values regardless of the filter state.
@@ -37,7 +37,7 @@ The dashboard provides two ways of coloring dashboard item elements.
 
 To select a type of coloring dashboard item elements, open the [dashboard item menu](../ui-elements/dashboard-item-menu.md), go to the **Color Scheme** section and use the **Color Scheme Type** option.
 
-![wdd-coloring-change-color-scheme](../../../images/img126079.png)
+![wdd-coloring-change-color-scheme](/assets/images/dashboards/img126079.png)
 
 ## <a name="coloring"/>Coloring Measures and Dimensions
 Dashboard items allow you to manage the coloring of individual dimensions or all dashboard item measures using predefined coloring modes.
@@ -53,58 +53,58 @@ The following coloring settings are available.
 You can configure coloring in two ways.
 * To specify the coloring mode for the specific measure/dimension, open the data item menu and go to **Data Shaping** section. Use the **Coloring** option to specify coloring mode of this data item.
 	
-	![wdd-coloring-data-item-options](../../../images/img126109.png)
+	![wdd-coloring-data-item-options](/assets/images/dashboards/img126109.png)
 * To see a list of all measures/dimensions for which you can specify coloring mode, open the dashboard item's [Options](../ui-elements/dashboard-item-menu.md) menu and go to the **Coloring** section.
 	
-	![wdd-coloring-options](../../../images/img126086.png)
+	![wdd-coloring-options](/assets/images/dashboards/img126086.png)
 
 For example, the image below shows the Chart dashboard item whose _Country_ **dimension** is colored by different hues...
 
-![wdd-coloring-color-by-measure](../../../images/img126084.png)
+![wdd-coloring-color-by-measure](/assets/images/dashboards/img126084.png)
 
 ...and this image shows the Pie dashboard item whose **measures** are colored by different hues.
 
-![wdd-coloring-by-measure](../../../images/img126108.png)
+![wdd-coloring-by-measure](/assets/images/dashboards/img126108.png)
 
 > [!NOTE]
 > If you enabled coloring by different hues for several dimensions/measures, all combinations of dimension values/measures will be automatically colored using different colors from the default palette.
 
 ## <a name="customizedim"/>Customizing Color Palettes Using the Dashboard Item Menu
-The Web Dashboard allows you to customize colors of the specific palette using the **Color Scheme** section of the dashboard item [Options](../ui-elements/dashboard-item-menu.md) menu. To edit the color scheme, click the **Edit** button (the ![wdd-icon-edit-collection-value-item](../../../images/img126050.png) icon) of the corresponding color.
+The Web Dashboard allows you to customize colors of the specific palette using the **Color Scheme** section of the dashboard item [Options](../ui-elements/dashboard-item-menu.md) menu. To edit the color scheme, click the **Edit** button (the ![wdd-icon-edit-collection-value-item](/assets/images/dashboards/img126050.png) icon) of the corresponding color.
 
-![wdd-coloring-change-dashboard-item-color-scheme](../../../images/img126112.png)
+![wdd-coloring-change-dashboard-item-color-scheme](/assets/images/dashboards/img126112.png)
 
 Then, pick any color using the RGB color model in the invoked color picker and click **Confirm** to change the color.
 
-![wdd-coloring-color-picker](../../../images/img126125.png)
+![wdd-coloring-color-picker](/assets/images/dashboards/img126125.png)
 
 A new color scheme will be applied to the dashboard item(s).
 
-![wdd-coloring-change-local-scheme](../../../images/img126127.png)
+![wdd-coloring-change-local-scheme](/assets/images/dashboards/img126127.png)
 
 ## <a name="customizecpp"/>Customizing Color Palettes Using the Color Schemes Page
 The Color Scheme page of the [dashboard menu](../ui-elements/dashboard-menu.md) allows you to customize color tables by editing and adding colors.
 
-![wdd-coloring-scheme-page](../../../images/img126124.png)
+![wdd-coloring-scheme-page](/assets/images/dashboards/img126124.png)
 * **Edit colors**. You can reassign a color in the selected color table. For this, select one of the available schemes in the **Color Schemes** pane and click the required color in the **Colors** pane to provide access to the **Color** combo box.
 	
 	Clicking the **Color** dropdown button invokes a color picker where you can specify a new color.
 	
-	![wdd-coloring-invoke-color-picker](../../../images/img126133.png)
+	![wdd-coloring-invoke-color-picker](/assets/images/dashboards/img126133.png)
 	
 	Click **Confirm** to change the automatically assigned color for the selected value and update the current color scheme.
 	
-	![wdd-coloring-changed-color](../../../images/img126122.png)
+	![wdd-coloring-changed-color](/assets/images/dashboards/img126122.png)
 	
 	The image below demonstrates the dashboard items that are colored using the updated color table.
 	
-	![wdd-coloring-new-scheme](../../../images/img126123.png)
+	![wdd-coloring-new-scheme](/assets/images/dashboards/img126123.png)
 * **Add colors**. The Color Scheme page allows you to add a new value with the specified color to the selected color scheme. To do this, use the **Add color** button.
 	
-	![wdd-coloring-adding-color](../../../images/img126969.png)
+	![wdd-coloring-adding-color](/assets/images/dashboards/img126969.png)
 	
 	Specify the dimension value of the added color or select the required measures. This creates a new value whose color can be specified as described in the **Edit colors** section.
 	
-	![wdd-coloring-added-color](../../../images/img126964.png)
+	![wdd-coloring-added-color](/assets/images/dashboards/img126964.png)
 	
-	You can remove manually added values using the **Remove** button (the ![wdd-icon-delete-big](../../../images/img126104.png) icon).
+	You can remove manually added values using the **Remove** button (the ![wdd-icon-delete-big](/assets/images/dashboards/img126104.png) icon).

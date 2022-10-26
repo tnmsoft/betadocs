@@ -8,7 +8,7 @@ grand_parent: Dashboard Designer
 # Conditional Formatting
 The Web Dashboard supports conditional formatting. You can apply a custom style to data elements that satisfy a certain condition for [Grid](../dashboard-item-settings/grid.md), [Pivot](../dashboard-item-settings/pivot.md), [Chart](../dashboard-item-settings/chart.md), [Scatter Chart](../dashboard-item-settings/scatter-chart.md) and [Card](../dashboard-item-settings/cards.md) items.
 
-![wdd-cf-main](../../../images/img126130.png)
+![wdd-cf-main](/assets/images/dashboards/img126130.png)
 
 ## Format Rules
 
@@ -55,31 +55,31 @@ Format conditions that can be applied to different data item types are as follow
 
 To create a format rule, open the **Conditional Formatting** section in the dashboard item's [Options](../ui-elements/dashboard-item-menu.md) menu or in the [data item menu](../ui-elements/data-item-menu.md). Click "+" to add a new format rule:
 	
-![wed-dashboard-cf-add-rule](../../../images/wed-dashboard-cf-add-rule.png)
+![wed-dashboard-cf-add-rule](/assets/images/dashboards/wed-dashboard-cf-add-rule.png)
 
 Specify the data item/card used to calculate a condition in the **Common** section. You can also create a format rule for one data item and apply different settings to the other data item. 
 
 Select a format rule type from the list to open its settings.
 	
-![wdd-grid-cf-select-rule-type](../../../images/img126024.png)
+![wdd-grid-cf-select-rule-type](/assets/images/dashboards/img126024.png)
 
 Select a condition from the list and [specify its settings](#appearance-settings) in the **Condition** section. Available settings depend on the selected format rule.
 	
-![wdd-grid-cf-value-menu](../../../images/img126023.png)
+![wdd-grid-cf-value-menu](/assets/images/dashboards/img126023.png)
 	
 Specify additional settings in the **Miscellaneous** section. For example, you can specify the intersection level for the Pivot or apply the current rule to a row in the Grid.
 
 ## Edit a Format Rule
 
-To edit a format rule, select the rule and click **Edit** (the ![wdd-icon-edit-collection-value-item](../../../images/img126050.png) icon).
+To edit a format rule, select the rule and click **Edit** (the ![wdd-icon-edit-collection-value-item](/assets/images/dashboards/img126050.png) icon).
 
-![wdd-icon-delete-big](../../../images/wdd-grid-cf-edit-rule126025.png)
+![wdd-icon-delete-big](/assets/images/dashboards/wdd-grid-cf-edit-rule126025.png)
 
-Click **Delete** (the ![wdd-icon-delete-big](../../../images/img126104.png) icon) to delete the selected format rule.
+Click **Delete** (the ![wdd-icon-delete-big](/assets/images/dashboards/img126104.png) icon) to delete the selected format rule.
 
 When you edit a format rule, you can enable or disable the rule in the **Miscellaneous** section.
 
-![miscellaneous-section](../../../images/web-conditional-formatting-edit-rule-miscellaneous-section.png)
+![miscellaneous-section](/assets/images/dashboards/web-conditional-formatting-edit-rule-miscellaneous-section.png)
 
 Other settings in the **Miscellaneous** section depend on the selected dashboard item.
 
@@ -91,20 +91,20 @@ For Grid, Pivot, and Card items, you can configure and customize the current for
 
 * Choose a predefined background color or font in the **Appearance** tab.
 	
-	![wdd-cf-appearance-gallery](../../../images/img126044.png)
+	![wdd-cf-appearance-gallery](/assets/images/dashboards/img126044.png)
 
 * Add a predefined icon in the **Icons** tab.
 
-	![wdd-cf-icons-gallery](../../../images/img126045.png)
+	![wdd-cf-icons-gallery](/assets/images/dashboards/img126045.png)
 
 
 Chart and Scatter Chart items have a predefined palette and a custom palette. Click a color chip in the **Custom Color** palette to set a new custom color. You can pick any color using the RGB or HSB color model in the invoked color picker.
 
-![wdd-cf-chart-styles](../../../images/wdd-cf-chart-styles.png)
+![wdd-cf-chart-styles](/assets/images/dashboards/wdd-cf-chart-styles.png)
 	
 You can change generated colors for the Range format rules:
 
-![wdd-cf-range-gallery](../../../images/wdd-cf-range-gallery126043.png)
+![wdd-cf-range-gallery](/assets/images/dashboards/wdd-cf-range-gallery126043.png)
 
 ## Dashboard Item Format Rule Specifics
 

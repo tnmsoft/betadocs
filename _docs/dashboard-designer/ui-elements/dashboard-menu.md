@@ -10,7 +10,7 @@ The dashboard menu allows you to create, save or open dashboards and invokes pag
 
 The dashboard menu consists of the following buttons.
 
-![wdd-dashboard-menu](../../../images/img125805.png)
+![wdd-dashboard-menu](/assets/images/dashboards/img125805.png)
 
 | Button | Description | Shortcut |
 |---|---|---|

@@ -8,7 +8,7 @@ grand_parent: Dashboard Designer
 # Choropleth Map
 The topics in this section describe the features available in the Choropleth Map dashboard item, that allows you to colorize the required areas in proportion to the provided values.
 
-![wdd-dashboard-items-choropleth-map](../../../images/img125119.png)
+![wdd-dashboard-items-choropleth-map](/assets/images/dashboards/img125119.png)
 
 ## Providing Data
 The **Web Dashboard** allows you to bind various dashboard items to data in a virtually uniform manner. To learn more, see the [Bind Dashboard Items to Data](../../bind-dashboard-items-to-data.md) topic.
@@ -18,7 +18,7 @@ The only difference is in the data sections that the required dashboard item has
 ### Binding to Data in the Web Dashboard
 The image below shows a sample Choropleth Map dashboard item that is bound to data.
 
-![wdd-choropleth-map-binding](../../../../images/img125398.png)
+![wdd-choropleth-map-binding](..//assets/images/dashboards/img125398.png)
 
 To bind the Choropleth Map dashboard item to data, click a placeholder contained in one of the available data sections and select the required data source field in the **Binding** section of the invoked [data item menu](../../ui-elements/data-item-menu.md).
 
@@ -29,7 +29,7 @@ The list below illustrates the Choropleth Map's data sections.
 	By default, map shapes are colored depending on the provided values. If you add an additional target value, the coloring of map shapes depends on the difference between two values called [Delta](delta.md).
 * **Tooltip Measures** - Processed as _Measure_ - Allows you to add supplementary content to the tooltips. Add the required measures to provide additional data.
 	
-	![wdd-choropleth-map-tooltips](../../../../images/img125400.png)
+	![wdd-choropleth-map-tooltips](..//assets/images/dashboards/img125400.png)
 
 
 ## Delta
@@ -37,14 +37,14 @@ The Choropleth Map allows you to indicate the difference between the actual and 
 
 By default, map shapes are colored depending on the values provided. If you add an additional target value to create delta, the coloring of map shapes depends on the difference between two values.
 
-![wdd-choropleth-map-delta](../../../../images/img125405.png)
+![wdd-choropleth-map-delta](..//assets/images/dashboards/img125405.png)
 
 ### Add Delta
 **Delta** is bound to two measures that provide two values: the _Actual_ value and the _Target_ value. The difference between these values is displayed on the map.
 
 When you switch the map type to _Delta_, a new **Target** data item container appears.
 
-![wdd-choropleth-map-add-delta](../../../../images/img125406.png)
+![wdd-choropleth-map-add-delta](..//assets/images/dashboards/img125406.png)
 
 Click it to open the target [data item menu](../../ui-elements/data-item-menu.md) and provide data for the target value.
 
@@ -66,11 +66,11 @@ The Choropleth Map dashboard item allows you to perform navigation actions such 
 
 You can enable or disable the capability to scroll/zoom the map using the **Lock Navigation** setting in the Choropleth Map's [Options](../../ui-elements/dashboard-item-menu.md) menu.
 
-![wdd-map-lock-navigation](../../../../images/img125404.png)
+![wdd-map-lock-navigation](..//assets/images/dashboards/img125404.png)
 
-To display the entire map within the dashboard item, use the **Initial Extent** button (the ![wdd-map-initial-size-icon](../../../../images/img125402.png) icon) in the Choropleth Map's [caption](../../dashboard-layout/dashboard-item-caption.md).
+To display the entire map within the dashboard item, use the **Initial Extent** button (the ![wdd-map-initial-size-icon](..//assets/images/dashboards/img125402.png) icon) in the Choropleth Map's [caption](../../dashboard-layout/dashboard-item-caption.md).
 
-![wdd-choropleth-map-initial-state](../../../../images/img125403.png)
+![wdd-choropleth-map-initial-state](..//assets/images/dashboards/img125403.png)
 
 
 ## Interactivity
@@ -81,22 +81,22 @@ You can use the **Choropleth Map** dashboard item as a filter for other dashboar
 
 The Choropleth Map dashboard item supports filtering by shapes. When Master Filtering is enabled, you can click a shape (or multiple shapes) to make other dashboard items only display data related to the selected shape(s).
 
-![wdd-choropleth-map-master-filter-interativity](../../../../images/img125414.png)
+![wdd-choropleth-map-master-filter-interativity](..//assets/images/dashboards/img125414.png)
 
 To learn more about filtering concepts common to all dashboard items, see the [Master Filtering](../../interactivity/master-filtering.md) topic.
 
 To enable **Master Filtering**, go to the Choropleth Map's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and select the required Master Filtering mode.
 
-![wdd-interactivity-section-without-drill-down](../../../../images/img125455.png)
+![wdd-interactivity-section-without-drill-down](..//assets/images/dashboards/img125455.png)
 
-To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](../../../../images/img125072.png) icon) in the Choropleth Map's [caption](../../dashboard-layout/dashboard-item-caption.md).
+To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](..//assets/images/dashboards/img125072.png) icon) in the Choropleth Map's [caption](../../dashboard-layout/dashboard-item-caption.md).
 
 ## Labels
 A Choropleth Map provides the capability to display titles within map shapes and allows you to manage what data to show in the shape tooltips.
 
 To manage map titles and tooltips, go to the **Shape Labels** section of the Choropleth Map's [Options](../../ui-elements/dashboard-item-menu.md) menu.
 
-![wdd-choropleth-map-shape-labels](../../../../images/img125421.png)
+![wdd-choropleth-map-shape-labels](..//assets/images/dashboards/img125421.png)
 
 The following settings are available.
 
@@ -110,7 +110,7 @@ A **legend** is an element of a map that shows values corresponding to each colo
 
 To display a legend within a map, open the Choropleth Map's [Options](../../ui-elements/dashboard-item-menu.md) menu and go to the **Color Legend** section.
 
-![wdd-choropleth-map-legend](../../../../images/img125418.png)
+![wdd-choropleth-map-legend](..//assets/images/dashboards/img125418.png)
 
 The following options are available.
 

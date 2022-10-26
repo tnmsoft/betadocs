@@ -11,13 +11,13 @@ The Web Dashboard control supports the following themes (and their compact count
 
 | Theme  | Image |
 |---|---|
-|Light | ![Light Theme](../../../images/lighttheme24998.png) |
-|Dark | ![Dark Theme](../../../images/darktheme24999.png) |
-|Carmine | ![Carmine Theme](../../../images/carmine-theme.png) |
-|Soft Blue | ![Soft Blue Theme](../../../images/soft-blue-theme.png) |
-|Green Mist | ![Green Mist Theme](../../../images/green-mist-theme.png) |
-|Dark Moon | ![Dark Moon Theme](../../../images/dark-moon-theme.png) |
-|Dark Violet | ![Dark Violet Theme](../../../images/dark-violet-theme.png) |
+|Light | ![Light Theme](/assets/images/dashboards/lighttheme24998.png) |
+|Dark | ![Dark Theme](/assets/images/dashboards/darktheme24999.png) |
+|Carmine | ![Carmine Theme](/assets/images/dashboards/carmine-theme.png) |
+|Soft Blue | ![Soft Blue Theme](/assets/images/dashboards/soft-blue-theme.png) |
+|Green Mist | ![Green Mist Theme](/assets/images/dashboards/green-mist-theme.png) |
+|Dark Moon | ![Dark Moon Theme](/assets/images/dashboards/images/dark-moon-theme.png) |
+|Dark Violet | ![Dark Violet Theme](/assets/images/dashboards/images/dark-violet-theme.png) |
 
 > [!Note]
 > A compact theme allows you to fit more elements within a web page. Note that compact themes affect only specific dashboard items such as:

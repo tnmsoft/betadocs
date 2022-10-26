@@ -8,7 +8,7 @@ grand_parent: Dashboard Designer
 # Scatter Chart
 The topics in this section describe the features available in the **Scatter Chart** dashboard item, and explain how to create and customize scatter charts in the Web Dashboard.
 
-![wdd-dashboard-items-scatter-chart](../../../images/img125128.png)
+![wdd-dashboard-items-scatter-chart](/assets/images/dashboards/img125128.png)
 
 
 ## Providing Data
@@ -19,7 +19,7 @@ The only difference is in the data sections that the required dashboard item has
 ### Binding to Data in the Web Dashboard
 The image below shows a sample Scatter Chart dashboard item that is bound to data.
 
-![wdd-scatter-chart-bindings](../../../../images/img125600.png)
+![wdd-scatter-chart-bindings](..//assets/images/dashboards/img125600.png)
 
 To bind the Scatter Chart dashboard item to data, click a placeholder contained in one of the available data sections and select the required data source field in the **Binding** section of the invoked [data item menu](../../ui-elements/data-item-menu.md).
 
@@ -45,42 +45,42 @@ The Scatter Chart dashboard item supports filtering by points that correspond to
 
 When Master Filtering is enabled, you can click a point (or multiple points) to make other dashboard items only display data related to the selected point(s).
 
-![wdd-grid-interactivity-master-filtering](../../../../images/img125268.png)
+![wdd-grid-interactivity-master-filtering](..//assets/images/dashboards/img125268.png)
 
 To enable **Master Filtering**, go to the Scatter Chart's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and select the required Master Filtering mode.
 
-![wdd-dashboard-items-interactivity-section](../../../../images/img125270.png)
+![wdd-dashboard-items-interactivity-section](..//assets/images/dashboards/img125270.png)
 
-To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](../../../../images/img125072.png) icon) in the Scatter Chart's [caption](../../dashboard-layout/dashboard-item-caption.md).
+To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](..//assets/images/dashboards/img125072.png) icon) in the Scatter Chart's [caption](../../dashboard-layout/dashboard-item-caption.md).
 
 ### <a name="drilldown"/>Drill-Down
 The Drill-Down feature allows you to change the detail level of data displayed in dashboard items. To learn more about concepts common to all dashboard items, see the [Drill-Down](../../interactivity/drill-down.md) topic.
 
 When drill-down is enabled, you can click a point to view the details (or double-click a point in case of enabled Master Filtering).
 
-![wdd-grid-interactivity-drill-down](../../../../images/img125267.png)
+![wdd-grid-interactivity-drill-down](..//assets/images/dashboards/img125267.png)
 
 Drill-down requires that the **Arguments** section contains several dimensions, from the least to the most detailed dimension.
 
-![wdd-scatter-chart-arguments-section](../../../../images/img125269.png)
+![wdd-scatter-chart-arguments-section](..//assets/images/dashboards/img125269.png)
 
 > [!NOTE]
 > In OLAP mode, you can perform drill-down for either a hierarchy data item or several dimension attributes.
 
 To enable **Drill-Down**, go to the Scatter Chart's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and turn the **Drill-Down** option on.
 
-![wdd-dashboard-items-interactivity-section](../../../../images/img125270.png)
+![wdd-dashboard-items-interactivity-section](..//assets/images/dashboards/img125270.png)
 
-To return to the previous detail level, click the **Drill Up** button (the ![wdd-drill-up-icon](../../../../images/img125074.png) icon) in the Scatter Chart's [caption](../../dashboard-layout/dashboard-item-caption.md).
+To return to the previous detail level, click the **Drill Up** button (the ![wdd-drill-up-icon](..//assets/images/dashboards/img125074.png) icon) in the Scatter Chart's [caption](../../dashboard-layout/dashboard-item-caption.md).
 
 ## Legend
 A legend is an element of a scatter chart that identifies chart points (for instance, colored points corresponding to argument values).
 
-![wdd-scatter-chart-legend](../../../../images/img125606.png)
+![wdd-scatter-chart-legend](..//assets/images/dashboards/img125606.png)
 
 To customize legend options, go to the Scatter Chart's [Options](../../ui-elements/dashboard-item-menu.md) menu and open the **Legend** section.
 
-![wdd-scatter-chart-legend-options](../../../../images/img125601.png)
+![wdd-scatter-chart-legend-options](..//assets/images/dashboards/img125601.png)
 
 The following settings are available.
 
@@ -100,7 +100,7 @@ Here you can configure the visibility of axes, their title and grid lines, rever
 
 The following options are available.
 
-![wdd-scatter-chart-axis-options](../../../../images/img125602.png)
+![wdd-scatter-chart-axis-options](..//assets/images/dashboards/img125602.png)
 
 | Options | Description |
 |---|---|
@@ -117,13 +117,13 @@ You can rotate the Scatter Chart so that the [X-axis](axes.md) becomes vertical,
 
 To rotate a Scatter Chart in the Web Dashboard, open the Scatter Chart's [Options](../../ui-elements/dashboard-item-menu.md) menu and go to **Common** section. Then, turn the **Rotated** option on.
 
-![wdd-scatter-chart-rotate](../../../../images/img125603.png)
+![wdd-scatter-chart-rotate](..//assets/images/dashboards/img125603.png)
 
 
 ## Labels
 The Scatter Chart can display **point labels** that contain descriptions for data points, and provide **tooltips** with additional information.
 
-![wdd-scatter-chart-point-label](../../../../images/img125604.png)
+![wdd-scatter-chart-point-label](..//assets/images/dashboards/img125604.png)
 
 To manage the visibility of point labels, open the Scatter Chart's [Options](../../ui-elements/dashboard-item-menu.md) menu and go to the **Labels** section. Then, turn the **Show Point Labels** option on.
 
@@ -131,7 +131,7 @@ Here you can specify the type of content displayed within point labels, configur
 
 The following options are available.
 
-![wdd-scatter-chart-labels-option](../../../../images/img125607.png)
+![wdd-scatter-chart-labels-option](..//assets/images/dashboards/img125607.png)
 
 | Options | Description |
 |---|---|
@@ -146,7 +146,7 @@ The following options are available.
 
 Use conditional formatting to highlight points in a Scatter Chart dashboard item.
 
-![web-cf-scatter-chart-main](../../../../images/web-cf-scatter-chart-main.png)
+![web-cf-scatter-chart-main](..//assets/images/dashboards/web-cf-scatter-chart-main.png)
 
 ### Supported Format Rules
 
@@ -194,7 +194,7 @@ Specify appearance settings and set the condition's value to create a format rul
 
 The image below displays the **Value** rule settings. The condition colors bubbles if their weight exceeds 200.
 
-![web-scatter-chart-cf-appearance-settings-dialog](../../../../images/web-scatter-chart-cf-appearance-settings-dialog.png)
+![web-scatter-chart-cf-appearance-settings-dialog](..//assets/images/dashboards/web-scatter-chart-cf-appearance-settings-dialog.png)
 
 You can apply one of the predefined colors or set a custom color for this condition.
 
@@ -202,11 +202,11 @@ Go to the rule's **Legend** section and set the **Caption** field to specify the
 
 The image below displays the Scatter Chart item with the applied **Greater Than** format rule. The **Display in Legend** option is activated and the rule's caption is displayed in the legend:
 
-![web-scatter-chart-conditional-formatting](../../../../images/web-scatter-chart-conditional-formatting.png)
+![web-scatter-chart-conditional-formatting](..//assets/images/dashboards/web-scatter-chart-conditional-formatting.png)
 
 For Range format rules, the legend display text is generated automatically and depends on the range intervals:
 
-![web-scatter-chart-with-range-rule](../../../../images/web-scatter-chart-with-range-rule.png)
+![web-scatter-chart-with-range-rule](..//assets/images/dashboards/web-scatter-chart-with-range-rule.png)
 
 ### Coloring 
 
@@ -214,7 +214,7 @@ A Scatter Chart item paints elements in pale gray if they don't meet the applied
 
 Enable coloring for arguments to restore the color scheme:
 
-![web-scatter-chart-color-by-hue](../../../../images/web-scatter-chart-color-by-hue.png)
+![web-scatter-chart-color-by-hue](..//assets/images/dashboards/web-scatter-chart-color-by-hue.png)
 
 > [!Tip]
 > **Documentation:**

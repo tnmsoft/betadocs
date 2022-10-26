@@ -8,7 +8,7 @@ grand_parent: Dashboard Designer
 # Grid
 The topics in this section describe the features available in the **Grid** dashboard item, and provide information on how to create and customize grids
 
-![wdd-dashboard-items-grid](../../../images/img125122.png)
+![wdd-dashboard-items-grid](/assets/images/dashboards/img125122.png)
 
 
 ## Providing Data
@@ -19,7 +19,7 @@ The only difference is in the data sections that the required dashboard item has
 ### Binding to Data in the Web Dashboard
 The image below shows a sample Grid dashboard item that is bound to data.
 
-![wdd-grid-binding](../../../../images/img125397.png)
+![wdd-grid-binding](..//assets/images/dashboards/img125397.png)
 
 To bind the Grid dashboard item to data, click a placeholder contained in one of the available data sections and select the required data source field in the **Binding** section of the invoked [data item menu](../../ui-elements/data-item-menu.md).
 
@@ -34,7 +34,7 @@ The table below lists and describes the Grid's data sections.
 ## Columns
 The Grid dashboard item supports four types of columns.
 
-![wdd-grid-columns-overview](../../../../images/img125253.png)
+![wdd-grid-columns-overview](..//assets/images/dashboards/img125253.png)
 * **Dimension**
 	
 	A dimension column displays values from the bound data item "as is".  If the dimension column is bound to a data source containing images, it can display images.
@@ -42,7 +42,7 @@ The Grid dashboard item supports four types of columns.
 	
 	A dimension column allows you to display hyperlinks in the Grid dashboard item. You can provide hyperlinks as a separate data column, or they can be automatically created at run-time from any column using the specified **URI pattern**.
 	
-	![grid_hyperlink_column](../../../../images/grid_hyperlink_column.png)
+	![grid_hyperlink_column](..//assets/images/dashboards/grid_hyperlink_column.png)
 
 
 * **Measure**
@@ -51,14 +51,14 @@ The Grid dashboard item supports four types of columns.
 	
 	Values in the measure column can be displayed as text or represented by bars.
 	
-	![wdd-grid-measure-options](../../../../images/img125786.png)
+	![wdd-grid-measure-options](..//assets/images/dashboards/img125786.png)
 	
 	To select between these modes, open the column menu and go to the **Options** section.
 * **Delta**
 	
 	A delta column calculates summaries against two measures: the **Actual** value and the **Target** value. When you switch the column type to **Delta**, a new **Target** data item container appears.
 	
-	![wdd-grid-delta-target-data-section](../../../../images/img125787.png)
+	![wdd-grid-delta-target-data-section](..//assets/images/dashboards/img125787.png)
 	
 	The difference between these values is displayed within the column.
 	
@@ -69,7 +69,7 @@ The Grid dashboard item supports four types of columns.
 	
 	The sparkline column is bound to the measure providing sparkline values and to the dimension providing a date-time interval. Add the required date-time dimension to the **Sparkline** placeholder to show values depending on time.
 	
-	![wdd-grid-sparkline-add-date](../../../../images/img125788.png)
+	![wdd-grid-sparkline-add-date](..//assets/images/dashboards/img125788.png)
 	
 	You can configure sparkline options in the data item's **Sparkline Options** section.
 
@@ -77,7 +77,7 @@ When you drop a data item into the Columns section, the type for the new column 
 
 To change the column type, open the [column menu](../../ui-elements/data-item-menu.md) and click the corresponding type button.
 
-![wdd-grid-column-type](../../../../images/img125212.png)
+![wdd-grid-column-type](..//assets/images/dashboards/img125212.png)
 
 
 ## Interactivity
@@ -92,39 +92,39 @@ The Grid dashboard item supports filtering by rows.
 
 When **Master Filtering** is enabled, you can click a grid row (or multiple rows) to make other dashboard items only display data related to the selected record(s).
 
-![WebViewer_MasterFiltering](../../../../images/img22459.gif)
+![WebViewer_MasterFiltering](..//assets/images/dashboards/img22459.gif)
 
 To enable **Master Filtering**, go to the Grid's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and select the required Master Filtering mode.
 
-![wdd-dashboard-items-interactivity-section](../../../../images/img125270.png)
+![wdd-dashboard-items-interactivity-section](..//assets/images/dashboards/img125270.png)
 
-To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](../../../../images/img125072.png) icon) in the Grid's [caption](../../dashboard-layout/dashboard-item-caption.md).
+To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](..//assets/images/dashboards/img125072.png) icon) in the Grid's [caption](../../dashboard-layout/dashboard-item-caption.md).
 
 ### <a name="drilldown"/>Drill-Down
 The built-in drill-down capability allows you to change the detail level of data displayed in dashboard items on the fly. To learn more about drill-down concepts common to all dashboard items, see the [Drill-Down](../../interactivity/drill-down.md) topic.
 
 The **Grid** dashboard item supports drill-down for rows.When drill-down is enabled, you can click a grid row to view the details.
 
-![wdd-grid-interactivity-drill-down](../../../../images/img125412.png)
+![wdd-grid-interactivity-drill-down](..//assets/images/dashboards/img125412.png)
 
 Drill-down requires that the Columns section contains several dimensions at the top, from the least detailed to the most detailed dimension.
 
-![wdd-grid-interactivity-several-dimensions](../../../../images/img125410.png)
+![wdd-grid-interactivity-several-dimensions](..//assets/images/dashboards/img125410.png)
 
 > [!NOTE]
 > In OLAP mode, you can perform drill-down for either a hierarchy data item or several dimension attributes.
 
 To enable **Drill-Down**, go to the Grid's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and turn the **Drill-Down** option on.
 
-![wdd-dashboard-items-interactivity-section](../../../../images/img125270.png)
+![wdd-dashboard-items-interactivity-section](..//assets/images/dashboards/img125270.png)
 
-To return to the previous detail level, click the **Drill Up** button (the ![wdd-drill-up-icon](../../../../images/img125074.png) icon) in the Grid's [caption](../../dashboard-layout/dashboard-item-caption.md).
+To return to the previous detail level, click the **Drill Up** button (the ![wdd-drill-up-icon](..//assets/images/dashboards/img125074.png) icon) in the Grid's [caption](../../dashboard-layout/dashboard-item-caption.md).
 
 
 ## Conditional Formatting
 Use conditional formatting to highlight individual cells or rows based on specific conditions. You can apply format rules to the **dimension** and **measure** [column types](columns.md). You can use [hidden measures](../../bind-dashboard-items-to-data/hidden-data-items.md) to specify a condition used to apply formatting to visible values. 
 
-![wdd-grid-conditional-formatting](../../../../images/img125791.png) 
+![wdd-grid-conditional-formatting](..//assets/images/dashboards/img125791.png) 
 
 ### Supported Format Rules
 
@@ -170,7 +170,7 @@ Refer to the following topic for information on how to create and edit format ru
 
 The format rule's **Miscellaneous** section contains the following properties that are specific to the Grid item:
 
-![web-cf-grid-miscellaneous](../../../../images/web-cf-grid-miscellaneous.png)
+![web-cf-grid-miscellaneous](..//assets/images/dashboards/web-cf-grid-miscellaneous.png)
 
  | Option | Description |
  | -- | --| 
@@ -181,7 +181,7 @@ The format rule's **Miscellaneous** section contains the following properties th
 ## Totals
 The Grid dashboard item enables you to add a summary value (a **total**) calculated against displayed values of an individual column, and to show the result under this column. Note that you can add any number of totals for each column. For example, you can obtain the number of column records, average or maximum value, etc.
 
-![wdd-grid-totals](../../../../images/img125280.png)
+![wdd-grid-totals](..//assets/images/dashboards/img125280.png)
 * [Totals Overview](#overview)
 * [Create and Edit Totals](#create)
 
@@ -190,12 +190,12 @@ You can use the following summary functions when creating totals.
 * **Count** - The number of records.
 * **Sum** - The sum of the values. 
 	
-	![func_sum](../../../../images/img4460.png)
+	![func_sum](..//assets/images/dashboards/img4460.png)
 * **Min** - The smallest value.
 * **Max** - The largest value.
 * **Average** - The average of the values.
 	
-	![func_average](../../../../images/img4457.png)
+	![func_average](..//assets/images/dashboards/img4457.png)
 * **Auto** - 
 	The total is calculated using the type of [summary function](../../data-shaping/summarization.md) specified for the measure corresponding to the current Grid column. Note that in this case, the total is calculated based on values of the corresponding data field from the underlying data source. 
 	
@@ -212,11 +212,11 @@ To create a total, open a [data item menu](../../ui-elements/data-item-menu.md) 
 
 To change the total type, open the drop down list and select the required type.
 
-![wdd-grid-totals-change-total-type](../../../../images/img125281.png)
+![wdd-grid-totals-change-total-type](..//assets/images/dashboards/img125281.png)
 
-You can delete the required total by clicking the **Delete** button (the ![wdd-icon-delete-big](../../../../images/img126104.png) icon).
+You can delete the required total by clicking the **Delete** button (the ![wdd-icon-delete-big](..//assets/images/dashboards/img126104.png) icon).
 
-![wdd-grid-delete-totals](../../../../images/img125282.png)
+![wdd-grid-delete-totals](..//assets/images/dashboards/img125282.png)
 
 
 ## Layout
@@ -226,7 +226,7 @@ To access the layout settings, use the **Layout** section in the Grid's [Options
 
 The following settings are available.
 
-![wdd-grid-layout-options](../../../../images/img125283.png)
+![wdd-grid-layout-options](..//assets/images/dashboards/img125283.png)
 * **Horizontal Lines** - Specifies grid's horizontal line visibility.
 * **Vertical Lines** - Specifies grid's vertical line visibility.
 * **Banded Rows** - Specifies the different background for odd and even rows.
