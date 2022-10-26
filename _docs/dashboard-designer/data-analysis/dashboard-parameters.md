@@ -14,7 +14,7 @@ To create a dashboard parameter in the Web Dashboard, perform the following step
 1. Invoke the [Dashboard Menu](../../ui-elements/dashboard-menu.md) and select **Parameters**.
 2. In the **Parameter List**, click the **Add New Parameter** button. The following settings will be displayed for the created parameter.
 	
-	![WebDashboard_Parameters_NewParameter](..//assets/images/dashboards/img126106.png)
+	![WebDashboard_Parameters_NewParameter](/assets/images/dashboards/img126106.png)
 3. Specify the following parameter's settings.
 	* **Name** - Specifies the parameter name.
 	* **Description** - Specifies the parameter's description. 
@@ -51,7 +51,7 @@ The created dashboard parameter can be used in the following scenarios:
 ### <a name="query"/>SQL Queries
 The Web Dashboard provides the capability to bind a dashboard parameter and the existing [SQL query](../../provide-data/working-with-sql-data-sources/pass-query-parameters.md)/[stored procedure](../../provide-data/working-with-sql-data-sources/stored-procedures.md) parameter. This can be useful when you need to [filter the SQL query](../../provide-data/working-with-sql-data-sources/filter-queries.md) dynamically by including the parameter value in the _WHERE_ clause.
 
-![wdd-configure-query-param-page2](..//assets/images/dashboards/img124955.png)
+![wdd-configure-query-param-page2](/assets/images/dashboards/img124955.png)
 
 Do the following to bind a dashboard parameter to an SQL query or stored procedure parameter in the [Dashboard Data Source Wizard](../../ui-elements/dialogs-and-wizards/dashboard-data-source-wizard.md):
 * Select the existing query or stored procedure parameter, or use the **Add** button to create a new query parameter.
@@ -63,38 +63,38 @@ You can filter the specified [query](../../provide-data/working-with-sql-data-so
 
 In the Filter Editor, you can compare a field value with different objects such as static values, values of another field or parameter values. To switch between values, click a down arrow glyph in the operand value placeholder to expand the list of available objects. Select the **Parameter** object to compare a field value with a parameter value.
 
-![wdd-filter-editor-change-object](..//assets/images/dashboards/img126182.png)
+![wdd-filter-editor-change-object](/assets/images/dashboards/img126182.png)
 
 Then, click the operand value to invoke the list of available parameters and select the existing parameter or create a new one.
 
-![wdd-parameters-filtering](..//assets/images/dashboards/img126539.png)
+![wdd-parameters-filtering](/assets/images/dashboards/img126539.png)
 
 ### <a name="formatrules"/>Conditional Formatting
 You can apply conditional formatting to a specific dashboard item according to the current parameter value when creating the **Expression** [format condition](../../appearance-customization/conditional-formatting.md). Use this capability to format dashboard item elements dynamically, depending on the current parameter value.
 
-![wdd-parameters-conditional-formatting](..//assets/images/dashboards/img128229.png)
+![wdd-parameters-conditional-formatting](/assets/images/dashboards/img128229.png)
 
 To switch between values, click the down arrow glyph in the operand value placeholder to expand the list of available objects and select the **Parameter** object to create a format rule with a parameter.
 
 ### <a name="calculatedfields"/>Calculated Fields
 You can use parameters when constructing [expressions](../../provide-data/calculated-fields.md) for [calculated fields](../../provide-data/calculated-fields.md). This allows you to evaluate values of the calculated field dynamically depending on the current parameter value.
 
-![wdd-parameters-calculated-field](..//assets/images/dashboards/img126509.png)
+![wdd-parameters-calculated-field](/assets/images/dashboards/img126509.png)
 
 To include a parameter in the expression, double-click the required parameter in the Fields pane.
 
 ### <a name="windowscalculations"/>Window Calculations
 You can use parameters when customizing expressions for [window calculations](../calculations.md). This allows you to apply a calculation dynamically, depending on the current parameter value.
 
-![wdd-parameters-window-calculations](..//assets/images/dashboards/img126562.png)
+![wdd-parameters-window-calculations](/assets/images/dashboards/img126562.png)
 
 To create the calculation with a parameter, select the **Custom** calculation and click **Edit**. In the invoked Expression Editor double-click the required parameter.
 
 ## Requesting Parameter Values
 The Web Dashboard provides a built-in **Dashboard Parameters** dialog, which provides the capability to change dashboard parameter values. This dialog is created automatically, depending on the parameter type and visibility settings.
 
-![Parameters_DashboardParametersDialog_Web](..//assets/images/dashboards/img21818.png)
+![Parameters_DashboardParametersDialog_Web](/assets/images/dashboards/img21818.png)
 
-To invoke the Dashboard Parameters dialog in the Web Dashboard, click the **Parameters** button (the ![Parameters_ParametersButtonWin_Title](..//assets/images/dashboards/img21814.png) icon) in the [dashboard title](../../dashboard-layout/dashboard-title.md).
+To invoke the Dashboard Parameters dialog in the Web Dashboard, click the **Parameters** button (the ![Parameters_ParametersButtonWin_Title](/assets/images/dashboards/img21814.png) icon) in the [dashboard title](../../dashboard-layout/dashboard-title.md).
 
 Select the required parameter values in the Dashboard Parameters dialog and click the **Submit** button to apply the changes. To restore the default values, click the **Reset** button.

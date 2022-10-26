@@ -18,7 +18,7 @@ The only difference is in the data sections that the required dashboard item has
 ### Binding to Data in the Web Dashboard
 The image below shows a sample Chart dashboard item that is bound to data.
 
-![wdd-chart-binding](..//assets/images/dashboards/img125010.png)
+![wdd-chart-binding](/assets/images/dashboards/img125010.png)
 
 To bind the Chart dashboard item to data, click a placeholder contained in one of the available data sections and select the required data source field in the **Binding** section of the invoked [data item menu](../../ui-elements/data-item-menu.md).
 
@@ -40,14 +40,14 @@ The Chart dashboard item supports different types of series - from simple bar an
 ### <a name="changest"/>Change Series Type
 By default, Chart visualizes data using the Bar series. To switch between series types, click the required data item in the **Values** section and select the required series type in the invoked data item menu.
 
-![wdd-chart-series-types](..//assets/images/dashboards/img125032.png)
+![wdd-chart-series-types](/assets/images/dashboards/img125032.png)
 
  Click the ellipsis button to show all available series types.
 
 ### <a name="configurest"/>Configure Series Options
 To configure common series options, go to the data item’s **Options** section.
 
-![wdd-shart-series-options](..//assets/images/dashboards/img125034.png)
+![wdd-shart-series-options](/assets/images/dashboards/img125034.png)
 
 Here you can specify whether or not to plot the current series on the secondary axis, configure point markers behavior, etc.
 
@@ -63,7 +63,7 @@ The following options are available.
 ### <a name="configurepl"/>Configure Series Point Label
 The **Point Label** section of a value data item allows you to enable series point labels and manage their settings.
 
-![wdd-chart-series-point-labels](..//assets/images/dashboards/img125037.png)
+![wdd-chart-series-point-labels](/assets/images/dashboards/img125037.png)
 
 For example, you can specify whether or not to show point labels or set the label overlap mode.
 
@@ -89,16 +89,16 @@ Panes are visual areas within a diagram that display chart series. The Chart das
 
 Each pane has its own **Y-axis** and displays a specific set of series. All panes in a chart share the same **X-axis**.
 
-![wdd-chart-panes](..//assets/images/dashboards/img125054.png)
+![wdd-chart-panes](/assets/images/dashboards/img125054.png)
 
 ### Add Panes
 To add a pane, click the **Add Pane** button in the Chart's data item section.
 
-![wdd-chart-add-panes](..//assets/images/dashboards/img125055.png)
+![wdd-chart-add-panes](/assets/images/dashboards/img125055.png)
 
 Once a new pane is added, the Web Dashboard creates another Values section. Use this section to provide data items that supply values to be displayed in the new pane (see [Providing Data](providing-data.md) for details on data binding).
 
-![wdd-chart-panes-new-value-section](..//assets/images/dashboards/img125056.png)
+![wdd-chart-panes-new-value-section](/assets/images/dashboards/img125056.png)
 
 To remove a pane, click the **Remove Pane** button displayed in the added Values section.
 
@@ -114,19 +114,19 @@ You can use the Chart dashboard item as a filter for other dashboard items. To l
 The Chart supports filtering by **argument**, **series** or **points**.
 * Filtering **by arguments** allows you to make other dashboard items display only data related to selected argument values by clicking series points.
 	
-	![wdd-chart-master-filter-arg](..//assets/images/dashboards/img125063.png)
+	![wdd-chart-master-filter-arg](/assets/images/dashboards/img125063.png)
 * When filtering **by series** is enabled, you can click a series point to make other dashboard items display only data related to the selected series.
 	
-	![wdd-chart-master-filter-series](..//assets/images/dashboards/img125065.png)
+	![wdd-chart-master-filter-series](/assets/images/dashboards/img125065.png)
 * Filtering **by points** makes other dashboard items display only data related to the selected point.
 	
-	![wdd-chart-master-filter-points](..//assets/images/dashboards/img125064.png)
+	![wdd-chart-master-filter-points](/assets/images/dashboards/img125064.png)
 
 To configure filtering type, open the Chart's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and select **Arguments**, **Series** or **Points** as a target dimension.
 
-![wdd-chart-interactivity-set-points](..//assets/images/dashboards/img125061.png)
+![wdd-chart-interactivity-set-points](/assets/images/dashboards/img125061.png)
 
-To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](..//assets/images/dashboards/img125072.png) icon) in the Chart's [caption](../../dashboard-layout/dashboard-item-caption.md).
+To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](/assets/images/dashboards/img125072.png) icon) in the Chart's [caption](../../dashboard-layout/dashboard-item-caption.md).
 
 ### <a name="drilldown"/>Drill-Down
 The drill-down capability allows you to change the detail level of data displayed in the Chart dashboard item. To learn more about drill-down concepts common to all dashboard items, see the [Drill-Down](../../interactivity/drill-down.md) topic.
@@ -134,36 +134,36 @@ The drill-down capability allows you to change the detail level of data displaye
 The Chart supports drill-down on **argument** or **series** values.
 * To drill down on arguments, click a series point to view a detail chart for the corresponding argument value.
 	
-	![wdd-chart-drill-down-arguments](..//assets/images/dashboards/img125058.png)
+	![wdd-chart-drill-down-arguments](/assets/images/dashboards/img125058.png)
 	
 	Drill-down on arguments requires that the Arguments section contains several data items, from the least detailed to the most detailed item.
 	
-	![wdd-chart-drill-down-set-arguments](..//assets/images/dashboards/img125076.png)
+	![wdd-chart-drill-down-set-arguments](/assets/images/dashboards/img125076.png)
 * When drill-down on series is enabled, you can click a series point to view a detail chart for the corresponding series.
 	
-	![wdd-chart-drill-down-series](..//assets/images/dashboards/img125062.png)
+	![wdd-chart-drill-down-series](/assets/images/dashboards/img125062.png)
 	
 	Drill-down on series requires that the Series section contains several data items, from the least detailed to the most detailed item.
 	
-	![wdd-chart-drill-down-set-series](..//assets/images/dashboards/img125075.png)
+	![wdd-chart-drill-down-set-series](/assets/images/dashboards/img125075.png)
 
 > [!NOTE]
 > In OLAP mode, you can perform drill-down for either a hierarchy data item or several dimension attributes.
 
 To specify drill-down type, go to the Chart's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and set **Arguments** or **Series** as a target dimension.
 
-![wdd-chart-interactivity-set-series](..//assets/images/dashboards/img125060.png)
+![wdd-chart-interactivity-set-series](/assets/images/dashboards/img125060.png)
 
-To return to the previous detail level, click the **Drill Up** button (the ![wdd-drill-up-icon](..//assets/images/dashboards/img125074.png) icon) in the Chart's [caption](../../dashboard-layout/dashboard-item-caption.md).
+To return to the previous detail level, click the **Drill Up** button (the ![wdd-drill-up-icon](/assets/images/dashboards/img125074.png) icon) in the Chart's [caption](../../dashboard-layout/dashboard-item-caption.md).
 
 ## Legend
 A legend is an element of a chart that identifies chart series and series points.
 
-![wdd-chart-legend](..//assets/images/dashboards/img125083.png)
+![wdd-chart-legend](/assets/images/dashboards/img125083.png)
 
 To customize legend options, go to the Chart's [Options](../../ui-elements/dashboard-item-menu.md) menu and open the **Legend** section.
 
-![wdd-chart-legend-options](..//assets/images/dashboards/img125080.png)
+![wdd-chart-legend-options](/assets/images/dashboards/img125080.png)
 
 The following settings are available.
 * The **Visible** option allows you to specify whether or not to show a legend.
@@ -174,14 +174,14 @@ The following settings are available.
 ## Axes
 The Chart dashboard item displays two axes by default: the X-axis and the Y-axis. The X-axis is the axis of arguments and the Y-axis is the numerical axis of values.
 
-![wdd-chart-axis](..//assets/images/dashboards/img125609.png)
+![wdd-chart-axis](/assets/images/dashboards/img125609.png)
 
 ### Axis X
 To access X-axis settings, go to the Chart's [Options](../../ui-elements/dashboard-item-menu.md) menu and open the **Axis X** section.
 
 You can configure the following settings.
 
-![wdd-chart-axis-x-options](..//assets/images/dashboards/img125610.png)
+![wdd-chart-axis-x-options](/assets/images/dashboards/img125610.png)
 * The **Reverse** option allows you to reverse an X axis. If the X axis is reversed, its values are ordered from right to left.
 * The **Visible** option specifies whether the axis is visible.
 * The **Title** option specifies the X axis's title. Use the **Title Text** field to set the title.
@@ -194,16 +194,16 @@ If the dimension in the Arguments section contains numeric data, the Chart can c
 
 If a continuous axis is used, the distance between argument values is proportional to their values. On a discrete axis, all argument values are an equal distance from each other.
 
-![wdd-chart-discrete-axis](..//assets/images/dashboards/img125612.png)
+![wdd-chart-discrete-axis](/assets/images/dashboards/img125612.png)
 
 To specify the X-axis type in the Web Dashboard, go to the data item [Data Shaping](../../ui-elements/data-item-menu.md) menu for the argument dimension and select the axis type. The image below illustrates how to change this setting for the _Product Base Margin_ data item.
 
-![wdd-chart-discrete-axis-option](..//assets/images/dashboards/img125613.png)
+![wdd-chart-discrete-axis-option](/assets/images/dashboards/img125613.png)
 
 ### Axis Y
 To access Y-axis settings, go to the Chart's [Options](../../ui-elements/dashboard-item-menu.md) menu and open the **Axis Y** section for a corresponding pane.
 
-![wdd-chart-axis-y-options](..//assets/images/dashboards/img125611.png)
+![wdd-chart-axis-y-options](/assets/images/dashboards/img125611.png)
 * The **Always Show Zero Level** option allows you to indicate whether or not an axis zero value should be displayed.
 * The **Reverse** option allows you to reverse an Y-axis. If the Y-axis is reversed, its values are ordered from right to left.
 * The **Grid Lines** options allows you to control the visibility of the reference lines used to improve the readability of a chart's visual data.
@@ -215,7 +215,7 @@ To access Y-axis settings, go to the Chart's [Options](../../ui-elements/dashboa
 
 The secondary Y-axis is useful when it is necessary to visually combine several charts into one. Secondary axes provide the ability to plot series with different ranges on the same chart.
 
-![wdd-chart-secondary-y-axis](..//assets/images/dashboards/img125608.png)
+![wdd-chart-secondary-y-axis](/assets/images/dashboards/img125608.png)
 
 To plot the required series using the secondary axis, go to the data item [Options](../../ui-elements/data-item-menu.md) menu for the value measure and turn the **Plot on Secondary Axis** option on.
 
@@ -223,18 +223,18 @@ To plot the required series using the secondary axis, go to the data item [Optio
 # Orientation
 You can rotate the Chart so that the X-axis becomes vertical, and the Y-axis becomes horizontal.
 
-![wdd-chart-rotated](..//assets/images/dashboards/img125615.png)
+![wdd-chart-rotated](/assets/images/dashboards/img125615.png)
 
 To rotate a Chart in the Web Dashboard, open the Chart's [Options](../../ui-elements/dashboard-item-menu.md) menu and go to **Common** section. Then, turn the **Rotated** option on.
 
-![wdd-chart-rotated-option](..//assets/images/dashboards/img125614.png)
+![wdd-chart-rotated-option](/assets/images/dashboards/img125614.png)
 
 
 ## Conditional Formatting
 
 Use conditional formatting to highlight chart elements such as bars, lines, areas, and data points.
 
-![web-cf-chart-main](..//assets/images/dashboards/web-cf-chart-main.png)
+![web-cf-chart-main](/assets/images/dashboards/web-cf-chart-main.png)
 
 The following [series types](series.md) support conditional formatting:
 
@@ -288,7 +288,7 @@ Specify appearance settings and set the condition's value to create a format rul
 
 The image below displays the **Value** rule settings. The condition colors points/bars if their values exceed 1400.
 
-![web-chart-greater-than-dialog-example](..//assets/images/dashboards/web-chart-greater-than-dialog-example.png)
+![web-chart-greater-than-dialog-example](/assets/images/dashboards/web-chart-greater-than-dialog-example.png)
 
 You can apply one of the predefined colors or set a custom color for this condition.
 
@@ -299,25 +299,25 @@ Use the **Apply to chart elements** button group to apply a rule to points or li
 
 If you select **Line / Area**, the format rule applies to the line when at least one line point meets the rule's condition: 
 
-![web-line-chart-with-applied-value-format-rule](..//assets/images/dashboards/web-line-chart-with-applied-value-format-rule.png)
+![web-line-chart-with-applied-value-format-rule](/assets/images/dashboards/web-line-chart-with-applied-value-format-rule.png)
 
 Go to the rule's **Legend** section and set the **Caption** field to specify the legend's text. It enables the **Display in Legend** option and the Chart item displays information about the applied rule in the legend.
 
-![web-chart-with-applied-value-format-rule](..//assets/images/dashboards/web-chart-with-applied-value-format-rule.png)
+![web-chart-with-applied-value-format-rule](/assets/images/dashboards/web-chart-with-applied-value-format-rule.png)
 
 For Range format rules, the legend display text is generated automatically and depends on range intervals:
 
-![web-chart-cf-range-format-rule](..//assets/images/dashboards/web-chart-cf-range-format-rule.png)
+![web-chart-cf-range-format-rule](/assets/images/dashboards/web-chart-cf-range-format-rule.png)
 
 ### Coloring
 
 A Chart item paints elements in pale gray if they do not meet the applied format condition. Note that this does not apply to elements that are painted by different hues.
 
-![web-chart-coloring-by-default-cf](..//assets/images/dashboards/web-chart-coloring-by-default-cf.png)
+![web-chart-coloring-by-default-cf](/assets/images/dashboards/web-chart-coloring-by-default-cf.png)
 
 Enable coloring for series to restore the color scheme:
 
-![web-chart-coloring-by-hue-with-applied-format-rule](..//assets/images/dashboards/web-chart-coloring-by-hue-with-applied-format-rule.png)
+![web-chart-coloring-by-hue-with-applied-format-rule](/assets/images/dashboards/web-chart-coloring-by-hue-with-applied-format-rule.png)
 
 > [!Tip]
 > **Documentation:**

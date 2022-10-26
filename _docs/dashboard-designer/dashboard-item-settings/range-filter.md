@@ -18,7 +18,7 @@ The only difference is in the data sections that the required dashboard item has
 ### Binding to Data in the Web Dashboard
 The image below shows a sample Range Filter dashboard item that is bound to data.
 
-![wdd-range-filter-bindings](..//assets/images/dashboards/img125355.png)
+![wdd-range-filter-bindings](/assets/images/dashboards/img125355.png)
 
 To bind the Range Filter dashboard item to data, click a placeholder contained in one of the available data sections and select the required data source field in the **Binding** section of the invoked [data item menu](../../ui-elements/data-item-menu.md).
 
@@ -35,7 +35,7 @@ The Range Filter dashboard item supports various **Line**, **Area** and **Bar** 
 
 To switch between series types, click the data item located in the **Values** section and select the required type from the **Type** section of the [data item menu](../../ui-elements/data-item-menu.md). To show all available types, click the ellipsis button.
 
-![wdd-range-filter-change-series-type](..//assets/images/dashboards/img125356.png)
+![wdd-range-filter-change-series-type](/assets/images/dashboards/img125356.png)
 
 The Range Filter supports the following series types.
 * Line
@@ -57,14 +57,14 @@ The Dashboard allows you to use any data-aware dashboard item as a filter for ot
 
 **Master filtering** is always enabled for the Range Filter dashboard item. The Range Filter displays a chart with selection thumbs that allow you to filter out values displayed along the argument axis.
 
-![wdd-dashboard-items-range-filter](..//assets/images/dashboards/img125127.png)
+![wdd-dashboard-items-range-filter](/assets/images/dashboards/img125127.png)
 
 The Range Filter supports the **Ignore Master Filters** and **Cross Data Source Filtering** options. To learn more, see the [Master Filtering](../../interactivity/master-filtering.md) topic.
 
 ### Predefined Periods
 The Range Filter dashboard item allows you to add a number of _predefined date-time periods_ that can be used to perform a selection.
 
-![wdd-range-filter-select-custom-period](..//assets/images/dashboards/img125361.png)
+![wdd-range-filter-select-custom-period](/assets/images/dashboards/img125361.png)
 
 To learn more about predefined periods, see [Predefined Periods](predefined-periods.md).
 
@@ -77,7 +77,7 @@ The Range Filter dashboard item allows you to add a number of predefined date-ti
 ### Add Predefined Ranges
 To add predefined ranges, open the Range Filter's [Options](../../ui-elements/dashboard-item-menu.md) menu and go to the **Custom Periods** section. Click "+" to add a new period.
 
-![wdd-range-filter-custom-intervals](..//assets/images/dashboards/img125362.png)
+![wdd-range-filter-custom-intervals](/assets/images/dashboards/img125362.png)
 
 You can specify the following settings for the start/end boundaries.
 * **Caption** - Specifies a predefined period caption.
@@ -148,6 +148,6 @@ Below you can find some examples of how to set up custom periods:
 	- Offset: 0
 
 ### Select Predefined Ranges
-To select a predefined period, click the **Select Date Time Period** button (the ![wdd-range-filter-custom-period-icon](..//assets/images/dashboards/img125360.png) icon) in the Range Filter's [caption](../../dashboard-layout/dashboard-item-caption.md) and select the required period from the list.
+To select a predefined period, click the **Select Date Time Period** button (the ![wdd-range-filter-custom-period-icon](/assets/images/dashboards/img125360.png) icon) in the Range Filter's [caption](../../dashboard-layout/dashboard-item-caption.md) and select the required period from the list.
 
-![wdd-range-filter-select-custom-period](..//assets/images/dashboards/img125361.png)
+![wdd-range-filter-select-custom-period](/assets/images/dashboards/img125361.png)

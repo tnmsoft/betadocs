@@ -18,7 +18,7 @@ The only difference is in the data sections that the required dashboard item has
 ### Binding to Data in the Web Dashboard
 The image below shows a sample Pivot dashboard item that is bound to data.
 
-![wdd-pivot-bindings](..//assets/images/dashboards/img125646.png)
+![wdd-pivot-bindings](/assets/images/dashboards/img125646.png)
 
 To bind the Pivot dashboard item to data, click a placeholder contained in one of the available data sections and select the required data source field in the **Binding** section of the invoked [data item menu](../../ui-elements/data-item-menu.md).
 
@@ -37,11 +37,11 @@ To enable interaction between the Pivot and other dashboard items, you can use t
 ### Master Filtering
 Data displayed in the Pivot dashboard item can be filtered by other master filter items. The image below displays the Pivot dashboard item filtered by [Tree View](../filter-elements.md).
 
-![wdd-pivot-interactivity](..//assets/images/dashboards/img125754.png)
+![wdd-pivot-interactivity](/assets/images/dashboards/img125754.png)
 
 You can prevent the pivot from being affected by other master filter items using the **Ignore Master Filters** button in the Pivot's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu.
 
-![wdd-pivot-interactivity](..//assets/images/dashboards/img125456.png)
+![wdd-pivot-interactivity](/assets/images/dashboards/img125456.png)
 
 To learn more about filtering concepts common to all dashboard items, see the [Master Filtering](../../interactivity/master-filtering.md) topic.
 
@@ -51,7 +51,7 @@ A Pivot dashboard item highlights cells with a certain color, depending on the c
 
 You can use [hidden measures](../../bind-dashboard-items-to-data/hidden-data-items.md) to specify a condition used to apply formatting to visible values. 
 
-![wdd-pivot-cf](..//assets/images/dashboards/img126057.png)
+![wdd-pivot-cf](/assets/images/dashboards/img126057.png)
 
 ### Supported Format Rules
 
@@ -104,7 +104,7 @@ Note the following specifics:
 
 The format rule's **Miscellaneous** section contains pivot-specific options:
 
-![](..//assets/images/dashboards/web-cf-pivot-miscellaneous.png)
+![](/assets/images/dashboards/web-cf-pivot-miscellaneous.png)
 
 | Option | Description |
 | --|--|
@@ -125,11 +125,11 @@ A Pivot item allows you to specify the field intersection to which a format rule
 
 For example, the Pivot item has three fields in the column area (_Year_, _Category_, and _Product_) and one field in the row area (_State_):
 
-![intersection_levels](..//assets/images/dashboards/intersection_levels.png)
+![intersection_levels](/assets/images/dashboards/intersection_levels.png)
 
 The image below displays different intersection levels with the applied format rule:
 
-![pivot_applied_levels](..//assets/images/dashboards/pivot_applied_levels.png)
+![pivot_applied_levels](/assets/images/dashboards/pivot_applied_levels.png)
 
 To apply a format rule to the row or column Grand Total, change the **Intersection Level Mode** to _Specific level_ and set the _[Grand Total]_ value as the intersection row/column dimension.  
 
@@ -147,15 +147,15 @@ If the Pivot dashboard item contains a hierarchy of dimensions in the [Rows](pro
 
 | Layout type | Example | Description |
 |---|---|---|
-| **Compact** | ![WebPivot_LayoutCompact](..//assets/images/dashboards/img127806.png) | Displays values from different Row dimensions in a single column. Note that in this case totals are displayed at the top of a group, and you cannot change [totals position](#totalsposition). |
-| **Tabular** | ![WebPivot_LayoutTabular](..//assets/images/dashboards/img127807.png) | Displays values from different Row dimensions in separate columns. |
+| **Compact** | ![WebPivot_LayoutCompact](/assets/images/dashboards/img127806.png) | Displays values from different Row dimensions in a single column. Note that in this case totals are displayed at the top of a group, and you cannot change [totals position](#totalsposition). |
+| **Tabular** | ![WebPivot_LayoutTabular](/assets/images/dashboards/img127807.png) | Displays values from different Row dimensions in separate columns. |
 
 To change the Pivot layout, go to **[Options menu](../../ui-elements/dashboard-item-menu.md)** | **Layout** and use the **Layout** option.
 
 ### <a name="totalsvisibility"/>Totals Visibility
 You can control the visibility of totals and grand totals for the entire Pivot dashboard item. For instance, the image below displays the Pivot dashboard item with the disabled row totals.
 
-![WebPivot_DisableRowTotals_Example](..//assets/images/dashboards/img127808.png)
+![WebPivot_DisableRowTotals_Example](/assets/images/dashboards/img127808.png)
 
 To manage the visibility of totals and grand totals, go to **[Options menu](../../ui-elements/dashboard-item-menu.md)** | **Layout** and use the following options:
 * **Row Totals** / **Row Grand Totals**
@@ -166,7 +166,7 @@ Moreover, you can control the visibility of totals for individual dimensions/mea
 ### <a name="totalsposition"/>Totals Position
 If necessary, you can change the position of totals/grand totals for the Pivot dashboard item. For instance, in the Image below the Pivot dashboard item whose row totals are moved from bottom to top.
 
-![WebPivot_RowTotals_Bottom_Top](..//assets/images/dashboards/img127809.png)
+![WebPivot_RowTotals_Bottom_Top](/assets/images/dashboards/img127809.png)
 
 To manage totals position, go to **[Options menu](../../ui-elements/dashboard-item-menu.md)** | **Layout** and use the following options:
 * **Row Totals Position**
@@ -175,22 +175,22 @@ To manage totals position, go to **[Options menu](../../ui-elements/dashboard-it
 ### <a name="valuesvisibility"/>Values Visibility
 The Pivot dashboard item can contain several measures in the [Values](providing-data.md) section. In this case, you can hide summary values corresponding to specific measures. For instance, the image below shows the Pivot with hidden _Quantity_ values.
 
-![WebPivot_ValuesVisibility](..//assets/images/dashboards/img127811.png)
+![WebPivot_ValuesVisibility](/assets/images/dashboards/img127811.png)
 
 To do this, go to **[Bindings menu](../../ui-elements/dashboard-item-menu.md)**, select the required measure and use its **Options** | **Show Values** option.
 
 ### <a name="valuesposition"/>Values Position
 The Pivot dashboard item allows you to control the position of headers used to arrange summary values corresponding to different measures. For instance, you can display values in columns or in rows.
 
-![WebPivot_ValuesPosition](..//assets/images/dashboards/img127810.png)
+![WebPivot_ValuesPosition](/assets/images/dashboards/img127810.png)
 
 To manage this position, go to **[Options menu](../../ui-elements/dashboard-item-menu.md)** | **Layout** and use the **Values Position** option.
 
 ## Expanded State
 If the [Columns or Rows](providing-data.md) section contains several data items, the Pivot column and row headers are arranged in a hierarchy and make up column and row groups.
 
-![wdd-pivot-expand-collapse.png](..//assets/images/dashboards/img125647.png)
+![wdd-pivot-expand-collapse.png](/assets/images/dashboards/img125647.png)
 
-You can collapse and expand row and column groups using the ![Pivot_Layout_ExpandCollapse_DownArrow](..//assets/images/dashboards/img20154.png) and ![Pivot_Layout_ExpandCollapse_UpArrow](..//assets/images/dashboards/img20155.png) buttons. However, the current expanded state of column and row groups do not save in the dashboard definition. If necessary, you can specify the default expanded state using the following options from **[Options menu](../../ui-elements/dashboard-item-menu.md)** | **Initial State**:
+You can collapse and expand row and column groups using the ![Pivot_Layout_ExpandCollapse_DownArrow](/assets/images/dashboards/img20154.png) and ![Pivot_Layout_ExpandCollapse_UpArrow](/assets/images/dashboards/img20155.png) buttons. However, the current expanded state of column and row groups do not save in the dashboard definition. If necessary, you can specify the default expanded state using the following options from **[Options menu](../../ui-elements/dashboard-item-menu.md)** | **Initial State**:
 * **Auto Expanded Column Groups** - Specifies whether column groups should be collapsed or expanded by default;
 * **Auto Expanded Row Groups** - Specifies whether row groups should be collapsed or expanded by default.
