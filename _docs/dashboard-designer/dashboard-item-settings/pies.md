@@ -54,7 +54,7 @@ To configure filtering type, open the Pie's [Interactivity](../../ui-elements/da
 
 ![wdd-chart-interactivity-set-points](/assets/images/dashboards/img125061.png)
 
-To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](/assets/images/dashboards/img125072.png) icon) in the Pie's [caption](../../dashboard-layout/dashboard-item-caption.md).
+To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](/assets/images/dashboards/img125072.png) icon) in the Pie's [caption]({% link _docs/dashboard-designer/dashboard-layout/dashboard-item-caption.md %}).
 
 ### <a name="drilldown"/>Drill-Down
 The drill-down capability allows you to change the detail level of data displayed in the Pie dashboard item. To learn more about drill-down concepts common to all dashboard items, see the [Drill-Down](../../interactivity/drill-down.md) topic.
@@ -82,7 +82,7 @@ To specify drill-down type, go to the Pie's [Interactivity](../../ui-elements/da
 
 ![wdd-chart-interactivity-set-series](/assets/images/dashboards/img125060.png)
 
-To return to the previous detail level, click the **Drill Up** button (the ![wdd-drill-up-icon](/assets/images/dashboards/img125074.png) icon) in the Pie's [caption](../../dashboard-layout/dashboard-item-caption.md).
+To return to the previous detail level, click the **Drill Up** button (the ![wdd-drill-up-icon](/assets/images/dashboards/img125074.png) icon) in the Pie's [caption]({% link _docs/dashboard-designer/dashboard-layout/dashboard-item-caption.md %}).
 
 
 ## Layout

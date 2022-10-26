@@ -148,6 +148,6 @@ Below you can find some examples of how to set up custom periods:
 	- Offset: 0
 
 ### Select Predefined Ranges
-To select a predefined period, click the **Select Date Time Period** button (the ![wdd-range-filter-custom-period-icon](/assets/images/dashboards/img125360.png) icon) in the Range Filter's [caption](../../dashboard-layout/dashboard-item-caption.md) and select the required period from the list.
+To select a predefined period, click the **Select Date Time Period** button (the ![wdd-range-filter-custom-period-icon](/assets/images/dashboards/img125360.png) icon) in the Range Filter's [caption]({% link _docs/dashboard-designer/dashboard-layout/dashboard-item-caption.md %}) and select the required period from the list.
 
 ![wdd-range-filter-select-custom-period](/assets/images/dashboards/img125361.png)

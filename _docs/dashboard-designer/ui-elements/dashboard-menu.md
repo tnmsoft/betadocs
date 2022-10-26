@@ -18,7 +18,7 @@ The dashboard menu consists of the following buttons.
 | **Open...** | This button allows you to [open](../open-a-dashboard.md) the existing dashboards. | Alt+O |
 | **Save** | Use this button to [save](../save-a-dashboard.md) the current dashboard. | Alt+S |
 | **Data Sources** | This button opens the **Data Sources** page where you can configure dashboard _data sources_. To learn more, see [Manage Data Sources](../provide-data/manage-data-sources.md). | Alt+A |
-| **Title** | This button opens the **Title** page where you can set a [dashboard title](../dashboard-layout/dashboard-title.md) and specify its settings like title visibility, alignment, etc. | Alt+T |
+| **Title** | This button opens the **Title** page where you can set a [dashboard title]({% link _docs/dashboard-designer/dashboard-layout/dashboard-title.md %}) and specify its settings like title visibility, alignment, etc. | Alt+T |
 | **Currency** | This button opens the **Currency** page. Here you can specify the **currency format** for the entire dashboard. To learn more about formatting, see [Formatting Data](../data-shaping/formatting-data.md). | Alt+C |
 | **Parameters** | This button invokes the **Parameters** page containing a list of **dashboard parameters** and their settings. To learn more about parameters, see [Dashboard Parameters](../data-analysis/dashboard-parameters.md). | 	Alt+P |
 | **Color Scheme** | This button opens the **Color Scheme** page where you can customize a **global color scheme** that provides consistent colors for identical values across the dashboard. To learn more about coloring, see [Coloring](../appearance-customization/coloring.md). | - |

@@ -26,7 +26,7 @@ The table below lists and describes the Treemap's data sections.
 
 | Section | Processed as | Description |
 |---|---|---|
-| **Values** | Measure | Contains data items that provide numeric data. You can fill several data item containers in the Values section and use the **Values** drop-down menu to switch between the provided values. To invoke the Values menu, click the ![DashboardItems_OtherElements](/assets/images/dashboards/img20169.png) icon in the [dashboard item caption](../../dashboard-layout/dashboard-item-caption.md). |
+| **Values** | Measure | Contains data items that provide numeric data. You can fill several data item containers in the Values section and use the **Values** drop-down menu to switch between the provided values. To invoke the Values menu, click the ![DashboardItems_OtherElements](/assets/images/dashboards/img20169.png) icon in the [dashboard item caption]({% link _docs/dashboard-designer/dashboard-layout/dashboard-item-caption.md %}). |
 | **Arguments** | Dimension | Contains data items that provide discrete categorical data. If the Arguments section contains several dimensions, you can [group](grouping.md) child tiles by values of the parent dimension. |
 
 
@@ -51,7 +51,7 @@ To enable **Master Filtering**, go to the Treemap's [Interactivity](../../ui-ele
 
 ![wdd-treemap-enable-interactivity](/assets/images/dashboards/img125960.png)
 
-To reset multiple filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](/assets/images/dashboards/img125072.png) icon) in the Treemap's [caption](../../dashboard-layout/dashboard-item-caption.md).
+To reset multiple filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](/assets/images/dashboards/img125072.png) icon) in the Treemap's [caption]({% link _docs/dashboard-designer/dashboard-layout/dashboard-item-caption.md %}).
 
 ### <a name="drilldown"/>Drill-Down
 The built-in drill-down capability allows end-users to change the detail level of data displayed in dashboard items on the fly. To learn more about drill-down concepts common to all dashboard items, see the [Drill-Down](../../interactivity/drill-down.md) topic.

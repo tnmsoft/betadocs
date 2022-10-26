@@ -51,7 +51,7 @@ To enable **Master Filtering**, go to the Scatter Chart's [Interactivity](../../
 
 ![wdd-dashboard-items-interactivity-section](/assets/images/dashboards/img125270.png)
 
-To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](/assets/images/dashboards/img125072.png) icon) in the Scatter Chart's [caption](../../dashboard-layout/dashboard-item-caption.md).
+To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](/assets/images/dashboards/img125072.png) icon) in the Scatter Chart's [caption]({% link _docs/dashboard-designer/dashboard-layout/dashboard-item-caption.md %}).
 
 ### <a name="drilldown"/>Drill-Down
 The Drill-Down feature allows you to change the detail level of data displayed in dashboard items. To learn more about concepts common to all dashboard items, see the [Drill-Down](../../interactivity/drill-down.md) topic.
@@ -71,7 +71,7 @@ To enable **Drill-Down**, go to the Scatter Chart's [Interactivity](../../ui-ele
 
 ![wdd-dashboard-items-interactivity-section](/assets/images/dashboards/img125270.png)
 
-To return to the previous detail level, click the **Drill Up** button (the ![wdd-drill-up-icon](/assets/images/dashboards/img125074.png) icon) in the Scatter Chart's [caption](../../dashboard-layout/dashboard-item-caption.md).
+To return to the previous detail level, click the **Drill Up** button (the ![wdd-drill-up-icon](/assets/images/dashboards/img125074.png) icon) in the Scatter Chart's [caption]({% link _docs/dashboard-designer/dashboard-layout/dashboard-item-caption.md %}).
 
 ## Legend
 A legend is an element of a scatter chart that identifies chart points (for instance, colored points corresponding to argument values).

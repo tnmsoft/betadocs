@@ -20,7 +20,7 @@ To completely design a dashboard item, perform the following steps.
 * Set specific dashboard item settings based on its type. To learn more, see [Dashboard Item Settings]({% link _docs/dashboard-designer/dashboard-item-settings/index.md %}).
 * Perform the required [data shaping](data-shaping.md) operations (such as [grouping](data-shaping/grouping.md), [sorting](data-shaping/sorting.md), [filtering](data-shaping/filtering.md), etc.).
 * Use the [interactivity](interactivity.md) features to enable interaction between various dashboard items.
-* Adjust the dashboard item's position and size (a [layout](dashboard-layout.md)) and specify the dashboard item caption settings.
+* Adjust the dashboard item's position and size (a [layout]({% link _docs/dashboard-designer/dashboard-layout/index.md %})) and specify the dashboard item caption settings.
 
 To remove the dashboard item from the dashboard surface, use the **Delete** button in the [dashboard item menu](ui-elements/dashboard-item-menu.md).
 

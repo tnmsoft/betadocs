@@ -91,7 +91,7 @@ You can enable or disable the capability to scroll/zoom the map using the **Lock
 
 ![wdd-map-lock-navigation](/assets/images/dashboards/img125404.png)
 
-To display the entire map within the dashboard item, use the **Initial Extent** button (the ![wdd-map-initial-size-icon](/assets/images/dashboards/img125402.png) icon) in the Geo Point Map's [caption](../../dashboard-layout/dashboard-item-caption.md).
+To display the entire map within the dashboard item, use the **Initial Extent** button (the ![wdd-map-initial-size-icon](/assets/images/dashboards/img125402.png) icon) in the Geo Point Map's [caption]({% link _docs/dashboard-designer/dashboard-layout/dashboard-item-caption.md %}).
 
 ![wdd-geo-point-map-initial-state](/assets/images/dashboards/img125453.png)
 
@@ -114,7 +114,7 @@ To enable **Master Filtering**, go to the Map's [Interactivity](../../ui-element
 
 ![wdd-interactivity-section-without-drill-down](/assets/images/dashboards/img125455.png)
 
-To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](/assets/images/dashboards/img125072.png) icon) in the Map's [caption](../../dashboard-layout/dashboard-item-caption.md).
+To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](/assets/images/dashboards/img125072.png) icon) in the Map's [caption]({% link _docs/dashboard-designer/dashboard-layout/dashboard-item-caption.md %}).
 
 ## Labels
 Geo Point maps provide the capability to display titles within map shapes and allow you to add supplementary content to the callout/bubble/pie tooltips.

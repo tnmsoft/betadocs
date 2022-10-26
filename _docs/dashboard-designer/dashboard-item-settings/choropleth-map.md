@@ -68,7 +68,7 @@ You can enable or disable the capability to scroll/zoom the map using the **Lock
 
 ![wdd-map-lock-navigation](/assets/images/dashboards/img125404.png)
 
-To display the entire map within the dashboard item, use the **Initial Extent** button (the ![wdd-map-initial-size-icon](/assets/images/dashboards/img125402.png) icon) in the Choropleth Map's [caption](../../dashboard-layout/dashboard-item-caption.md).
+To display the entire map within the dashboard item, use the **Initial Extent** button (the ![wdd-map-initial-size-icon](/assets/images/dashboards/img125402.png) icon) in the Choropleth Map's [caption]({% link _docs/dashboard-designer/dashboard-layout/dashboard-item-caption.md %}).
 
 ![wdd-choropleth-map-initial-state](/assets/images/dashboards/img125403.png)
 
@@ -89,7 +89,7 @@ To enable **Master Filtering**, go to the Choropleth Map's [Interactivity](../..
 
 ![wdd-interactivity-section-without-drill-down](/assets/images/dashboards/img125455.png)
 
-To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](/assets/images/dashboards/img125072.png) icon) in the Choropleth Map's [caption](../../dashboard-layout/dashboard-item-caption.md).
+To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](/assets/images/dashboards/img125072.png) icon) in the Choropleth Map's [caption]({% link _docs/dashboard-designer/dashboard-layout/dashboard-item-caption.md %}).
 
 ## Labels
 A Choropleth Map provides the capability to display titles within map shapes and allows you to manage what data to show in the shape tooltips.

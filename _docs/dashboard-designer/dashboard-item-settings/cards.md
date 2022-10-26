@@ -174,7 +174,7 @@ To enable **Master Filtering**, go to the Card's [Interactivity](../../ui-elemen
 
 ![wdd-dashboard-items-interactivity-section](/assets/images/dashboards/img125270.png)
 
-To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](/assets/images/dashboards/img125072.png) icon) in the Card's [caption](../../dashboard-layout/dashboard-item-caption.md).
+To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](/assets/images/dashboards/img125072.png) icon) in the Card's [caption]({% link _docs/dashboard-designer/dashboard-layout/dashboard-item-caption.md %}).
 
 ### <a name="drilldown"/>Drill-Down
 The built-in drill-down capability allows you to change the detail level of data displayed in dashboard items on the fly. To learn more about drill-down concepts common to all dashboard items, see the [Drill-Down](../../interactivity/drill-down.md) topic.
@@ -194,7 +194,7 @@ To enable **Drill-Down**, go to the Card's [Interactivity](../../ui-elements/das
 
 ![wdd-dashboard-items-interactivity-section](/assets/images/dashboards/img125270.png)
 
-To return to the previous detail level, click the **Drill Up** button (the ![wdd-drill-up-icon](/assets/images/dashboards/img125074.png) icon) in the Card's [caption](../../dashboard-layout/dashboard-item-caption.md).
+To return to the previous detail level, click the **Drill Up** button (the ![wdd-drill-up-icon](/assets/images/dashboards/img125074.png) icon) in the Card's [caption]({% link _docs/dashboard-designer/dashboard-layout/dashboard-item-caption.md %}).
 
 
 ## Cards Arrangement

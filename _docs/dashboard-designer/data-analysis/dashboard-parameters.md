@@ -95,6 +95,6 @@ The Web Dashboard provides a built-in **Dashboard Parameters** dialog, which pro
 
 ![Parameters_DashboardParametersDialog_Web](/assets/images/dashboards/img21818.png)
 
-To invoke the Dashboard Parameters dialog in the Web Dashboard, click the **Parameters** button (the ![Parameters_ParametersButtonWin_Title](/assets/images/dashboards/img21814.png) icon) in the [dashboard title](../../dashboard-layout/dashboard-title.md).
+To invoke the Dashboard Parameters dialog in the Web Dashboard, click the **Parameters** button (the ![Parameters_ParametersButtonWin_Title](/assets/images/dashboards/img21814.png) icon) in the [dashboard title]({% link _docs/dashboard-designer/dashboard-layout/dashboard-title.md %}).
 
 Select the required parameter values in the Dashboard Parameters dialog and click the **Submit** button to apply the changes. To restore the default values, click the **Reset** button.
