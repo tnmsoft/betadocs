@@ -2,6 +2,7 @@
 layout: default
 title: Dashboard Item Settings
 nav_order: 3
+has_children: true
 parent: Dashboard Designer
 ---
 # Dashboard Item Settings
