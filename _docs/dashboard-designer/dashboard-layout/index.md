@@ -2,6 +2,7 @@
 title: Dashboard Layout
 layout: default
 nav_order: 9
+has_children: true
 parent: Dashboard Designer
 ---
 # Dashboard Layout
