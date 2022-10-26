@@ -18,7 +18,7 @@ You can manage coloring for the following dashboard items.
 * [Chart]({% link _docs/dashboard-designer/dashboard-item-settings/chart.md %})
 * [Scatter Chart]({% link _docs/dashboard-designer/dashboard-item-settings/scatter-chart.md %})
 * [Pie]({% link _docs/dashboard-designer/dashboard-item-settings/pies.md %})
-* [Pie Map]({% link _docs/dashboard-designer/dashboard-item-settings/pie-map.md %})
+* [Pie Map]({% link _docs/dashboard-designer/dashboard-item-settings/geo-point-maps.md %})
 * [Range Filter]({% link _docs/dashboard-designer/dashboard-item-settings/range-filter.md %})
 * [Treemap]({% link _docs/dashboard-designer/dashboard-item-settings/tree-map.md %})
 

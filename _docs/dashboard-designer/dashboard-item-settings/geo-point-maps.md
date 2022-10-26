@@ -12,13 +12,13 @@ The topics in this section describe various types of **Geo Point Map** dashboard
 
 ## Map Types Overview
 The Web Dashboard allows you to create **three types** of Geo Point maps.
-* The [Geo Point Map](geo-point-map.md) dashboard item allows you to place callouts on the map using geographical coordinates.
+* The **Geo Point Map** dashboard item allows you to place callouts on the map using geographical coordinates.
 	
 	![wdd-dashboard-items-geo-point-map](/assets/images/dashboards/img125121.png)
-* The [Bubble Map](bubble-map.md) dashboard item allows you to place bubbles on the map. Each bubble can represent data using its weight and color.
+* The **Bubble Map** dashboard item allows you to place bubbles on the map. Each bubble can represent data using its weight and color.
 	
 	![wdd-dashboard-items-bubble-map](/assets/images/dashboards/img125115.png)
-* The [Pie Map](pie-map.md) dashboard item allows you to display pies on the map. Each pie visualizes the contribution of each value to the total.
+* The **Pie Map** dashboard item allows you to display pies on the map. Each pie visualizes the contribution of each value to the total.
 	
 	![wdd-dashboard-items-pie-map](/assets/images/dashboards/img125124.png)
 
