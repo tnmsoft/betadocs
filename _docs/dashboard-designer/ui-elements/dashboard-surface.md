@@ -6,7 +6,7 @@ parent: UI Elements
 grand_parent: Dashboard Designer
 ---
 # Dashboard Surface
-The **Dashboard Surface** is a rectangular area that displays the dashboard that you are designing. This area includes [dashboard items](../dashboard-item-settings.md) and the [dashboard title](../dashboard-layout/dashboard-title.md).
+The **Dashboard Surface** is a rectangular area that displays the dashboard that you are designing. This area includes [dashboard items]({% link _docs/dashboard-designer/dashboard-item-settings/index.md %}) and the [dashboard title](../dashboard-layout/dashboard-title.md).
 
 ![wdd-dashboard-surface](/assets/images/dashboards/img125804.png)
 

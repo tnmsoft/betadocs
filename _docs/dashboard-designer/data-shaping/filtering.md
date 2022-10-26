@@ -6,7 +6,7 @@ parent: Data Shaping
 grand_parent: Dashboard Designer
 ---
 # Filtering
-Web Dashboard allows you to filter data in the [dashboard items](../dashboard-item-settings.md) or apply filters to a specific measure. You can use [dimensions](../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md) and [hidden dimensions](../bind-dashboard-items-to-data/hidden-data-items.md) to build filter criteria.
+Web Dashboard allows you to filter data in the [dashboard items]({% link _docs/dashboard-designer/dashboard-item-settings/index.md %}) or apply filters to a specific measure. You can use [dimensions](../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md) and [hidden dimensions](../bind-dashboard-items-to-data/hidden-data-items.md) to build filter criteria.
 
 ![Filtering_Main](/assets/images/dashboards/filtering_main132414.png)
 

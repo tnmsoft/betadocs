@@ -6,7 +6,7 @@ parent: Appearance Customization
 grand_parent: Dashboard Designer
 ---
 # Conditional Formatting
-The Web Dashboard supports conditional formatting. You can apply a custom style to data elements that satisfy a certain condition for [Grid](../dashboard-item-settings/grid.md), [Pivot](../dashboard-item-settings/pivot.md), [Chart](../dashboard-item-settings/chart.md), [Scatter Chart](../dashboard-item-settings/scatter-chart.md) and [Card](../dashboard-item-settings/cards.md) items.
+The Web Dashboard supports conditional formatting. You can apply a custom style to data elements that satisfy a certain condition for [Grid]({% link _docs/dashboard-designer/dashboard-item-settings/grid.md %}), [Pivot]({% link _docs/dashboard-designer/dashboard-item-settings/pivot.md %}), [Chart]({% link _docs/dashboard-designer/dashboard-item-settings/chart.md %}), [Scatter Chart]({% link _docs/dashboard-designer/dashboard-item-settings/scatter-chart.md %}) and [Card]({% link _docs/dashboard-designer/dashboard-item-settings/cards.md %}) items.
 
 ![wdd-cf-main](/assets/images/dashboards/img126130.png)
 
@@ -110,8 +110,8 @@ You can change generated colors for the Range format rules:
 
 See the following sections for more information about specific format settings for dashboard items:
 
-* [Conditional Formatting - Grid](../dashboard-item-settings/grid/conditional-formatting.md)
-* [Conditional Formatting - Pivot](../dashboard-item-settings/pivot/conditional-formatting.md)
-* [Conditional Formatting - Card](../dashboard-item-settings/cards/conditional-formatting.md)
-* [Conditional Formatting - Chart](../dashboard-item-settings/chart/conditional-formatting.md)
-* [Conditional Formatting - Scatter Chart](../dashboard-item-settings/scatter-chart/conditional-formatting.md) 
+* [Conditional Formatting - Grid]({% link _docs/dashboard-designer/dashboard-item-settings/grid.md %})
+* [Conditional Formatting - Pivot]({% link _docs/dashboard-designer/dashboard-item-settings/pivot.md %})
+* [Conditional Formatting - Card]({% link _docs/dashboard-designer/dashboard-item-settings/cards.md %})
+* [Conditional Formatting - Chart]({% link _docs/dashboard-designer/dashboard-item-settings/chart.md %})
+* [Conditional Formatting - Scatter Chart]({% link _docs/dashboard-designer/dashboard-item-settings/scatter-chart.md %})

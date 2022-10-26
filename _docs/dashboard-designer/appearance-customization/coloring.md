@@ -15,12 +15,12 @@ The Web Dashboard provides the capability to manage the coloring of dashboard it
 
 ## <a name="supporteditems"/>Supported Dashboard Items
 You can manage coloring for the following dashboard items.
-* [Chart](../dashboard-item-settings/chart.md)
-* [Scatter Chart](../dashboard-item-settings/scatter-chart.md)
-* [Pie](../dashboard-item-settings/pies.md)
-* [Pie Map](../dashboard-item-settings/geo-point-maps/pie-map.md)
-* [Range Filter](../dashboard-item-settings/range-filter.md)
-* [Treemap](../dashboard-item-settings/treemap.md)
+* [Chart]({% link _docs/dashboard-designer/dashboard-item-settings/chart.md %})
+* [Scatter Chart]({% link _docs/dashboard-designer/dashboard-item-settings/scatter-chart.md %})
+* [Pie]({% link _docs/dashboard-designer/dashboard-item-settings/pies.md %})
+* [Pie Map]({% link _docs/dashboard-designer/dashboard-item-settings/pie-map.md %})
+* [Range Filter]({% link _docs/dashboard-designer/dashboard-item-settings/range-filter.md %})
+* [Treemap]({% link _docs/dashboard-designer/dashboard-item-settings/tree-map.md %})
 
 ## <a name="overview"/>Color Schemes Overview
 The dashboard provides two ways of coloring dashboard item elements.
@@ -46,7 +46,7 @@ The following coloring settings are available.
 
 | Setting | Description |
 |---|---|
-| **Auto** | Dimension values/measures are colored by default. To learn how specific dashboard items color their elements by default, see the **Coloring** topic for the corresponding [dashboard item](../dashboard-item-settings.md). |
+| **Auto** | Dimension values/measures are colored by default. To learn how specific dashboard items color their elements by default, see the **Coloring** topic for the corresponding [dashboard item]({% link _docs/dashboard-designer/dashboard-item-settings/index.md %}). |
 | **On** | Dimension values/measures are colored by different hues. |
 | **Off** | Dimension values/measures are colored with the same color. |
 

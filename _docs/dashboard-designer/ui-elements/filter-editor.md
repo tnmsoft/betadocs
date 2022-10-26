@@ -8,7 +8,7 @@ grand_parent: Dashboard Designer
 
 # Filter Editor
 
-The Filter Editor dialog allows you to specify filter criteria for [data sources](../../provide-data/create-a-new-data-source.md), [SQL queries](../../provide-data/working-with-sql-data-sources/manage-sql-queries.md), and [dashboard items](../../dashboard-item-settings.md).
+The Filter Editor dialog allows you to specify filter criteria for [data sources](../../provide-data/create-a-new-data-source.md), [SQL queries](../../provide-data/working-with-sql-data-sources/manage-sql-queries.md), and [dashboard items]({% link _docs/dashboard-designer/dashboard-item-settings/index.md %}).
 
 ## Use Filter Editor
 The Filter Editor displays filter criteria as a tree where individual nodes specify simple filter conditions. The root node is the logical operator that combines all the conditions. Click this node and select the desired type to change the logical operator.

@@ -222,9 +222,6 @@ For the Card dashboard item, you can apply conditional formatting to the card's 
 
 ![](/assets/images/dashboards/web-dashboard-card-conditional-formatting.png)
 
-> [!Note]
-> Cards that use a [legacy layout](https://docs.devexpress.com/Dashboard/118608/create-dashboards/create-dashboards-on-the-web/dashboard-item-settings/cards/layout#legacy-layout-v162-and-earlier) do not support conditional formatting.
-
 ### Supported Format Rules
 
 Format rules that can be applied to different data item types are as follows:

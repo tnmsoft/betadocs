@@ -10,7 +10,7 @@ The Web Dashboard allows you to combine dashboard items into a group. The dashbo
 * Combine dashboard items within the dashboard into a separate [layout](../dashboard-layout/dashboard-items-layout.md) group.
 * Manage [interaction](../interactivity.md) between dashboard items within and outside the group.
 
-For example, you can combine related [filter elements](filter-elements.md) and data visualization [dashboard items](../dashboard-item-settings.md) into a group.
+For example, you can combine related [filter elements](filter-elements.md) and data visualization [dashboard items]({% link _docs/dashboard-designer/dashboard-item-settings/index.md %}) into a group.
 
 ![wdd-dashboard-group](/assets/images/dashboards/img125758.png)
 
