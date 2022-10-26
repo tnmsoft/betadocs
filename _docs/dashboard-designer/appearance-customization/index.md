@@ -2,6 +2,7 @@
 title: Appearance Customization
 layout: default
 nav_order: 6
+has_children: true
 parent: Dashboard Designer
 ---
 # Appearance Customization
