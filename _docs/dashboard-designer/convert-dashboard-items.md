@@ -28,7 +28,7 @@ The following settings are kept if the dashboard item is being converted to an i
 
 For different types of dashboard items, some specific settings can be preserved. For example, the following settings are preserved.
 * Legend settings for the [Chart]({% link _docs/dashboard-designer/dashboard-item-settings/chart.md %})/[Scatter Chart]({% link _docs/dashboard-designer/dashboard-item-settings/scatter-chart.md %}) dashboard items.
-* Series types for the [Chart({% link _docs/dashboard-designer/dashboard-item-settings/chart.md %})Range Filter]({% link _docs/dashboard-designer/dashboard-item-settings/range-filter.md %}) dashboard items.
+* Series types for the [Chart]{% link _docs/dashboard-designer/dashboard-item-settings/chart.md %})/[Range Filter]({% link _docs/dashboard-designer/dashboard-item-settings/range-filter.md %}) dashboard items.
 * Element arrangement settings for the [Pie]({% link _docs/dashboard-designer/dashboard-item-settings/pies.md %})/[Card]({% link _docs/dashboard-designer/dashboard-item-settings/cards.md %})/[Gauge]({% link _docs/dashboard-designer/dashboard-item-settings/gauges.md %}) dashboard items.
 * Caption settings for the [Pie]({% link _docs/dashboard-designer/dashboard-item-settings/pies.md %})/[Gauge]({% link _docs/dashboard-designer/dashboard-item-settings/gauges.md %}) dashboard items.
 * Navigation settings for [Choropleth Map]({% link _docs/dashboard-designer/dashboard-item-settings/choropleth-map.md %})/[Geo Point Maps]({% link _docs/dashboard-designer/dashboard-item-settings/geo-point-maps.md %}).
