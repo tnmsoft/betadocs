@@ -129,6 +129,6 @@ Here you can select the attribute whose values are displayed within correspondin
 ### Tooltips
 Geo Point maps also allow you to add supplementary content to the callout/bubble/pie tooltips using the **Tooltip Measures** and **Tooltip Dimensions** data sections.
 
-To add an additional information, click a placeholder contained in one of the available data sections and select the required measure/dimension in the **Binding** section of the invoked [data item menu](../../ui-elements/data-item-menu.md).
+To add an additional information, click a placeholder contained in one of the available data sections and select the required measure/dimension in the **Binding** section of the invoked [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).
 
 ![wdd-geo-point-map-toltips](/assets/images/dashboards/img125462.png)

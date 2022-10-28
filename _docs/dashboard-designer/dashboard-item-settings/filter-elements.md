@@ -68,7 +68,7 @@ This topic describes how to bind **filter elements** to data using the Web Dashb
 ### Binding Overview
 All filter elements provide the **Dimensions** data section, which accepts dimensions used to provide filter values.
 
-To bind the filter elements to data, click a placeholder contained in one of the available data sections and select the required data source field in the **Binding** section of the invoked [data item menu](../../ui-elements/data-item-menu.md).
+To bind the filter elements to data, click a placeholder contained in one of the available data sections and select the required data source field in the **Binding** section of the invoked [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).
 
 To learn about the specifics of binding various filter elements to data, see the table below.
 

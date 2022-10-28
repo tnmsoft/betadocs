@@ -23,7 +23,7 @@ To create a Date Filter item, click the **Date Filter** item (the  ![](/assets/i
 
 ## Bind to Data
 
-Click the **Dimension** placeholder in the data section and select the required data source field in the **Binding** section of the invoked [data item menu](../ui-elements/data-item-menu.md) to bind the Date Filter to data.
+Click the **Dimension** placeholder in the data section and select the required data source field in the **Binding** section of the invoked [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}) to bind the Date Filter to data.
 
 ![](/assets/images/dashboards/datefilter-web-data-binding.png)
 
@@ -39,7 +39,7 @@ You can configure whether to display the Date Picker in the Date Filter item. Fo
 
 ## Display Format
 
-To specify the date-time value format, use the **Format Type** option in the **Format** section of the [data item menu](../ui-elements/data-item-menu.md), as described in the Formatting Data topic.
+To specify the date-time value format, use the **Format Type** option in the **Format** section of the [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}), as described in the Formatting Data topic.
 
 To specify a custom string displayed in the Date Picker component, go to the dashboard item [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu, open the **Layout** section and fill in the **Display Text Pattern** text field:
 

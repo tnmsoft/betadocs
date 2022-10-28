@@ -20,7 +20,7 @@ The image below shows a sample Treemap dashboard item that is bound to data.
 
 ![wdd-treemap-bindings](/assets/images/dashboards/img125955.png)
 
-To bind the Treemap dashboard item to data, click a placeholder contained in one of the available data sections and select the required data source field in the **Binding** section of the invoked [data item menu](../../ui-elements/data-item-menu.md).
+To bind the Treemap dashboard item to data, click a placeholder contained in one of the available data sections and select the required data source field in the **Binding** section of the invoked [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).
 
 The table below lists and describes the Treemap's data sections.
 
@@ -107,7 +107,7 @@ If you use several arguments in the Treemap, you can group tiles corresponding t
 
 ![wdd-treemap-ungroupped](/assets/images/dashboards/img125968.png)
 
-To group sub-categories inside corresponding categories, click the _Product Category_ data item and go to the **Tile Options** section of the [data item menu](../../ui-elements/data-item-menu.md). There, toggle the **Group Tiles** option on.
+To group sub-categories inside corresponding categories, click the _Product Category_ data item and go to the **Tile Options** section of the [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}). There, toggle the **Group Tiles** option on.
 
 ![wdd-treemap-group-tiles-option](/assets/images/dashboards/img125967.png)
 

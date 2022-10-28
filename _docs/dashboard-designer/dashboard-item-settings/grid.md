@@ -21,7 +21,7 @@ The image below shows a sample Grid dashboard item that is bound to data.
 
 ![wdd-grid-binding](/assets/images/dashboards/img125397.png)
 
-To bind the Grid dashboard item to data, click a placeholder contained in one of the available data sections and select the required data source field in the **Binding** section of the invoked [data item menu](../../ui-elements/data-item-menu.md).
+To bind the Grid dashboard item to data, click a placeholder contained in one of the available data sections and select the required data source field in the **Binding** section of the invoked [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).
 
 The table below lists and describes the Grid's data sections.
 
@@ -62,7 +62,7 @@ The Grid dashboard item supports four types of columns.
 	
 	The difference between these values is displayed within the column.
 	
-	You can configure delta options in the **Delta Options** section of the [column menu](../../ui-elements/data-item-menu.md).
+	You can configure delta options in the **Delta Options** section of the [column menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).
 * **Sparkline**
 	
 	A sparkline column visualizes the variation of summary values over time.
@@ -75,7 +75,7 @@ The Grid dashboard item supports four types of columns.
 
 When you drop a data item into the Columns section, the type for the new column is determined automatically based on the data type.
 
-To change the column type, open the [column menu](../../ui-elements/data-item-menu.md) and click the corresponding type button.
+To change the column type, open the [column menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}) and click the corresponding type button.
 
 ![wdd-grid-column-type](/assets/images/dashboards/img125212.png)
 
@@ -162,7 +162,7 @@ You can create and edit format rules in the **Conditional Formatting** section t
 
 * The dashboard item's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu
 
-* The [data item menu](../../ui-elements/data-item-menu.md)
+* The [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %})
 
 Refer to the following topic for information on how to create and edit format rules: [Conditional Formatting in Web Dashboard](../../appearance-customization/conditional-formatting.md).
 
@@ -208,7 +208,7 @@ You can create totals using different sets of summary functions. This depends on
 > Note that the **Auto** type is available only for the [measure](columns.md) column.
 
 ### <a name="create"/>Create and Edit Totals
-To create a total, open a [data item menu](../../ui-elements/data-item-menu.md) and go to the **Totals** section. Click "+" to add a new total.
+To create a total, open a [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}) and go to the **Totals** section. Click "+" to add a new total.
 
 To change the total type, open the drop down list and select the required type.
 

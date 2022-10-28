@@ -20,7 +20,7 @@ The image below shows a sample Gauge dashboard item that is bound to data.
 
 ![wdd-gauge-bindings](/assets/images/dashboards/img125621.png)
 
-To bind the Gauge dashboard item to data, click a placeholder contained in one of the available data sections and select the required data source field in the **Binding** section of the invoked [data item menu](../../ui-elements/data-item-menu.md).
+To bind the Gauge dashboard item to data, click a placeholder contained in one of the available data sections and select the required data source field in the **Binding** section of the invoked [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).
 
 The table below lists and describes the Gauge's data sections.
 
@@ -37,7 +37,7 @@ Delta is shown with a _delta indicator_ (indicating whether the actual value is 
 
 ![wdd-gauge-delta](/assets/images/dashboards/img125316.png)
 
-After you add the data item containing _actual_ data, you can add the second data item (optional) that contains _target_ data. To customize settings that relate to the calculation and display of deltas, open the **Delta Options** section of the [data item menu](../../ui-elements/data-item-menu.md).
+After you add the data item containing _actual_ data, you can add the second data item (optional) that contains _target_ data. To customize settings that relate to the calculation and display of deltas, open the **Delta Options** section of the [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).
 
 ![wdd-gauge-options](/assets/images/dashboards/img125312.png)
 
@@ -56,7 +56,7 @@ By default, the Gauge dashboard item automatically determines the range of the g
 
 ![wdd-gauge-scale](/assets/images/dashboards/img125318.png)
 
-You can override this behavior and specify maximum and minimum values on the scale. After you add the data item, open the **Scale Options** section of the [data item menu](../../ui-elements/data-item-menu.md) to customize the gauge scale.
+You can override this behavior and specify maximum and minimum values on the scale. After you add the data item, open the **Scale Options** section of the [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}) to customize the gauge scale.
 
 ![wdd-gauge-options](/assets/images/dashboards/img125312.png)
 

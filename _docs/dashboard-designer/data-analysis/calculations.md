@@ -8,7 +8,7 @@ grand_parent: Dashboard Designer
 # Calculations
 **Window calculations** provide the capability to apply specific computations to measure values and allow you to perform different analytical tasks such as computing running totals, percentages of totals, differences, etc.
 
-To create a window calculation, invoke the [Bindings]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and click the required measure. In the invoked [Data Item Menu](../ui-elements/data-item-menu.md), go to **Calculations** and select one of the available calculations.
+To create a window calculation, invoke the [Bindings]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and click the required measure. In the invoked [Data Item Menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}), go to **Calculations** and select one of the available calculations.
 
 ![WebDashboard_CalculationsMenu](/assets/images/dashboards/img126064.png)
 * [Percent of Total](#percent-of-total)

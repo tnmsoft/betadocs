@@ -20,7 +20,7 @@ The image below shows a sample Chart dashboard item that is bound to data.
 
 ![wdd-chart-binding](/assets/images/dashboards/img125010.png)
 
-To bind the Chart dashboard item to data, click a placeholder contained in one of the available data sections and select the required data source field in the **Binding** section of the invoked [data item menu](../../ui-elements/data-item-menu.md).
+To bind the Chart dashboard item to data, click a placeholder contained in one of the available data sections and select the required data source field in the **Binding** section of the invoked [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).
 
 The table below lists and describes the Chart's data sections.
 
@@ -196,7 +196,7 @@ If a continuous axis is used, the distance between argument values is proportion
 
 ![wdd-chart-discrete-axis](/assets/images/dashboards/img125612.png)
 
-To specify the X-axis type in the Web Dashboard, go to the data item [Data Shaping](../../ui-elements/data-item-menu.md) menu for the argument dimension and select the axis type. The image below illustrates how to change this setting for the _Product Base Margin_ data item.
+To specify the X-axis type in the Web Dashboard, go to the data item [Data Shaping]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}) menu for the argument dimension and select the axis type. The image below illustrates how to change this setting for the _Product Base Margin_ data item.
 
 ![wdd-chart-discrete-axis-option](/assets/images/dashboards/img125613.png)
 
@@ -217,7 +217,7 @@ The secondary Y-axis is useful when it is necessary to visually combine several 
 
 ![wdd-chart-secondary-y-axis](/assets/images/dashboards/img125608.png)
 
-To plot the required series using the secondary axis, go to the data item [Options](../../ui-elements/data-item-menu.md) menu for the value measure and turn the **Plot on Secondary Axis** option on.
+To plot the required series using the secondary axis, go to the data item [Options]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}) menu for the value measure and turn the **Plot on Secondary Axis** option on.
 
 
 # Orientation
@@ -278,7 +278,7 @@ You can create and edit format rules in the **Conditional Formatting** section t
 
 * The dashboard item's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu
 
-* The [data item menu](../../ui-elements/data-item-menu.md)
+* The [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %})
 
 Refer to the following topic for information on how to create and edit format rules: [Conditional Formatting in Web Dashboard](../../appearance-customization/conditional-formatting.md).
 

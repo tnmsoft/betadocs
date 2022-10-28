@@ -53,7 +53,7 @@ Format conditions that can be applied to different data item types are as follow
 
 ## Create a Format Rule
 
-To create a format rule, open the **Conditional Formatting** section in the dashboard item's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu or in the [data item menu](../ui-elements/data-item-menu.md). Click "+" to add a new format rule:
+To create a format rule, open the **Conditional Formatting** section in the dashboard item's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu or in the [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}). Click "+" to add a new format rule:
 	
 ![wed-dashboard-cf-add-rule](/assets/images/dashboards/wed-dashboard-cf-add-rule.png)
 

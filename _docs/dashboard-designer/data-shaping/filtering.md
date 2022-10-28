@@ -27,14 +27,14 @@ This invokes the [Filter Editor](../ui-elements/dialogs-and-wizards/filter-edito
 
 You can apply filters to individual [measures](../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md). If you create multiple measures that only differ in applied filters, you can compare values calculated over different date-time periods or against different categories.
 
-Open a dashboard item's [Binding]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and select a measure to filter. In the invoked [data item menu](../ui-elements/data-item-menu.md), open the **Filter** section and click **Edit**. This invokes the [Filter Editor](../ui-elements/dialogs-and-wizards/filter-editor.md) dialog where you can specify filter criteria. 
+Open a dashboard item's [Binding]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and select a measure to filter. In the invoked [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}), open the **Filter** section and click **Edit**. This invokes the [Filter Editor](../ui-elements/dialogs-and-wizards/filter-editor.md) dialog where you can specify filter criteria. 
 
 ![web-filter-to-measure-menu](/assets/images/dashboards/web-filter-to-measure-menu.png)
 
 > [!Tip]
 > **Documentation**: [Filter Editor](../ui-elements/dialogs-and-wizards/filter-editor.md)
 
-You can clear the applied filter in the [data item menu](../ui-elements/data-item-menu.md)'s **Filter** section.
+You can clear the applied filter in the [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %})'s **Filter** section.
 
 > [!Note]
 > The measure filter is technically an expression that uses the `filter(summaryExpression, filterCriteria)` function, where `summaryExpression` is the measure to be filtered and `filterCriteria` is the filter. See the following topic for more information about functions you can use in dashboard expressions: [Expression Constants, Operators, and Functions](../data-analysis/expression-constants-operators-and-functions.md).

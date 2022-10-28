@@ -20,7 +20,7 @@ The image below shows a sample Range Filter dashboard item that is bound to data
 
 ![wdd-range-filter-bindings](/assets/images/dashboards/img125355.png)
 
-To bind the Range Filter dashboard item to data, click a placeholder contained in one of the available data sections and select the required data source field in the **Binding** section of the invoked [data item menu](../../ui-elements/data-item-menu.md).
+To bind the Range Filter dashboard item to data, click a placeholder contained in one of the available data sections and select the required data source field in the **Binding** section of the invoked [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).
 
 The table below lists and describes the Range Filter's data sections.
 
@@ -33,7 +33,7 @@ The table below lists and describes the Range Filter's data sections.
 ## Series
 The Range Filter dashboard item supports various **Line**, **Area** and **Bar** series types.
 
-To switch between series types, click the data item located in the **Values** section and select the required type from the **Type** section of the [data item menu](../../ui-elements/data-item-menu.md). To show all available types, click the ellipsis button.
+To switch between series types, click the data item located in the **Values** section and select the required type from the **Type** section of the [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}). To show all available types, click the ellipsis button.
 
 ![wdd-range-filter-change-series-type](/assets/images/dashboards/img125356.png)
 

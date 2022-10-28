@@ -20,7 +20,7 @@ The image below shows a sample Choropleth Map dashboard item that is bound to da
 
 ![wdd-choropleth-map-binding](/assets/images/dashboards/img125398.png)
 
-To bind the Choropleth Map dashboard item to data, click a placeholder contained in one of the available data sections and select the required data source field in the **Binding** section of the invoked [data item menu](../../ui-elements/data-item-menu.md).
+To bind the Choropleth Map dashboard item to data, click a placeholder contained in one of the available data sections and select the required data source field in the **Binding** section of the invoked [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).
 
 The list below illustrates the Choropleth Map's data sections.
 * **Attribute** - Processed as _Dimension_ - Allows you to associate map shapes with data source field values. To learn more about attributes, see the [Map Attributes](providing-maps.md) section.
@@ -46,10 +46,10 @@ When you switch the map type to _Delta_, a new **Target** data item container ap
 
 ![wdd-choropleth-map-add-delta](/assets/images/dashboards/img125406.png)
 
-Click it to open the target [data item menu](../../ui-elements/data-item-menu.md) and provide data for the target value.
+Click it to open the target [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}) and provide data for the target value.
 
 ### Delta Options
-To specify delta indication settings, go to the **Delta Options** section of the [data item menu](../../ui-elements/data-item-menu.md). Here you can specify the delta display mode (e.g., value or bar), value type, result indication, comparison tolerance, etc.
+To specify delta indication settings, go to the **Delta Options** section of the [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}). Here you can specify the delta display mode (e.g., value or bar), value type, result indication, comparison tolerance, etc.
 
 The following options are available.
 

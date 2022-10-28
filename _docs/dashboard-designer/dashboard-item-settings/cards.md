@@ -20,7 +20,7 @@ The image below shows a sample Card dashboard item that is bound to data.
 
 ![wdd-cards-data-bindings](/assets/images/dashboards/img125595.png)
 
-To bind the Card dashboard item to data, click a placeholder contained in one of the available data sections and select the required data source field in the **Binding** section of the invoked [data item menu](../../ui-elements/data-item-menu.md).
+To bind the Card dashboard item to data, click a placeholder contained in one of the available data sections and select the required data source field in the **Binding** section of the invoked [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).
 
 The table below lists and describes the Card's data sections.
 
@@ -62,7 +62,7 @@ To learn more about the available value types and visual elements, see [Change L
 > **Delta Indicator** and delta values (such as **Percent Variation** or **Absolute Variation**) are colored depending on delta settings. To learn how to manage delta settings, see [Delta](delta.md).
 
 ### <a name="change"/>Change Layout
-To change a card's layout in the Web Dashboard's UI, invoke the **[Binding menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %})**, click the required data item in the **[Cards](providing-data.md)** section and go to **Cards Layout** in the [data item's menu](../../ui-elements/data-item-menu.md).
+To change a card's layout in the Web Dashboard's UI, invoke the **[Binding menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %})**, click the required data item in the **[Cards](providing-data.md)** section and go to **Cards Layout** in the [data item's menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).
 Select the required layout type and click the **Edit** button (the ![wdd-icon-edit-collection-value-item](/assets/images/dashboards/img126050.png) icon) to change its settings. The following settings are available:
 * **Min width** - Specifies the minimum width of the card content.
 * **Max width** - Allows you to specify the maximum width of the card content. Select the **Auto** option to determine the maximum width automatically or switch to **Custom** and specify the required width manually.
@@ -94,7 +94,7 @@ Cards allow you to visualize the difference between the [actual and target](prov
 * **Delta Indicator** - Indicates whether the actual value is less or greater than the target value.
 * **Percent Variation** and **Absolute Variation** - delta values that show a difference between the actual and target value. You can also display the **Percent of Target** value. To do this, customize the [card's layout](layout.md).
 
-To customize settings that relate to the calculation and display of delta values/elements, invoke the [Binding menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}), click the required data item in the [Cards](providing-data.md) section and go to **Delta Options** in the [data item's menu](../../ui-elements/data-item-menu.md).
+To customize settings that relate to the calculation and display of delta values/elements, invoke the [Binding menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}), click the required data item in the [Cards](providing-data.md) section and go to **Delta Options** in the [data item's menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).
 
 Then, specify the following settings:
 * **Result Indication** - You can specify the condition for displaying delta indication.
@@ -134,7 +134,7 @@ You need to provide a date-time or numeric dimension (in the **[Sparkline](provi
 If you have provided both actual and target values, a sparkline visualizes the actual value's variation.
 
 ### <a name="options"/>Change Sparkline Options
-To change sparkline settings in the Web Dashboard's UI, invoke the **[Binding menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %})**, click the required data item in the **[Cards](providing-data.md)** section and go to **Sparkline Options** in the [data item's menu](../../ui-elements/data-item-menu.md).
+To change sparkline settings in the Web Dashboard's UI, invoke the **[Binding menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %})**, click the required data item in the **[Cards](providing-data.md)** section and go to **Sparkline Options** in the [data item's menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).
 The following options are available:
 
 | Sparkline Options | Description |
@@ -147,7 +147,7 @@ The following options are available:
 ## Formatting
 The Card dashboard item formats the [actual and target](providing-data.md) values displayed within cards using [format settings](../../data-shaping/formatting-data.md) specified for data items.
 
-To change format settings in the Web Dashboard's UI, invoke the **[Binding menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %})**, click the required data item in the **[Cards](providing-data.md)** section and go to **Format Options** in the [data item's menu](../../ui-elements/data-item-menu.md).
+To change format settings in the Web Dashboard's UI, invoke the **[Binding menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %})**, click the required data item in the **[Cards](providing-data.md)** section and go to **Format Options** in the [data item's menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).
 You can change format settings for the following [value types](layout.md):
 * **Actual Value**
 * **Target Value**
@@ -251,7 +251,7 @@ You can create and edit format rules in the **Conditional Formatting** section t
 
 * The dashboard item's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu
 
-* The [data item menu](../../ui-elements/data-item-menu.md)
+* The [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %})
 
 Refer to the following topic for information on how to create and edit format rules: [Conditional Formatting in Web Dashboard](../../appearance-customization/conditional-formatting.md).
 ### Card-Specific Format Condition Settings
