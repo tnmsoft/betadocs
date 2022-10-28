@@ -8,7 +8,7 @@ grand_parent: Dashboard Designer
 # Dashboard Item Group
 The Web Dashboard allows you to combine dashboard items into a group. The dashboard item group serves two main purposes.
 * Combine dashboard items within the dashboard into a separate [layout]({% link _docs/dashboard-designer/dashboard-layout/dashboard-items-layout.md %}) group.
-* Manage [interaction](../interactivity.md) between dashboard items within and outside the group.
+* Manage [interaction]({% link _docs/dashboard-designer/interactivity/index.md %}) between dashboard items within and outside the group.
 
 For example, you can combine related [filter elements](filter-elements.md) and data visualization [dashboard items]({% link _docs/dashboard-designer/dashboard-item-settings/index.md %}) into a group.
 
@@ -25,7 +25,7 @@ You can combine dashboard items into a group using several ways.
 > A dashboard item group cannot be added to another group.
 
 ## Interactivity
-The dashboard item group provides the capability to manage [interaction](../interactivity.md) between dashboard items within and outside the group. To specify interactivity settings, open the Group's [Interactivity](../ui-elements/dashboard-item-menu.md) menu.
+The dashboard item group provides the capability to manage [interaction]({% link _docs/dashboard-designer/interactivity/index.md %}) between dashboard items within and outside the group. To specify interactivity settings, open the Group's [Interactivity]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu.
 
 The **Master Filter** option allows you to specify whether the current group allows you to filter external dashboard items using master filter items contained within the group. If this option is disabled, master filter items contained within the group can filter only dashboard items from this group.
 

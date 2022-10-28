@@ -39,7 +39,7 @@ Data displayed in the Pivot dashboard item can be filtered by other master filte
 
 ![wdd-pivot-interactivity](/assets/images/dashboards/img125754.png)
 
-You can prevent the pivot from being affected by other master filter items using the **Ignore Master Filters** button in the Pivot's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu.
+You can prevent the pivot from being affected by other master filter items using the **Ignore Master Filters** button in the Pivot's [Interactivity]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu.
 
 ![wdd-pivot-interactivity](/assets/images/dashboards/img125456.png)
 
@@ -87,7 +87,7 @@ Refer to the following topic for more information about format condition types: 
 
 You can create and edit format rules in the **Conditional Formatting** section that is located in the following places:
 
-* The dashboard item's [Options](../../ui-elements/dashboard-item-menu.md) menu
+* The dashboard item's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu
 
 * The [data item menu](../../ui-elements/data-item-menu.md)
 
@@ -150,25 +150,25 @@ If the Pivot dashboard item contains a hierarchy of dimensions in the [Rows](pro
 | **Compact** | ![WebPivot_LayoutCompact](/assets/images/dashboards/img127806.png) | Displays values from different Row dimensions in a single column. Note that in this case totals are displayed at the top of a group, and you cannot change [totals position](#totalsposition). |
 | **Tabular** | ![WebPivot_LayoutTabular](/assets/images/dashboards/img127807.png) | Displays values from different Row dimensions in separate columns. |
 
-To change the Pivot layout, go to **[Options menu](../../ui-elements/dashboard-item-menu.md)** | **Layout** and use the **Layout** option.
+To change the Pivot layout, go to **[Options menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %})** | **Layout** and use the **Layout** option.
 
 ### <a name="totalsvisibility"/>Totals Visibility
 You can control the visibility of totals and grand totals for the entire Pivot dashboard item. For instance, the image below displays the Pivot dashboard item with the disabled row totals.
 
 ![WebPivot_DisableRowTotals_Example](/assets/images/dashboards/img127808.png)
 
-To manage the visibility of totals and grand totals, go to **[Options menu](../../ui-elements/dashboard-item-menu.md)** | **Layout** and use the following options:
+To manage the visibility of totals and grand totals, go to **[Options menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %})** | **Layout** and use the following options:
 * **Row Totals** / **Row Grand Totals**
 * **Column Totals** / **Column Grand Totals**
 
-Moreover, you can control the visibility of totals for individual dimensions/measures. To do this, go to **[Bindings menu](../../ui-elements/dashboard-item-menu.md)**, select the required data item and use its **Options** | **Show Totals** option.
+Moreover, you can control the visibility of totals for individual dimensions/measures. To do this, go to **[Bindings menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %})**, select the required data item and use its **Options** | **Show Totals** option.
 
 ### <a name="totalsposition"/>Totals Position
 If necessary, you can change the position of totals/grand totals for the Pivot dashboard item. For instance, in the Image below the Pivot dashboard item whose row totals are moved from bottom to top.
 
 ![WebPivot_RowTotals_Bottom_Top](/assets/images/dashboards/img127809.png)
 
-To manage totals position, go to **[Options menu](../../ui-elements/dashboard-item-menu.md)** | **Layout** and use the following options:
+To manage totals position, go to **[Options menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %})** | **Layout** and use the following options:
 * **Row Totals Position**
 * **Column Totals Position**
 
@@ -177,20 +177,20 @@ The Pivot dashboard item can contain several measures in the [Values](providing-
 
 ![WebPivot_ValuesVisibility](/assets/images/dashboards/img127811.png)
 
-To do this, go to **[Bindings menu](../../ui-elements/dashboard-item-menu.md)**, select the required measure and use its **Options** | **Show Values** option.
+To do this, go to **[Bindings menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %})**, select the required measure and use its **Options** | **Show Values** option.
 
 ### <a name="valuesposition"/>Values Position
 The Pivot dashboard item allows you to control the position of headers used to arrange summary values corresponding to different measures. For instance, you can display values in columns or in rows.
 
 ![WebPivot_ValuesPosition](/assets/images/dashboards/img127810.png)
 
-To manage this position, go to **[Options menu](../../ui-elements/dashboard-item-menu.md)** | **Layout** and use the **Values Position** option.
+To manage this position, go to **[Options menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %})** | **Layout** and use the **Values Position** option.
 
 ## Expanded State
 If the [Columns or Rows](providing-data.md) section contains several data items, the Pivot column and row headers are arranged in a hierarchy and make up column and row groups.
 
 ![wdd-pivot-expand-collapse.png](/assets/images/dashboards/img125647.png)
 
-You can collapse and expand row and column groups using the ![Pivot_Layout_ExpandCollapse_DownArrow](/assets/images/dashboards/img20154.png) and ![Pivot_Layout_ExpandCollapse_UpArrow](/assets/images/dashboards/img20155.png) buttons. However, the current expanded state of column and row groups do not save in the dashboard definition. If necessary, you can specify the default expanded state using the following options from **[Options menu](../../ui-elements/dashboard-item-menu.md)** | **Initial State**:
+You can collapse and expand row and column groups using the ![Pivot_Layout_ExpandCollapse_DownArrow](/assets/images/dashboards/img20154.png) and ![Pivot_Layout_ExpandCollapse_UpArrow](/assets/images/dashboards/img20155.png) buttons. However, the current expanded state of column and row groups do not save in the dashboard definition. If necessary, you can specify the default expanded state using the following options from **[Options menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %})** | **Initial State**:
 * **Auto Expanded Column Groups** - Specifies whether column groups should be collapsed or expanded by default;
 * **Auto Expanded Row Groups** - Specifies whether row groups should be collapsed or expanded by default.

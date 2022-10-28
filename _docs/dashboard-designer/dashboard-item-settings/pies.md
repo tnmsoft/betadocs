@@ -50,7 +50,7 @@ The Pie dashboard item supports filtering by **arguments**, **series** or **poin
 	
 	![wdd-pies-master-filter-points](/assets/images/dashboards/img125780.png)
 
-To configure filtering type, open the Pie's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and select **Arguments**, **Series** or **Points** as a target dimension.
+To configure filtering type, open the Pie's [Interactivity]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and select **Arguments**, **Series** or **Points** as a target dimension.
 
 ![wdd-chart-interactivity-set-points](/assets/images/dashboards/img125061.png)
 
@@ -78,7 +78,7 @@ The Pie supports drill-down on **argument** or **series** values.
 > [!NOTE]
 > In OLAP mode, you can perform drill-down for either a hierarchy data item or several dimension attributes.
 
-To specify drill-down type, go to the Pie's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and set **Arguments** or **Series** as the target dimension.
+To specify drill-down type, go to the Pie's [Interactivity]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and set **Arguments** or **Series** as the target dimension.
 
 ![wdd-chart-interactivity-set-series](/assets/images/dashboards/img125060.png)
 
@@ -90,7 +90,7 @@ The Pie dashboard item allows you to specify the number of columns or rows in wh
 
 ![wdd-pie-content-arr-fixed-column.png](/assets/images/dashboards/img125197.png)
 
-To control how cards are arranged, use the **Layout** section in the Pie's [Options](../../ui-elements/dashboard-item-menu.md) menu.
+To control how cards are arranged, use the **Layout** section in the Pie's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu.
 
 ![wdd-pie-content-arrangement](/assets/images/dashboards/img125199.png)
 
@@ -110,7 +110,7 @@ Pies display **data labels** that contain descriptions for pie segments, and pro
 
 ![wdd-pie-labels](/assets/images/dashboards/img125620.png)
 
-To configure data labels and tooltips, open the Pie's [Options](../../ui-elements/dashboard-item-menu.md) menu and go to the **Labels** section.
+To configure data labels and tooltips, open the Pie's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and go to the **Labels** section.
 
 ![wdd-pies-data-labels-options](/assets/images/dashboards/img125618.png) ![wdd-pies-tooltips-options](/assets/images/dashboards/img125619.png)
 
@@ -122,6 +122,6 @@ The Pie dashboard item allows you to select whether diagrams should be painted a
 
 ![wdd-pie-style-pie](/assets/images/dashboards/img125202.png)![wdd-pie-style-donut](/assets/images/dashboards/img125201.png)
 
-To select the diagram style, go to the **Style** section of the Pie's [Options](../../ui-elements/dashboard-item-menu.md) menu and use the **Pie** or **Donut** buttons.
+To select the diagram style, go to the **Style** section of the Pie's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and use the **Pie** or **Donut** buttons.
 
 ![wdd-pie-style-settings](/assets/images/dashboards/img125200.png)

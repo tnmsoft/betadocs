@@ -64,7 +64,7 @@ The following options are available.
 ## Map Navigation
 The Choropleth Map dashboard item allows you to perform navigation actions such as zooming and scrolling using the mouse.
 
-You can enable or disable the capability to scroll/zoom the map using the **Lock Navigation** setting in the Choropleth Map's [Options](../../ui-elements/dashboard-item-menu.md) menu.
+You can enable or disable the capability to scroll/zoom the map using the **Lock Navigation** setting in the Choropleth Map's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu.
 
 ![wdd-map-lock-navigation](/assets/images/dashboards/img125404.png)
 
@@ -85,7 +85,7 @@ The Choropleth Map dashboard item supports filtering by shapes. When Master Filt
 
 To learn more about filtering concepts common to all dashboard items, see the [Master Filtering](../../interactivity/master-filtering.md) topic.
 
-To enable **Master Filtering**, go to the Choropleth Map's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and select the required Master Filtering mode.
+To enable **Master Filtering**, go to the Choropleth Map's [Interactivity]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and select the required Master Filtering mode.
 
 ![wdd-interactivity-section-without-drill-down](/assets/images/dashboards/img125455.png)
 
@@ -94,7 +94,7 @@ To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-fil
 ## Labels
 A Choropleth Map provides the capability to display titles within map shapes and allows you to manage what data to show in the shape tooltips.
 
-To manage map titles and tooltips, go to the **Shape Labels** section of the Choropleth Map's [Options](../../ui-elements/dashboard-item-menu.md) menu.
+To manage map titles and tooltips, go to the **Shape Labels** section of the Choropleth Map's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu.
 
 ![wdd-choropleth-map-shape-labels](/assets/images/dashboards/img125421.png)
 
@@ -108,7 +108,7 @@ The following settings are available.
 ## Legend
 A **legend** is an element of a map that shows values corresponding to each color.
 
-To display a legend within a map, open the Choropleth Map's [Options](../../ui-elements/dashboard-item-menu.md) menu and go to the **Color Legend** section.
+To display a legend within a map, open the Choropleth Map's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and go to the **Color Legend** section.
 
 ![wdd-choropleth-map-legend](/assets/images/dashboards/img125418.png)
 

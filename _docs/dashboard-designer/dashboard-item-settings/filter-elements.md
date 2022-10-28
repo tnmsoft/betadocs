@@ -25,19 +25,19 @@ To add the required filter element to the dashboard, use corresponding buttons i
 ### Combo Box
 The **Combo Box** dashboard item allows you to select a value(s) from the drop-down list.
 
-You can switch the combo box type in the Combo Box's [Options](../../ui-elements/dashboard-item-menu.md) menu. The table below demonstrates available Combo Box's types.
+You can switch the combo box type in the Combo Box's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu. The table below demonstrates available Combo Box's types.
 
 | Standard | Checked |
 |---|---|
 | The **Standard** type allows you to select only a single value. | The **Checked** type allows you to select multiple values in the invoked drop-down list. |
 | ![wdd-combo-box-standard-type](/assets/images/dashboards/img125341.png) | ![wdd-combo-box-checked-type](/assets/images/dashboards/img126666.png) |
 
-By default, the Combo Box's dropdown contains an 'All' item that allows you to select/deselect all items in the Combo Box. To hide this item, turn off the **Show 'All' Value** option in the Combo Box's [Options](../../ui-elements/dashboard-item-menu.md) menu.
+By default, the Combo Box's dropdown contains an 'All' item that allows you to select/deselect all items in the Combo Box. To hide this item, turn off the **Show 'All' Value** option in the Combo Box's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu.
 
 ### List Box
 The **List Box** dashboard item allows you to select a value(s) from the list.
 
-You can switch the list box type in the List Box's [Options](../../ui-elements/dashboard-item-menu.md) menu. The table below demonstrates available List Box's types.
+You can switch the list box type in the List Box's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu. The table below demonstrates available List Box's types.
 
 | Checked | Radio |
 |---|---|
@@ -49,7 +49,7 @@ The **Tree View** dashboard item displays values in a hierarchical way and allow
 
 ![wdd-treeview](/assets/images/dashboards/img125343.png)
 
-You can manage the initial expanded state of filter values using the **Auto Expand** option in the Tree View's [Options](../../ui-elements/dashboard-item-menu.md) menu.
+You can manage the initial expanded state of filter values using the **Auto Expand** option in the Tree View's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu.
 
 ### Date Filter
 
@@ -95,4 +95,4 @@ You can also create a set of related filter elements containing relevant filter 
 
 ![wdd-filter-elements-ignore-group-filter](/assets/images/dashboards/img125352.png)
 
-Disable the **Ignore Master Filters** option in the [Interactivity](../../ui-elements/dashboard-item-menu.md) menu for the required filter element to allow the applying of filtering to this element.
+Disable the **Ignore Master Filters** option in the [Interactivity]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu for the required filter element to allow the applying of filtering to this element.

@@ -12,7 +12,7 @@ Web Dashboard allows you to filter data in the [dashboard items]({% link _docs/d
 
 ## Dashboard Item Filter
 
-Filters that are applied to a dashboard item affect only this item. Open a dashboard item's [Filters](../ui-elements/dashboard-item-menu.md) menu, go to the **Item Filter** section and click **Edit** to add a filter:
+Filters that are applied to a dashboard item affect only this item. Open a dashboard item's [Filters]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu, go to the **Item Filter** section and click **Edit** to add a filter:
 
 ![wdd-invoke-filter-editor](/assets/images/dashboards/wdd-invoke-filter-editor124630.png)
 
@@ -27,7 +27,7 @@ This invokes the [Filter Editor](../ui-elements/dialogs-and-wizards/filter-edito
 
 You can apply filters to individual [measures](../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md). If you create multiple measures that only differ in applied filters, you can compare values calculated over different date-time periods or against different categories.
 
-Open a dashboard item's [Binding](../ui-elements/dashboard-item-menu.md) menu and select a measure to filter. In the invoked [data item menu](../ui-elements/data-item-menu.md), open the **Filter** section and click **Edit**. This invokes the [Filter Editor](../ui-elements/dialogs-and-wizards/filter-editor.md) dialog where you can specify filter criteria. 
+Open a dashboard item's [Binding]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and select a measure to filter. In the invoked [data item menu](../ui-elements/data-item-menu.md), open the **Filter** section and click **Edit**. This invokes the [Filter Editor](../ui-elements/dialogs-and-wizards/filter-editor.md) dialog where you can specify filter criteria. 
 
 ![web-filter-to-measure-menu](/assets/images/dashboards/web-filter-to-measure-menu.png)
 
@@ -52,7 +52,7 @@ The image below shows a Chart with three measures:
 
 You can specify a Visible Data Filter to limit displayed data. This filter type does not filter underlying data used in calculations or intermediate level aggregations.
 
-Open a dashboard item's [Filters](../ui-elements/dashboard-item-menu.md) menu, go to the **Visible Data Filter** section and click **Edit** to invoke the Filter Editor, where you can specify a condition:
+Open a dashboard item's [Filters]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu, go to the **Visible Data Filter** section and click **Edit** to invoke the Filter Editor, where you can specify a condition:
 
 ![web-invoke-visible-data-filter](/assets/images/dashboards/web-invoke-visible-data-filter.png)
 

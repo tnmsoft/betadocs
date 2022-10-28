@@ -35,7 +35,7 @@ The dashboard provides two ways of coloring dashboard item elements.
 	> [!IMPORTANT]
 	> When a local color scheme is used, the dashboard reassigns palette colors when the filter state is changed.
 
-To select a type of coloring dashboard item elements, open the [dashboard item menu](../ui-elements/dashboard-item-menu.md), go to the **Color Scheme** section and use the **Color Scheme Type** option.
+To select a type of coloring dashboard item elements, open the [dashboard item menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}), go to the **Color Scheme** section and use the **Color Scheme Type** option.
 
 ![wdd-coloring-change-color-scheme](/assets/images/dashboards/img126079.png)
 
@@ -54,7 +54,7 @@ You can configure coloring in two ways.
 * To specify the coloring mode for the specific measure/dimension, open the data item menu and go to **Data Shaping** section. Use the **Coloring** option to specify coloring mode of this data item.
 	
 	![wdd-coloring-data-item-options](/assets/images/dashboards/img126109.png)
-* To see a list of all measures/dimensions for which you can specify coloring mode, open the dashboard item's [Options](../ui-elements/dashboard-item-menu.md) menu and go to the **Coloring** section.
+* To see a list of all measures/dimensions for which you can specify coloring mode, open the dashboard item's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and go to the **Coloring** section.
 	
 	![wdd-coloring-options](/assets/images/dashboards/img126086.png)
 
@@ -70,7 +70,7 @@ For example, the image below shows the Chart dashboard item whose _Country_ **di
 > If you enabled coloring by different hues for several dimensions/measures, all combinations of dimension values/measures will be automatically colored using different colors from the default palette.
 
 ## <a name="customizedim"/>Customizing Color Palettes Using the Dashboard Item Menu
-The Web Dashboard allows you to customize colors of the specific palette using the **Color Scheme** section of the dashboard item [Options](../ui-elements/dashboard-item-menu.md) menu. To edit the color scheme, click the **Edit** button (the ![wdd-icon-edit-collection-value-item](/assets/images/dashboards/img126050.png) icon) of the corresponding color.
+The Web Dashboard allows you to customize colors of the specific palette using the **Color Scheme** section of the dashboard item [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu. To edit the color scheme, click the **Edit** button (the ![wdd-icon-edit-collection-value-item](/assets/images/dashboards/img126050.png) icon) of the corresponding color.
 
 ![wdd-coloring-change-dashboard-item-color-scheme](/assets/images/dashboards/img126112.png)
 

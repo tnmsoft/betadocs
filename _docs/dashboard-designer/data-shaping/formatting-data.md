@@ -12,7 +12,7 @@ The Web Dashboard allows you to customize various format settings for numeric an
 * [Currency Formatting Specifics](#currency)
 
 ## <a name="numeric"/>Formatting Numeric Values
-To specify a format for numeric values, open the dashboard item [Bindings](../ui-elements/dashboard-item-menu.md) menu, select a required data item and go to the **Format** section.
+To specify a format for numeric values, open the dashboard item [Bindings]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu, select a required data item and go to the **Format** section.
 
 ![wdd-format-rype](/assets/images/dashboards/img125536.png)
 
@@ -104,7 +104,7 @@ The list below illustrates format types related to the **Exact Date** group inte
 
 ## <a name="currency"/>Currency Formatting Specifics
 The Web Dashboard allows you to specify currency formats for the current data item or for entire dashboard.
-* To set a data item currency format, open the dashboard item [Bindings](../ui-elements/dashboard-item-menu.md) menu, select a required data item and go to the **Format** section. Select **Currency** as a format type and specify the required culture using the **Currency** combo box.
+* To set a data item currency format, open the dashboard item [Bindings]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu, select a required data item and go to the **Format** section. Select **Currency** as a format type and specify the required culture using the **Currency** combo box.
 	
 	![wdd-format-type-currency](/assets/images/dashboards/img126159.png)
 	

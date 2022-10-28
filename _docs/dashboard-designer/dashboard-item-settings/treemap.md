@@ -47,7 +47,7 @@ When **Master Filtering** is enabled, you can click a tile or group caption (or 
 > [!NOTE]
 > If the Single Master Filter is used, you can select only tiles corresponding to the bottommost level.
 
-To enable **Master Filtering**, go to the Treemap's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and select the required Master Filtering mode.
+To enable **Master Filtering**, go to the Treemap's [Interactivity]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and select the required Master Filtering mode.
 
 ![wdd-treemap-enable-interactivity](/assets/images/dashboards/img125960.png)
 
@@ -67,7 +67,7 @@ Drill-down requires that the **Arguments** section contains several dimensions a
 > [!NOTE]
 > In OLAP mode, you can perform drill-down for either a hierarchy data item or several dimension attributes.
 
-To enable **Drill-Down**, go to the Treemap's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and turn the **Drill-Down** option on.
+To enable **Drill-Down**, go to the Treemap's [Interactivity]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and turn the **Drill-Down** option on.
 
 ![wdd-dashboard-items-interactivity-section](/assets/images/dashboards/img125270.png)
 
@@ -78,7 +78,7 @@ To return to the previous detail level, click the **Drill Up** button (the ![wdd
 
 
 ## Layout
-This topic describes how to change a layout algorithm used to arrange Treemap tiles. To do this in the Web Dashboard, go to the Treemap's [Options](../../ui-elements/dashboard-item-menu.md) menu  and open the **Layout** section.
+This topic describes how to change a layout algorithm used to arrange Treemap tiles. To do this in the Web Dashboard, go to the Treemap's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu  and open the **Layout** section.
 
 ![wdd-treemap-layout-options](/assets/images/dashboards/img125963.png)
 
@@ -129,7 +129,7 @@ If necessary, you can change the default behavior. For example, the image below 
 
 ![wdd-treemap-same-color](/assets/images/dashboards/img125995.png)
 
-To change the default coloring behavior, go to the **Coloring** section of the Treemap's [Options](../../ui-elements/dashboard-item-menu.md) menu.
+To change the default coloring behavior, go to the **Coloring** section of the Treemap's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu.
 
 ![wdd-treemap-coloring-options](/assets/images/dashboards/img125996.png)
 
@@ -141,7 +141,7 @@ The Treemap displays labels that contain descriptions for tiles and groups, and 
 
 ![wdd-treemap-labels](/assets/images/dashboards/img125998.png)
 
-You can specify which information should be displayed within tile and group labels separately. To do this, go to the **Labels** section of the Treemap's [Options](../../ui-elements/dashboard-item-menu.md) menu. Here you can specify a type of the following elements.
+You can specify which information should be displayed within tile and group labels separately. To do this, go to the **Labels** section of the Treemap's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu. Here you can specify a type of the following elements.
 * Tile labels
 * Tile tooltips
 * Group labels

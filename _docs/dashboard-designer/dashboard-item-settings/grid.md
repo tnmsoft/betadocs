@@ -94,7 +94,7 @@ When **Master Filtering** is enabled, you can click a grid row (or multiple rows
 
 ![WebViewer_MasterFiltering](/assets/images/dashboards/img22459.gif)
 
-To enable **Master Filtering**, go to the Grid's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and select the required Master Filtering mode.
+To enable **Master Filtering**, go to the Grid's [Interactivity]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and select the required Master Filtering mode.
 
 ![wdd-dashboard-items-interactivity-section](/assets/images/dashboards/img125270.png)
 
@@ -114,7 +114,7 @@ Drill-down requires that the Columns section contains several dimensions at the 
 > [!NOTE]
 > In OLAP mode, you can perform drill-down for either a hierarchy data item or several dimension attributes.
 
-To enable **Drill-Down**, go to the Grid's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and turn the **Drill-Down** option on.
+To enable **Drill-Down**, go to the Grid's [Interactivity]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and turn the **Drill-Down** option on.
 
 ![wdd-dashboard-items-interactivity-section](/assets/images/dashboards/img125270.png)
 
@@ -160,7 +160,7 @@ Refer to the following topic for more information about format condition types: 
 
 You can create and edit format rules in the **Conditional Formatting** section that is located in the following places:
 
-* The dashboard item's [Options](../../ui-elements/dashboard-item-menu.md) menu
+* The dashboard item's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu
 
 * The [data item menu](../../ui-elements/data-item-menu.md)
 
@@ -222,7 +222,7 @@ You can delete the required total by clicking the **Delete** button (the ![wdd-i
 ## Layout
 The Grid dashboard item allows you to customize its layout in various ways. You can manage the width of grid columns, specify the visibility of column headers, enable cell merging, etc.
 
-To access the layout settings, use the **Layout** section in the Grid's [Options](../../ui-elements/dashboard-item-menu.md) menu.
+To access the layout settings, use the **Layout** section in the Grid's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu.
 
 The following settings are available.
 

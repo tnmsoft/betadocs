@@ -41,12 +41,12 @@ You can expand any dashboard item to fit the dashboard to examine data in greate
 	![](/assets/images/dashboards/wdd-restore-dashboard-item.png)
 
 ## Item Positioning
-You can change the position of a dashboard item by using drag-and-drop and the dashboard item's [Move](../ui-elements/dashboard-item-menu.md) button.
+You can change the position of a dashboard item by using drag-and-drop and the dashboard item's [Move]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) button.
 
 Depending on the required dashboard item position, a new layout group is created (if required) to maintain the arrangement of items. Thus, the dashboard item can be inserted to the desired area of a new or existing dashboard layout group.
 
 The following steps illustrates how a dashboard item is dragged.
-1. Select a dashboard item and hover the [Move](../ui-elements/dashboard-item-menu.md) button.
+1. Select a dashboard item and hover the [Move]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) button.
 	
 	![wdd-move-dashboard-item](/assets/images/dashboards/img126139.png)
 2. Drag the dashboard item to the expected area and release the left mouse button when the drop indicator displays the required area.

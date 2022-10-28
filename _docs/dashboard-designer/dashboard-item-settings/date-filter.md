@@ -35,13 +35,13 @@ The Date Filter item displays a **Date Picker** that is a button with a drop-dow
 
 ![](/assets/images/dashboards/datefilter-web-datepicker.png)
 
-You can configure whether to display the Date Picker in the Date Filter item. For this, go to the Date Filter's [Options](../ui-elements/dashboard-item-menu.md) menu, open to the **Layout** section and specify the **Show Date Picker** setting.
+You can configure whether to display the Date Picker in the Date Filter item. For this, go to the Date Filter's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu, open to the **Layout** section and specify the **Show Date Picker** setting.
 
 ## Display Format
 
 To specify the date-time value format, use the **Format Type** option in the **Format** section of the [data item menu](../ui-elements/data-item-menu.md), as described in the Formatting Data topic.
 
-To specify a custom string displayed in the Date Picker component, go to the dashboard item [Options](../ui-elements/dashboard-item-menu.md) menu, open the **Layout** section and fill in the **Display Text Pattern** text field:
+To specify a custom string displayed in the Date Picker component, go to the dashboard item [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu, open the **Layout** section and fill in the **Display Text Pattern** text field:
 
 ![](/assets/images/dashboards/datefilter-web-options.png)
 
@@ -55,7 +55,7 @@ You can include placeholders in a custom string. The `{0}` placeholder is the in
 
 The **Select Date Time Period** button displayed in the Date Filter caption invokes the drop-down list with quick filters.
 
-To add quick filters, open the Date Filter's [Options](../ui-elements/dashboard-item-menu.md) menu and go to the **Custom Periods** section. Click "+" to add a new period:
+To add quick filters, open the Date Filter's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and go to the **Custom Periods** section. Click "+" to add a new period:
 
 ![](/assets/images/dashboards/datefilter-web-custom-periods.png)
 
@@ -82,6 +82,6 @@ The following modes used to set predefined ranges are available:
 
 Quick filters in the Date Filter item can be arranged horizontally or vertically. The default mode is _auto height_, in which quick filters are displayed horizontally and the dashboard item shrinks automatically to fit the items and save space.
 
-To specify the arrangement mode, go to the dashboard item [Options](../ui-elements/dashboard-item-menu.md) menu, open the **Layout** section and specify the **Arrangement Mode** setting:
+To specify the arrangement mode, go to the dashboard item [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu, open the **Layout** section and specify the **Arrangement Mode** setting:
 
 ![](/assets/images/dashboards/datefilter-web-options.png)

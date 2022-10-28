@@ -12,7 +12,7 @@ The Text Box dashboard item is used to display rich text within a dashboard.
 
 You can provide text by uploading file in the RTF format.
 
-To do this, go to the Text Box's [Options](../ui-elements/dashboard-item-menu.md) menu and click the ellipsis button in the **Text** field.
+To do this, go to the Text Box's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and click the ellipsis button in the **Text** field.
 
 ![wdd-textbox-add-rtf-file](/assets/images/dashboards/img125845.png)
 

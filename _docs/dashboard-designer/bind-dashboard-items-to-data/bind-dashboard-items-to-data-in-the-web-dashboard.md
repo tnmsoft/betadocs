@@ -14,7 +14,7 @@ This topic explains how to bind the newly created dashboard item to data source 
 * [Specify a Data Source](#specify)
 
 ## <a name="create"/>Create Binding
-To bind a dashboard item to data, invoke the dashboard item's [Bindings](../ui-elements/dashboard-item-menu.md) menu to open binding settings. In this menu you can see a data source (data member)  to which the dashboard item is bound and empty placeholders for data items.
+To bind a dashboard item to data, invoke the dashboard item's [Bindings]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu to open binding settings. In this menu you can see a data source (data member)  to which the dashboard item is bound and empty placeholders for data items.
 
 The image below displays the [Grid]({% link _docs/dashboard-designer/dashboard-item-settings/grid.md %}) dashboard item, that binded to _Sales Person_ query of the _SQL Data Source_, and corresponding [data sections]({% link _docs/dashboard-designer/dashboard-item-settings/grid.md %}).
 
@@ -44,7 +44,7 @@ You can remove the data item by clicking the **Remove** (![WDD-icon-delete-data-
 ## <a name="specify"/>Specify a Data Source
 A dashboard can contain several data sources. By default, a dashboard item is bound to the first [available data source](../provide-data/manage-data-sources.md).
 
-You can change the default  data source (or a data member / query, optionally) of dashboard items. For this, go to the dashboard item's [Bindings](../ui-elements/dashboard-item-menu.md) menu and click the **Data / Filtering** button.
+You can change the default  data source (or a data member / query, optionally) of dashboard items. For this, go to the dashboard item's [Bindings]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and click the **Data / Filtering** button.
 
 ![wdd-data-filtering-section](/assets/images/dashboards/img125086.png)
 

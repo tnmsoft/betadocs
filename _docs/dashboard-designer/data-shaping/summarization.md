@@ -38,6 +38,6 @@ The following summary functions are available.
 ## Changing Summary Type
 By default, Dashboard calculates **Sum** for numeric measures and **Count** for measures that contain another type of data.
 
-You can change the summary function type for numeric measures. To do this, invoke the dashboard item [Bindings](../ui-elements/dashboard-item-menu.md) menu and select the required data item. In the drop-down **Summary Type** list, select the desired summary type.
+You can change the summary function type for numeric measures. To do this, invoke the dashboard item [Bindings]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and select the required data item. In the drop-down **Summary Type** list, select the desired summary type.
 
 ![wdd-change-summary-type](/assets/images/dashboards/img124599.png)

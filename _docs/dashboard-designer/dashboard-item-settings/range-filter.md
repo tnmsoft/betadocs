@@ -75,7 +75,7 @@ The Range Filter dashboard item allows you to add a number of predefined date-ti
 - [Select Predefined Ranges](#select-predefined-ranges)
 
 ### Add Predefined Ranges
-To add predefined ranges, open the Range Filter's [Options](../../ui-elements/dashboard-item-menu.md) menu and go to the **Custom Periods** section. Click "+" to add a new period.
+To add predefined ranges, open the Range Filter's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and go to the **Custom Periods** section. Click "+" to add a new period.
 
 ![wdd-range-filter-custom-intervals](/assets/images/dashboards/img125362.png)
 

@@ -8,7 +8,7 @@ grand_parent: Dashboard Designer
 # Top N
 The **Top N** feature allows you to display only a limited number of values that correspond to the highest or lowest values of a particular measure.
 
-To enable the Top N feature, open the dashboard item [Bindings](../ui-elements/dashboard-item-menu.md) menu, select a required data item and go to the _Top N_ section.
+To enable the Top N feature, open the dashboard item [Bindings]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu, select a required data item and go to the _Top N_ section.
 
 ![wdd-top-n](/assets/images/dashboards/img124644.png)
 

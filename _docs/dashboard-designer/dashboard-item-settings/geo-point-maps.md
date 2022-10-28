@@ -46,7 +46,7 @@ The **DevExpress Dashboard**  ships with a set of default maps showing various p
 > [!NOTE]
 > The **World Countries** map has a lower level of detail than maps of specific regions and may not contain some of the countries. As an alternative, you can load a custom map with required granularity.
 
-To select a required default map, go to the [Options](../../ui-elements/dashboard-item-menu.md) menu and use the **Default Map** dropdown list located in the **Common** section.
+To select a required default map, go to the [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and use the **Default Map** dropdown list located in the **Common** section.
 
 ![wdd-geopoint-map-change-map](/assets/images/dashboards/img125426.png)
 
@@ -55,7 +55,7 @@ The Web Dashboard uses a **Shapefile** vector format to provide custom maps. Com
 * **.shp file** - holds map shapes (points/lines/polygons)
 * **.dbf file** - contains attributes for each shape.
 
-To provide a custom map, go to the **Common** section of the [Options](../../ui-elements/dashboard-item-menu.md) menu and change the **Default Map** value to **Custom**.
+To provide a custom map, go to the **Common** section of the [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and change the **Default Map** value to **Custom**.
 
 ![wdd-custom-shape-file](/assets/images/dashboards/img127210.png)
 
@@ -79,7 +79,7 @@ The [Bubble Map](bubble-map.md) and [Pie Map](pie-map.md) dashboard items cluste
 
 ![wdd-pie-map-clusters](/assets/images/dashboards/img125447.png)
 
-To enable clustering in the Web Dashboard, use the **Enable Clustering** option in the Geo Point Map's [Options](../../ui-elements/dashboard-item-menu.md) menu.
+To enable clustering in the Web Dashboard, use the **Enable Clustering** option in the Geo Point Map's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu.
 
 ![wdd-maps-enable-clustering](/assets/images/dashboards/img125448.png)
 
@@ -87,7 +87,7 @@ To enable clustering in the Web Dashboard, use the **Enable Clustering** option 
 ## Map Navigation
 The Geo Point Map dashboard item allows you to perform navigation actions such as zooming and scrolling using the mouse.
 
-You can enable or disable the capability to scroll/zoom the map using the **Lock Navigation** option in the Geo Point Map's [Options](../../ui-elements/dashboard-item-menu.md) menu.
+You can enable or disable the capability to scroll/zoom the map using the **Lock Navigation** option in the Geo Point Map's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu.
 
 ![wdd-map-lock-navigation](/assets/images/dashboards/img125404.png)
 
@@ -108,9 +108,9 @@ The Geo Point Map dashboard item supports filtering by callout/bubble/pie. When 
 > [!NOTE]
 > When you select a clustered bubble or pie, master filtering is applied by all points that are clustered into this bubble/pie.
 
-To learn more about filtering concepts common to all dashboard items, see the [Master Filtering](../../interactivity/master-filtering.md) topic.
+To learn more about filtering concepts common to all dashboard items, see the [Master Filtering]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) topic.
 
-To enable **Master Filtering**, go to the Map's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and select the required Master Filtering mode.
+To enable **Master Filtering**, go to the Map's [Interactivity]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and select the required Master Filtering mode.
 
 ![wdd-interactivity-section-without-drill-down](/assets/images/dashboards/img125455.png)
 
@@ -120,7 +120,7 @@ To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-fil
 Geo Point maps provide the capability to display titles within map shapes and allow you to add supplementary content to the callout/bubble/pie tooltips.
 
 ### Shape Titles
-To manage map titles, use the **Shape Title Attribute** option of the Map's [Options](../../ui-elements/dashboard-item-menu.md) menu.
+To manage map titles, use the **Shape Title Attribute** option of the Map's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu.
 
 Here you can select the attribute whose values are displayed within corresponding map shapes.
 

@@ -27,7 +27,7 @@ To create a required Image dashboard item, use the **Image** and **Bound Image**
 This topic describes how to provide images for the **Image** and **Bound Image** dashboard items.
 
 ### Provide a Static Image
-To provide an image to the Image dashboard item, open the Image's [Options](../../ui-elements/dashboard-item-menu.md) menu and specify the image path using **URL** option.
+To provide an image to the Image dashboard item, open the Image's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and specify the image path using **URL** option.
 
 ![wdd-image-provide-image](/assets/images/dashboards/img125751.png)
 
@@ -38,7 +38,7 @@ The **Bound Image** dashboard item provides the **Attribute** data section conta
 
 ![wdd-image-bound-image-bindings](/assets/images/dashboards/img125753.png)
 
-You can specify the binding mode for the Bound Image. Go to the Bound Image's [Options](../../ui-elements/dashboard-item-menu.md) menu and specify the **Binding Mode**. The following options are available.
+You can specify the binding mode for the Bound Image. Go to the Bound Image's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and specify the **Binding Mode**. The following options are available.
 * **Binary Array** - Use this mode if images are stored in the data source as byte arrays.
 * **URI** - Use this mode to locate images accessible by a predefined URI. In this case, the data source field should return strings that are parts of URIs to these images. For instance, the URI pattern in the form below specifies the path to the folder containing the required images. 
 	
@@ -62,7 +62,7 @@ Data displayed in the Bound Image dashboard item can be filtered by other master
 
 ![wdd-image-bound](/assets/images/dashboards/img125706.png)
 
-You can prevent the Bound Image from being affected by other master filter items using the **Ignore Master Filters** button in the Bound Image's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu.
+You can prevent the Bound Image from being affected by other master filter items using the **Ignore Master Filters** button in the Bound Image's [Interactivity]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu.
 
 ![wdd-pivot-interactivity](/assets/images/dashboards/img125456.png)
 
@@ -74,7 +74,7 @@ This topic describes settings related to the representation of **Image** dashboa
 ### Image Size Mode
 You can specify the image size mode that defines how the image fits within the dashboard item.
 
-To do this, go to the [Options](../../ui-elements/dashboard-item-menu.md) menu and select the required size mode from the list.
+To do this, go to the [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and select the required size mode from the list.
 
 ![wdd-image-size-mode](/assets/images/dashboards/img125755.png)
 
@@ -88,6 +88,6 @@ The following modes are available.
 | **Zoom** | The image is sized proportionally without clipping, so that it best fits the Image dashboard item. The closest fitting side of the image (either the height or the width) will be sized to fit the dashboard item, and the remaining side (height or width) will be sized proportionally, leaving empty space. |
 
 ### Image Alignment
-To specify how the image is aligned within the dashboard item, use the **Horizontal Alignment** and **Vertical Alignment** options in the Image's [Options](../../ui-elements/dashboard-item-menu.md) menu.
+To specify how the image is aligned within the dashboard item, use the **Horizontal Alignment** and **Vertical Alignment** options in the Image's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu.
 
 ![wdd-image-alignment](/assets/images/dashboards/img125756.png)

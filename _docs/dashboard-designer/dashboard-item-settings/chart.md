@@ -122,7 +122,7 @@ The Chart supports filtering by **argument**, **series** or **points**.
 	
 	![wdd-chart-master-filter-points](/assets/images/dashboards/img125064.png)
 
-To configure filtering type, open the Chart's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and select **Arguments**, **Series** or **Points** as a target dimension.
+To configure filtering type, open the Chart's [Interactivity]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and select **Arguments**, **Series** or **Points** as a target dimension.
 
 ![wdd-chart-interactivity-set-points](/assets/images/dashboards/img125061.png)
 
@@ -150,7 +150,7 @@ The Chart supports drill-down on **argument** or **series** values.
 > [!NOTE]
 > In OLAP mode, you can perform drill-down for either a hierarchy data item or several dimension attributes.
 
-To specify drill-down type, go to the Chart's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and set **Arguments** or **Series** as a target dimension.
+To specify drill-down type, go to the Chart's [Interactivity]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and set **Arguments** or **Series** as a target dimension.
 
 ![wdd-chart-interactivity-set-series](/assets/images/dashboards/img125060.png)
 
@@ -161,7 +161,7 @@ A legend is an element of a chart that identifies chart series and series points
 
 ![wdd-chart-legend](/assets/images/dashboards/img125083.png)
 
-To customize legend options, go to the Chart's [Options](../../ui-elements/dashboard-item-menu.md) menu and open the **Legend** section.
+To customize legend options, go to the Chart's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and open the **Legend** section.
 
 ![wdd-chart-legend-options](/assets/images/dashboards/img125080.png)
 
@@ -177,7 +177,7 @@ The Chart dashboard item displays two axes by default: the X-axis and the Y-axis
 ![wdd-chart-axis](/assets/images/dashboards/img125609.png)
 
 ### Axis X
-To access X-axis settings, go to the Chart's [Options](../../ui-elements/dashboard-item-menu.md) menu and open the **Axis X** section.
+To access X-axis settings, go to the Chart's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and open the **Axis X** section.
 
 You can configure the following settings.
 
@@ -201,7 +201,7 @@ To specify the X-axis type in the Web Dashboard, go to the data item [Data Shapi
 ![wdd-chart-discrete-axis-option](/assets/images/dashboards/img125613.png)
 
 ### Axis Y
-To access Y-axis settings, go to the Chart's [Options](../../ui-elements/dashboard-item-menu.md) menu and open the **Axis Y** section for a corresponding pane.
+To access Y-axis settings, go to the Chart's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and open the **Axis Y** section for a corresponding pane.
 
 ![wdd-chart-axis-y-options](/assets/images/dashboards/img125611.png)
 * The **Always Show Zero Level** option allows you to indicate whether or not an axis zero value should be displayed.
@@ -225,7 +225,7 @@ You can rotate the Chart so that the X-axis becomes vertical, and the Y-axis bec
 
 ![wdd-chart-rotated](/assets/images/dashboards/img125615.png)
 
-To rotate a Chart in the Web Dashboard, open the Chart's [Options](../../ui-elements/dashboard-item-menu.md) menu and go to **Common** section. Then, turn the **Rotated** option on.
+To rotate a Chart in the Web Dashboard, open the Chart's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and go to **Common** section. Then, turn the **Rotated** option on.
 
 ![wdd-chart-rotated-option](/assets/images/dashboards/img125614.png)
 
@@ -276,7 +276,7 @@ Refer to the following topic for more information about format condition types: 
 
 You can create and edit format rules in the **Conditional Formatting** section that is located in the following places:
 
-* The dashboard item's [Options](../../ui-elements/dashboard-item-menu.md) menu
+* The dashboard item's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu
 
 * The [data item menu](../../ui-elements/data-item-menu.md)
 

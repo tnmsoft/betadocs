@@ -76,7 +76,7 @@ When **Master Filtering** is enabled, you can click a gauge(s) to make other das
 
 ![Gauges_MasterFiltering_Web](/assets/images/dashboards/img22508.png)
 
-To enable **Master Filtering**, go to the Gauge's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and select the required Master Filtering mode.
+To enable **Master Filtering**, go to the Gauge's [Interactivity]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and select the required Master Filtering mode.
 
 ![wdd-dashboard-items-interactivity-section](/assets/images/dashboards/img125270.png)
 
@@ -96,7 +96,7 @@ Drill-down requires that the **Series** section contains several dimensions at t
 > [!NOTE]
 > In OLAP mode, you can perform drill-down for either a hierarchy data item or several dimension attributes.
 
-To enable **Drill-Down**, go to the Gauge's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and turn the **Drill-Down** option on.
+To enable **Drill-Down**, go to the Gauge's [Interactivity]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and turn the **Drill-Down** option on.
 
 ![wdd-dashboard-items-interactivity-section](/assets/images/dashboards/img125270.png)
 
@@ -107,7 +107,7 @@ The Gauge dashboard item allows you to specify the number of columns or rows by 
 
 ![wdd-gauges-fixed-columns](/assets/images/dashboards/img125649.png)
 
-To control how gauges are arranged, use the **Layout** section in the Gauge's [Options](../../ui-elements/dashboard-item-menu.md) menu.
+To control how gauges are arranged, use the **Layout** section in the Gauge's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu.
 
 ![wdd-pie-content-arrangement](/assets/images/dashboards/img125199.png)
 
@@ -136,6 +136,6 @@ The following types are available.
 * Linear Horizontal
 * Linear Vertical
 
-To select the gauge style, use the style icons in the Gauge [Options](../../ui-elements/dashboard-item-menu.md) menu.
+To select the gauge style, use the style icons in the Gauge [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu.
 
 ![wdd-gauge-style-options](/assets/images/dashboards/img125777.png)

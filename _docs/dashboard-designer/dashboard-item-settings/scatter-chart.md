@@ -47,7 +47,7 @@ When Master Filtering is enabled, you can click a point (or multiple points) to 
 
 ![wdd-grid-interactivity-master-filtering](/assets/images/dashboards/img125268.png)
 
-To enable **Master Filtering**, go to the Scatter Chart's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and select the required Master Filtering mode.
+To enable **Master Filtering**, go to the Scatter Chart's [Interactivity]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and select the required Master Filtering mode.
 
 ![wdd-dashboard-items-interactivity-section](/assets/images/dashboards/img125270.png)
 
@@ -67,7 +67,7 @@ Drill-down requires that the **Arguments** section contains several dimensions, 
 > [!NOTE]
 > In OLAP mode, you can perform drill-down for either a hierarchy data item or several dimension attributes.
 
-To enable **Drill-Down**, go to the Scatter Chart's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and turn the **Drill-Down** option on.
+To enable **Drill-Down**, go to the Scatter Chart's [Interactivity]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and turn the **Drill-Down** option on.
 
 ![wdd-dashboard-items-interactivity-section](/assets/images/dashboards/img125270.png)
 
@@ -78,7 +78,7 @@ A legend is an element of a scatter chart that identifies chart points (for inst
 
 ![wdd-scatter-chart-legend](/assets/images/dashboards/img125606.png)
 
-To customize legend options, go to the Scatter Chart's [Options](../../ui-elements/dashboard-item-menu.md) menu and open the **Legend** section.
+To customize legend options, go to the Scatter Chart's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and open the **Legend** section.
 
 ![wdd-scatter-chart-legend-options](/assets/images/dashboards/img125601.png)
 
@@ -94,7 +94,7 @@ The following settings are available.
 ## Axes
 Scatter Chart X and Y-axes are numerical axis of values. You can specify various axes settings to change visual data presentation.
 
-To access X and Y-axis settings, go to the Scatter Chart's [Options](../../ui-elements/dashboard-item-menu.md) menu and open the **Axis X** or **Axis Y** section.
+To access X and Y-axis settings, go to the Scatter Chart's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and open the **Axis X** or **Axis Y** section.
 
 Here you can configure the visibility of axes, their title and grid lines, reverse the axes, etc.
 
@@ -115,7 +115,7 @@ The following options are available.
 ## Orientation
 You can rotate the Scatter Chart so that the [X-axis](axes.md) becomes vertical, and the [Y-axis](axes.md) becomes horizontal.
 
-To rotate a Scatter Chart in the Web Dashboard, open the Scatter Chart's [Options](../../ui-elements/dashboard-item-menu.md) menu and go to **Common** section. Then, turn the **Rotated** option on.
+To rotate a Scatter Chart in the Web Dashboard, open the Scatter Chart's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and go to **Common** section. Then, turn the **Rotated** option on.
 
 ![wdd-scatter-chart-rotate](/assets/images/dashboards/img125603.png)
 
@@ -125,7 +125,7 @@ The Scatter Chart can display **point labels** that contain descriptions for dat
 
 ![wdd-scatter-chart-point-label](/assets/images/dashboards/img125604.png)
 
-To manage the visibility of point labels, open the Scatter Chart's [Options](../../ui-elements/dashboard-item-menu.md) menu and go to the **Labels** section. Then, turn the **Show Point Labels** option on.
+To manage the visibility of point labels, open the Scatter Chart's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and go to the **Labels** section. Then, turn the **Show Point Labels** option on.
 
 Here you can specify the type of content displayed within point labels, configure label overlap mode and set the orientation of point labels.
 
@@ -182,7 +182,7 @@ Refer to the following topic for more information about format condition types: 
 
 You can create and edit format rules in the **Conditional Formatting** section that is located in the following places:
 
-* The dashboard item's [Options](../../ui-elements/dashboard-item-menu.md) menu
+* The dashboard item's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu
 
 * The [data item menu](../../ui-elements/data-item-menu.md)
 
