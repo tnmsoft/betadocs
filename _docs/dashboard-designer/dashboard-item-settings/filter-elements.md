@@ -60,7 +60,7 @@ The **Date Filter** dashboard item allows you to filter dashboard data based on 
 See [Date Filter](../date-filter.md) for details.
 
 
-## Providing Data
+## Providing Data {#providing-data}
 The Web Dashboard allows you to bind various dashboard items to data in a consistent manner, the only difference being the data sections that these dashboard items comprise. To learn more about common binding concepts, see the [Bind Dashboard Items to Data]({% link _docs/dashboard-designer/bind-dashboard-items-to-data/index.md %}) topic.
 
 This topic describes how to bind **filter elements** to data using the Web Dashboard control.

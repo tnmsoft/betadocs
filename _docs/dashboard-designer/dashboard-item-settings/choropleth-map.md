@@ -10,7 +10,7 @@ The topics in this section describe the features available in the Choropleth Map
 
 ![wdd-dashboard-items-choropleth-map](/assets/images/dashboards/img125119.png)
 
-## Providing Data
+## Providing Data {#providing-data}
 The **Web Dashboard** allows you to bind various dashboard items to data in a virtually uniform manner. To learn more, see the [Bind Dashboard Items to Data]({% link _docs/dashboard-designer/bind-dashboard-items-to-data/index.md %}) topic.
 
 The only difference is in the data sections that the required dashboard item has. This topic describes how to bind a **Choropleth Map** dashboard item to data.

@@ -10,7 +10,7 @@ The topics in this section describe the features available in the **Chart** dash
 
 ![wdd-dashboard-items-chart](/assets/images/dashboards/img125118.png)
 
-## Providing Data
+## Providing Data {#providing-data}
 The **Web Dashboard** allows you to bind various dashboard items to data in a virtually uniform manner. To learn more, see the [Bind Dashboard Items to Data]({% link _docs/dashboard-designer/bind-dashboard-items-to-data/index.md %}) topic.
 
 The only difference is in the data sections that the required dashboard item has. This topic describes how to bind a **Chart** dashboard item to data.
@@ -96,7 +96,7 @@ To add a pane, click the **Add Pane** button in the Chart's data item section.
 
 ![wdd-chart-add-panes](/assets/images/dashboards/img125055.png)
 
-Once a new pane is added, the Web Dashboard creates another Values section. Use this section to provide data items that supply values to be displayed in the new pane (see [Providing Data](providing-data.md) for details on data binding).
+Once a new pane is added, the Web Dashboard creates another Values section. Use this section to provide data items that supply values to be displayed in the new pane (see [Providing Data](#providing-data) for details on data binding).
 
 ![wdd-chart-panes-new-value-section](/assets/images/dashboards/img125056.png)
 

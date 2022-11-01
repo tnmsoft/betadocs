@@ -10,7 +10,7 @@ The **Card** dashboard item displays a series of cards. Each card illustrates th
 
 ![wdd-dashboard-items-cards](/assets/images/dashboards/img125117.png)
 
-## Providing Data
+## Providing Data {#providing-data}
 The **Web Dashboard** allows you to bind various dashboard items to data in a virtually uniform manner. To learn more, see the [Bind Dashboard Items to Data]({% link _docs/dashboard-designer/bind-dashboard-items-to-data/index.md %}) topic.
 
 The only difference is in the data sections that the required dashboard item has. This topic describes how to bind a **Card** dashboard item to data.
@@ -62,7 +62,7 @@ To learn more about the available value types and visual elements, see [Change L
 > **Delta Indicator** and delta values (such as **Percent Variation** or **Absolute Variation**) are colored depending on delta settings. To learn how to manage delta settings, see [Delta](delta.md).
 
 ### <a name="change"/>Change Layout
-To change a card's layout in the Web Dashboard's UI, invoke the **[Binding menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %})**, click the required data item in the **[Cards](providing-data.md)** section and go to **Cards Layout** in the [data item's menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).
+To change a card's layout in the Web Dashboard's UI, invoke the **[Binding menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %})**, click the required data item in the **[Cards](#providing-data)** section and go to **Cards Layout** in the [data item's menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).
 Select the required layout type and click the **Edit** button (the ![wdd-icon-edit-collection-value-item](/assets/images/dashboards/img126050.png) icon) to change its settings. The following settings are available:
 * **Min width** - Specifies the minimum width of the card content.
 * **Max width** - Allows you to specify the maximum width of the card content. Select the **Auto** option to determine the maximum width automatically or switch to **Custom** and specify the required width manually.
@@ -71,30 +71,30 @@ You can show/hide the following values and visual elements within the card:
 
 | Value | Description | Example |
 |---|---|---|
-| **Title** | Displays values of the last (bottommost) dimension placed in the **[Series](providing-data.md)** section. | _Microsoft Office Keyboard_ |
+| **Title** | Displays values of the last (bottommost) dimension placed in the **[Series](#providing-data)** section. | _Microsoft Office Keyboard_ |
 | **Subtitle** | Displays combined values of all dimensions except the last (bottommost) dimension. | _Technology - Computer Peripherals_ |
 | **Absolute Variation** | An absolute difference between the actual and target value (see [Delta](delta.md)). | _+18.1K_ |
-| **Actual Value** | A summary value for a measure placed in the **[Actual](providing-data.md)** placeholder. | _$392K_ |
+| **Actual Value** | A summary value for a measure placed in the **[Actual](#providing-data)** placeholder. | _$392K_ |
 | **Card Name** | A card name. | _Revenue vs. Target_ |
 | **Percent of Target** | A percent of a target value (see [Delta](delta.md)). | _104.85 %_ |
 | **Percent Variation** | A percent difference between the actual and target value (see [Delta](delta.md)). | _4.85 %_ |
-| **Target Value** | A summary value for a measure placed in the **[Target](providing-data.md)** placeholder. | _$374K_ |
-| **Dimension {Name}** | Allows you to display values of a specific dimension placed in the **[Series](providing-data.md)** section. | _Technology_ |
+| **Target Value** | A summary value for a measure placed in the **[Target](#providing-data)** placeholder. | _$374K_ |
+| **Dimension {Name}** | Allows you to display values of a specific dimension placed in the **[Series](#providing-data)** section. | _Technology_ |
 | Element | Description | Example |
 | **Delta Indicator** | Indicates whether the actual value is less or greater than the target value (see [Delta](delta.md)). | ![Card_DeltaIndicatorExample_Web](/assets/images/dashboards/img128423.png) |
 | **Sparkline** | Visualizes the variation of actual or target values. To learn more, see [Sparkline](sparkline.md). | ![Card_SparklineExample_Web](/assets/images/dashboards/img128424.png) |
 
-Use the **Apply to All Cards** button to propagate the specified layout settings to all cards corresponding to **[Actual-Target](providing-data.md)** pairs. The **Reset** button resets all setting to their default values.
+Use the **Apply to All Cards** button to propagate the specified layout settings to all cards corresponding to **[Actual-Target](#providing-data)** pairs. The **Reset** button resets all setting to their default values.
 
 
 ## Delta
-Cards allow you to visualize the difference between the [actual and target](providing-data.md) values using special delta values and a delta indicator. If the default layout is used ([Stretched layout type](layout.md)), the card displays the following delta values/elements:
+Cards allow you to visualize the difference between the [actual and target](#providing-data) values using special delta values and a delta indicator. If the default layout is used ([Stretched layout type](layout.md)), the card displays the following delta values/elements:
 
 ![Card_StretchedLayout_Web_DeltaElements](/assets/images/dashboards/img128474.png)
 * **Delta Indicator** - Indicates whether the actual value is less or greater than the target value.
 * **Percent Variation** and **Absolute Variation** - delta values that show a difference between the actual and target value. You can also display the **Percent of Target** value. To do this, customize the [card's layout](layout.md).
 
-To customize settings that relate to the calculation and display of delta values/elements, invoke the [Binding menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}), click the required data item in the [Cards](providing-data.md) section and go to **Delta Options** in the [data item's menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).
+To customize settings that relate to the calculation and display of delta values/elements, invoke the [Binding menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}), click the required data item in the [Cards](#providing-data) section and go to **Delta Options** in the [data item's menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).
 
 Then, specify the following settings:
 * **Result Indication** - You can specify the condition for displaying delta indication.
@@ -118,7 +118,7 @@ Then, specify the following settings:
 
 
 ## Sparkline
-_Sparklines_ can be used to visualize the variation of [actual or target](providing-data.md) values (for instance, over time).
+_Sparklines_ can be used to visualize the variation of [actual or target](#providing-data) values (for instance, over time).
 
 ![wdd-cards-sparkline](/assets/images/dashboards/img125308.png)
 
@@ -127,14 +127,14 @@ To learn how to display the sparkline for different layout types, see [Layout](l
 * [Change Sparkline Options](#options)
 
 ### <a name="binding"/>Data Binding Specifics
-You need to provide a date-time or numeric dimension (in the **[Sparkline](providing-data.md)** section) whose data is used as argument values to display a sparkline within the card.
+You need to provide a date-time or numeric dimension (in the **[Sparkline](#providing-data)** section) whose data is used as argument values to display a sparkline within the card.
 
 ![Card_BindingMenu_SparklineArgument](/assets/images/dashboards/img128476.png)
 
 If you have provided both actual and target values, a sparkline visualizes the actual value's variation.
 
 ### <a name="options"/>Change Sparkline Options
-To change sparkline settings in the Web Dashboard's UI, invoke the **[Binding menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %})**, click the required data item in the **[Cards](providing-data.md)** section and go to **Sparkline Options** in the [data item's menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).
+To change sparkline settings in the Web Dashboard's UI, invoke the **[Binding menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %})**, click the required data item in the **[Cards](#providing-data)** section and go to **Sparkline Options** in the [data item's menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).
 The following options are available:
 
 | Sparkline Options | Description |
@@ -145,9 +145,9 @@ The following options are available:
 
 
 ## Formatting
-The Card dashboard item formats the [actual and target](providing-data.md) values displayed within cards using [format settings](../../data-shaping/formatting-data.md) specified for data items.
+The Card dashboard item formats the [actual and target](#providing-data) values displayed within cards using [format settings](../../data-shaping/formatting-data.md) specified for data items.
 
-To change format settings in the Web Dashboard's UI, invoke the **[Binding menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %})**, click the required data item in the **[Cards](providing-data.md)** section and go to **Format Options** in the [data item's menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).
+To change format settings in the Web Dashboard's UI, invoke the **[Binding menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %})**, click the required data item in the **[Cards](#providing-data)** section and go to **Format Options** in the [data item's menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).
 You can change format settings for the following [value types](layout.md):
 * **Actual Value**
 * **Target Value**

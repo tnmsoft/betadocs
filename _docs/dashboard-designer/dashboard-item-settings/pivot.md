@@ -10,7 +10,7 @@ The **Pivot** dashboard item displays a cross-tabular report that presents multi
 
 ![wdd-dashboard-items-pivot](/assets/images/dashboards/img125126.png)
 
-## Providing Data
+## Providing Data {#providing-data}
 The **Web Dashboard** allows you to bind various dashboard items to data in a virtually uniform manner. To learn more, see the [Bind Dashboard Items to Data]({% link _docs/dashboard-designer/bind-dashboard-items-to-data/index.md %}) topic.
 
 The only difference is in the data sections that the required dashboard item has. This topic describes how to bind a **Pivot** dashboard item to data.
@@ -143,7 +143,7 @@ This topic describes how to control the Pivot dashboard item layout, the visibil
 * [Values Position](#valuesposition)
 
 ### <a name="layouttype"/>Layout Type
-If the Pivot dashboard item contains a hierarchy of dimensions in the [Rows](providing-data.md) section, you can specify the layout used to arrange values corresponding to individual groups.
+If the Pivot dashboard item contains a hierarchy of dimensions in the [Rows](#providing-data) section, you can specify the layout used to arrange values corresponding to individual groups.
 
 | Layout type | Example | Description |
 |---|---|---|
@@ -173,7 +173,7 @@ To manage totals position, go to **[Options menu]({% link _docs/dashboard-design
 * **Column Totals Position**
 
 ### <a name="valuesvisibility"/>Values Visibility
-The Pivot dashboard item can contain several measures in the [Values](providing-data.md) section. In this case, you can hide summary values corresponding to specific measures. For instance, the image below shows the Pivot with hidden _Quantity_ values.
+The Pivot dashboard item can contain several measures in the [Values](#providing-data) section. In this case, you can hide summary values corresponding to specific measures. For instance, the image below shows the Pivot with hidden _Quantity_ values.
 
 ![WebPivot_ValuesVisibility](/assets/images/dashboards/img127811.png)
 
@@ -187,7 +187,7 @@ The Pivot dashboard item allows you to control the position of headers used to a
 To manage this position, go to **[Options menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %})** | **Layout** and use the **Values Position** option.
 
 ## Expanded State
-If the [Columns or Rows](providing-data.md) section contains several data items, the Pivot column and row headers are arranged in a hierarchy and make up column and row groups.
+If the [Columns or Rows](#providing-data) section contains several data items, the Pivot column and row headers are arranged in a hierarchy and make up column and row groups.
 
 ![wdd-pivot-expand-collapse.png](/assets/images/dashboards/img125647.png)
 

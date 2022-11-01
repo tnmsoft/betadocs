@@ -10,7 +10,7 @@ The **Range Filter** dashboard item allows you to apply filtering to other dashb
 
 ![wdd-dashboard-items-range-filter](/assets/images/dashboards/img125127.png)
 
-## Providing Data
+## Providing Data {#providing-data}
 The **Web Dashboard** allows you to bind various dashboard items to data in a virtually uniform manner. To learn more, see the [Bind Dashboard Items to Data]({% link _docs/dashboard-designer/bind-dashboard-items-to-data/index.md %}) topic.
 
 The only difference is in the data sections that the required dashboard item has. This topic describes how to bind a **Range Filter** dashboard item to data.

@@ -11,7 +11,7 @@ The topics in this section describe the features available in the **Grid** dashb
 ![wdd-dashboard-items-grid](/assets/images/dashboards/img125122.png)
 
 
-## Providing Data
+## Providing Data {#providing-data}
 The **Web Dashboard** allows you to bind various dashboard items to data in a virtually uniform manner. To learn more, see the [Bind Dashboard Items to Data]({% link _docs/dashboard-designer/bind-dashboard-items-to-data/index.md %}) topic.
 
 The only difference is in the data sections that the required dashboard item has. This topic describes how to bind a **Grid** dashboard item to data.
