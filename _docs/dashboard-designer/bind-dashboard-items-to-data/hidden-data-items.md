@@ -24,7 +24,7 @@ You can use **hidden dimensions** to apply [filtering]({% link _docs/dashboard-d
 For example, the Grid on the image above is filtered by the _OrderDate (Quarter)_ hidden dimension.
 
 ## <a name="sorting"/>Sorting
-You can [sort](../data-shaping/sorting.md) values of the specified dimension by the **hidden measure**.
+You can [sort]({% link _docs/dashboard-designer/data-shaping/sorting.md %}) values of the specified dimension by the **hidden measure**.
 
 ![wdd-hidden-data-item-sorting](/assets/images/dashboards/img124647.png)
 

@@ -42,7 +42,7 @@ You can remove the data item by clicking the **Remove** (![WDD-icon-delete-data-
 ![wdd-grid-delete-data-item](/assets/images/dashboards/img125482.png)
 
 ## <a name="specify"/>Specify a Data Source
-A dashboard can contain several data sources. By default, a dashboard item is bound to the first [available data source](../provide-data/manage-data-sources.md).
+A dashboard can contain several data sources (reports). By default, a dashboard item is bound to the first available data source.
 
 You can change the default  data source (or a data member / query, optionally) of dashboard items. For this, go to the dashboard item's [Bindings]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and click the **Data / Filtering** button.
 
