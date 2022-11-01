@@ -26,12 +26,12 @@ The table below lists and describes the Chart's data sections.
 
 | Section | Processed as | Description |
 |---|---|---|
-| **Values** | Measure | Contains data items against which the Y-coordinates of data points are calculated. The data item menu allows you to select the series type and specify different options. Note that some types of series accept several measures. To learn more, see the documentation for the required [series type](series.md). |
+| **Values** | Measure | Contains data items against which the Y-coordinates of data points are calculated. The data item menu allows you to select the series type and specify different options. Note that some types of series accept several measures. To learn more, see the documentation for the required [series type](#series). |
 | **Arguments** | Dimension | Contains data items that provide values displayed along the X-axis of the chart. |
 | **Series** | Dimension | Contains data items whose values are used to create chart series. |
 	
 	
-## Series
+## Series {#series}
 The Chart dashboard item supports different types of series - from simple bar and line charts to candle stick and bubble graphs.
 * [Change Series Type](#changest)
 * [Configure Series Options](#configurest)
@@ -236,7 +236,7 @@ Use conditional formatting to highlight chart elements such as bars, lines, area
 
 ![web-cf-chart-main](/assets/images/dashboards/web-cf-chart-main.png)
 
-The following [series types](series.md) support conditional formatting:
+The following [series types](#series) support conditional formatting:
 
 * Bar
 * Point/Line
@@ -270,7 +270,7 @@ Format conditions that can be applied to different data item types are as follow
 	* **Color Ranges**
 	* **Gradient Ranges**
 
-Refer to the following topic for more information about format condition types: [Conditional Formatting in Web Dashboard](../../appearance-customization/conditional-formatting.md).
+Refer to the following topic for more information about format condition types: [Conditional Formatting in Web Dashboard]({% link _docs/dashboard-designer/appearance-customization/conditional-formatting.md %}).
 
 ### Create and Edit a Format Rule   
 
@@ -280,7 +280,7 @@ You can create and edit format rules in the **Conditional Formatting** section t
 
 * The [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %})
 
-Refer to the following topic for information on how to create and edit format rules: [Conditional Formatting in Web Dashboard](../../appearance-customization/conditional-formatting.md).
+Refer to the following topic for information on how to create and edit format rules: [Conditional Formatting in Web Dashboard]({% link _docs/dashboard-designer/appearance-customization/conditional-formatting.md %}).
 
 ### Chart-Specific Format Condition Settings
 

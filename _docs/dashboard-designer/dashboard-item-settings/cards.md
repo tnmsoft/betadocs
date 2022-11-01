@@ -26,13 +26,13 @@ The table below lists and describes the Card's data sections.
 
 | Section | Processed as | Description |
 |---|---|---|
-| **Cards** | Measure  (both _Actual_ and _Target_ values) | Contains data items used to calculate values displayed within cards. After you add the data item containing **actual** data, you can add the second data item (optional) that contains **target** data. If both items are provided, cards show the difference between actual and target values, called _delta_. To learn more, see [Delta](delta.md). You can fill several data item containers in the Cards section and use the **Values** drop-down menu to switch between the provided values. To invoke the Values menu, click the ![DashboardItems_OtherElements](/assets/images/dashboards/img20169.png) icon in the dashboard item caption. |
+| **Cards** | Measure  (both _Actual_ and _Target_ values) | Contains data items used to calculate values displayed within cards. After you add the data item containing **actual** data, you can add the second data item (optional) that contains **target** data. If both items are provided, cards show the difference between actual and target values, called _delta_. To learn more, see [Delta](#delta). You can fill several data item containers in the Cards section and use the **Values** drop-down menu to switch between the provided values. To invoke the Values menu, click the ![DashboardItems_OtherElements](/assets/images/dashboards/img20169.png) icon in the dashboard item caption. |
 | **Series** | Dimension | Contains data items whose values are used to label cards. |
-| **Sparkline** | Dimension | Provides a date-time dimension whose data will be used to visualize values using [sparklines](sparkline.md). |
+| **Sparkline** | Dimension | Provides a date-time dimension whose data will be used to visualize values using [sparklines](#sparkline). |
 
 
 ## Layout
-The Card dashboard item allows you to manage the position and visibility of elements displayed on cards. These elements include actual and target values, a [delta indicator and corresponding delta values](delta.md), a [sparkline](sparkline.md), etc.
+The Card dashboard item allows you to manage the position and visibility of elements displayed on cards. These elements include actual and target values, a [delta indicator and corresponding delta values](#delta), a [sparkline](#sparkline), etc.
 
 To manage the position and visibility of card elements, choose a predefined layout template and customize its settings.
 * [Available Layout Templates](#available)
@@ -59,7 +59,7 @@ The Card dashboard item uses the [Stretched](#available) layout template that ar
 To learn more about the available value types and visual elements, see [Change Layout](#change).
 
 > [!NOTE]
-> **Delta Indicator** and delta values (such as **Percent Variation** or **Absolute Variation**) are colored depending on delta settings. To learn how to manage delta settings, see [Delta](delta.md).
+> **Delta Indicator** and delta values (such as **Percent Variation** or **Absolute Variation**) are colored depending on delta settings. To learn how to manage delta settings, see [Delta](#delta).
 
 ### <a name="change"/>Change Layout
 To change a card's layout in the Web Dashboard's UI, invoke the **[Binding menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %})**, click the required data item in the **[Cards](#providing-data)** section and go to **Cards Layout** in the [data item's menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).
@@ -73,21 +73,21 @@ You can show/hide the following values and visual elements within the card:
 |---|---|---|
 | **Title** | Displays values of the last (bottommost) dimension placed in the **[Series](#providing-data)** section. | _Microsoft Office Keyboard_ |
 | **Subtitle** | Displays combined values of all dimensions except the last (bottommost) dimension. | _Technology - Computer Peripherals_ |
-| **Absolute Variation** | An absolute difference between the actual and target value (see [Delta](delta.md)). | _+18.1K_ |
+| **Absolute Variation** | An absolute difference between the actual and target value (see [Delta](#delta)). | _+18.1K_ |
 | **Actual Value** | A summary value for a measure placed in the **[Actual](#providing-data)** placeholder. | _$392K_ |
 | **Card Name** | A card name. | _Revenue vs. Target_ |
-| **Percent of Target** | A percent of a target value (see [Delta](delta.md)). | _104.85 %_ |
-| **Percent Variation** | A percent difference between the actual and target value (see [Delta](delta.md)). | _4.85 %_ |
+| **Percent of Target** | A percent of a target value (see [Delta](#delta)). | _104.85 %_ |
+| **Percent Variation** | A percent difference between the actual and target value (see [Delta](#delta)). | _4.85 %_ |
 | **Target Value** | A summary value for a measure placed in the **[Target](#providing-data)** placeholder. | _$374K_ |
 | **Dimension {Name}** | Allows you to display values of a specific dimension placed in the **[Series](#providing-data)** section. | _Technology_ |
 | Element | Description | Example |
-| **Delta Indicator** | Indicates whether the actual value is less or greater than the target value (see [Delta](delta.md)). | ![Card_DeltaIndicatorExample_Web](/assets/images/dashboards/img128423.png) |
-| **Sparkline** | Visualizes the variation of actual or target values. To learn more, see [Sparkline](sparkline.md). | ![Card_SparklineExample_Web](/assets/images/dashboards/img128424.png) |
+| **Delta Indicator** | Indicates whether the actual value is less or greater than the target value (see [Delta](#delta)). | ![Card_DeltaIndicatorExample_Web](/assets/images/dashboards/img128423.png) |
+| **Sparkline** | Visualizes the variation of actual or target values. To learn more, see [Sparkline](#sparkline). | ![Card_SparklineExample_Web](/assets/images/dashboards/img128424.png) |
 
 Use the **Apply to All Cards** button to propagate the specified layout settings to all cards corresponding to **[Actual-Target](#providing-data)** pairs. The **Reset** button resets all setting to their default values.
 
 
-## Delta
+## Delta {#delta}
 Cards allow you to visualize the difference between the [actual and target](#providing-data) values using special delta values and a delta indicator. If the default layout is used ([Stretched layout type](layout.md)), the card displays the following delta values/elements:
 
 ![Card_StretchedLayout_Web_DeltaElements](/assets/images/dashboards/img128474.png)
@@ -117,7 +117,7 @@ Then, specify the following settings:
 	For instance, you can specify that a specific indication should display when the actual value exceeds the target value _by 10%_ or _by $2K_. Use the **Threshold type** combo box to select whether you wish to specify the comparison tolerance in percentage values or absolute values. Then use the **Threshold value** box to specify the comparison tolerance.
 
 
-## Sparkline
+## Sparkline {#sparkline}
 _Sparklines_ can be used to visualize the variation of [actual or target](#providing-data) values (for instance, over time).
 
 ![wdd-cards-sparkline](/assets/images/dashboards/img125308.png)
@@ -244,7 +244,7 @@ Format rules that can be applied to different data item types are as follows:
 	* **Color Ranges**
 	* **Gradient Ranges**
 
-Refer to the following topic for more information about format condition types: [Conditional Formatting in Web Dashboard](../../appearance-customization/conditional-formatting.md).
+Refer to the following topic for more information about format condition types: [Conditional Formatting in Web Dashboard]({% link _docs/dashboard-designer/appearance-customization/conditional-formatting.md %}).
 ### Create and Edit a Format Rule   
 
 You can create and edit format rules in the **Conditional Formatting** section that is located in the following places:
@@ -253,7 +253,7 @@ You can create and edit format rules in the **Conditional Formatting** section t
 
 * The [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %})
 
-Refer to the following topic for information on how to create and edit format rules: [Conditional Formatting in Web Dashboard](../../appearance-customization/conditional-formatting.md).
+Refer to the following topic for information on how to create and edit format rules: [Conditional Formatting in Web Dashboard]({% link _docs/dashboard-designer/appearance-customization/conditional-formatting.md %}).
 ### Card-Specific Format Condition Settings
 
 For a Card dashboard item, you can apply conditional formatting to the card's visual elements (like Title, Subtitle, different values) and change the card's background.

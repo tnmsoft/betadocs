@@ -81,7 +81,7 @@ Format rules that can be applied to different data item types are as follows:
 	* **Bar Color Ranges** 
 	* **Bar Gradient Ranges** 
 
-Refer to the following topic for more information about format condition types: [Conditional Formatting in Web Dashboard](../../appearance-customization/conditional-formatting.md).
+Refer to the following topic for more information about format condition types: [Conditional Formatting in Web Dashboard]({% link _docs/dashboard-designer/appearance-customization/conditional-formatting.md %}).
 
 ### Create and Edit a Format Rule   
 
@@ -91,7 +91,7 @@ You can create and edit format rules in the **Conditional Formatting** section t
 
 * The [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %})
 
-Refer to the following topic for information on how to create and edit format rules: [Conditional Formatting in Web Dashboard](../../appearance-customization/conditional-formatting.md).
+Refer to the following topic for information on how to create and edit format rules: [Conditional Formatting in Web Dashboard]({% link _docs/dashboard-designer/appearance-customization/conditional-formatting.md %}).
 
 ### Pivot-Specific Format Condition Settings
 

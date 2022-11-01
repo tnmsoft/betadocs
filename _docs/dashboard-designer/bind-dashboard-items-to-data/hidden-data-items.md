@@ -31,14 +31,14 @@ You can [sort]({% link _docs/dashboard-designer/data-shaping/sorting.md %}) valu
 For instance, a data item menu on the image above displays sorting by values of the hidden _UnitPrice (Sum)_ measure.
 
 ## <a name="topn"/>Top N
-You can use **hidden measures** in [Top N](../data-shaping/top-n.md) conditions.
+You can use **hidden measures** in [Top N]({% link _docs/dashboard-designer/data-shaping/top-n.md %}) conditions.
 
 ![wdd-hidden-data-item-top-n](/assets/images/dashboards/img124649.png)
 
 For example, a data item menu on the image above displays the top 5 categories for the _UnitPrice (Sum)_ hidden measure.
 
 ## <a name="cf"/>Conditional Formatting
-You can create format rules based on **hidden measures** to apply [conditional formatting](../appearance-customization/conditional-formatting.md) to elements corresponding to visible values.
+You can create format rules based on **hidden measures** to apply [conditional formatting]({% link _docs/dashboard-designer/appearance-customization/conditional-formatting.md %}) to elements corresponding to visible values.
 
 ![wdd-hidden-measure-conditional-formating](/assets/images/dashboards/img125668.png)
 

@@ -70,7 +70,7 @@ Then, click the operand value to invoke the list of available parameters and sel
 ![wdd-parameters-filtering](/assets/images/dashboards/img126539.png)
 
 ### <a name="formatrules"/>Conditional Formatting
-You can apply conditional formatting to a specific dashboard item according to the current parameter value when creating the **Expression** [format condition](../../appearance-customization/conditional-formatting.md). Use this capability to format dashboard item elements dynamically, depending on the current parameter value.
+You can apply conditional formatting to a specific dashboard item according to the current parameter value when creating the **Expression** [format condition]({% link _docs/dashboard-designer/appearance-customization/conditional-formatting.md %}). Use this capability to format dashboard item elements dynamically, depending on the current parameter value.
 
 ![wdd-parameters-conditional-formatting](/assets/images/dashboards/img128229.png)
 
