@@ -83,7 +83,7 @@ The Choropleth Map dashboard item supports filtering by shapes. When Master Filt
 
 ![wdd-choropleth-map-master-filter-interativity](/assets/images/dashboards/img125414.png)
 
-To learn more about filtering concepts common to all dashboard items, see the [Master Filtering](../../interactivity/master-filtering.md) topic.
+To learn more about filtering concepts common to all dashboard items, see the [Master Filtering]({% link _docs/dashboard-designer/interactivity/master-filtering.md %}) topic.
 
 To enable **Master Filtering**, go to the Choropleth Map's [Interactivity]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and select the required Master Filtering mode.
 

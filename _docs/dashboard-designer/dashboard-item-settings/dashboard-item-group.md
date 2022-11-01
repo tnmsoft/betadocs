@@ -15,10 +15,10 @@ For example, you can combine related [filter elements](filter-elements.md) and d
 ![wdd-dashboard-group](/assets/images/dashboards/img125758.png)
 
 ## Create a Group
-To create a new group, use the **Group** button (the ![wdd-group-icon](/assets/images/dashboards/img125759.png) icon) in the [Toolbox](../ui-elements/toolbox.md).
+To create a new group, use the **Group** button (the ![wdd-group-icon](/assets/images/dashboards/img125759.png) icon) in the [Toolbox]({% link _docs/dashboard-designer/ui-elements/toolbox.md %}).
 
 You can combine dashboard items into a group using several ways.
-* Create a new dashboard item using the buttons inside a group or drag a new item from the [Toolbox](../ui-elements/toolbox.md).
+* Create a new dashboard item using the buttons inside a group or drag a new item from the [Toolbox]({% link _docs/dashboard-designer/ui-elements/toolbox.md %}).
 * Move the existing items into a group using drag-and-drop.
 
 > [!NOTE]

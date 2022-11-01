@@ -15,7 +15,7 @@ Like the [Dashboard Item Group](dashboard-item-group.md), the **Tab Container** 
 - [Interactivity](#interactivity)
 
 ## Create a Tab Container
-To create a tab container, use the **Tab Container** button (the ![Insert Tab Container](/assets/images/dashboards/wdd-toolbox-insert-tab-container.png) icon) in the [Toolbox](../ui-elements/toolbox.md). The created tab container always contains one empty tab page (_Page 1_).
+To create a tab container, use the **Tab Container** button (the ![Insert Tab Container](/assets/images/dashboards/wdd-toolbox-insert-tab-container.png) icon) in the [Toolbox]({% link _docs/dashboard-designer/ui-elements/toolbox.md %}). The created tab container always contains one empty tab page (_Page 1_).
 
 ![](/assets/images/dashboards/wdd-tab-container-empty-page.png)
 
@@ -24,7 +24,7 @@ Click the **Add page** button (the ![](/assets/images/dashboards/wdd-tab-contain
 A tab page can contain [dashboard items]({% link _docs/dashboard-designer/dashboard-item-settings/index.md %}) and [dashboard item groups](dashboard-item-group.md). You can add them to a tab page using one of the following ways:
 
 * Create a new item using the buttons inside the empty tab page.
-* Drag a new item from the [Toolbox](../ui-elements/toolbox.md) and drop it to the tab page.
+* Drag a new item from the [Toolbox]({% link _docs/dashboard-designer/ui-elements/toolbox.md %}) and drop it to the tab page.
 * Use [drag-and-drop]({% link _docs/dashboard-designer/dashboard-layout/dashboard-items-layout.md %}) to move existing items to the tab page.
 
 > [!NOTE]
@@ -32,7 +32,7 @@ A tab page can contain [dashboard items]({% link _docs/dashboard-designer/dashbo
 
 ## Interactivity
 
-The tab page allows you to manage the [interaction](../interactivity/master-filtering.md) between dashboard items inside and outside the page. 
+The tab page allows you to manage the [interaction]({% link _docs/dashboard-designer/interactivity/master-filtering.md %}) between dashboard items inside and outside the page. 
 
 The image below shows a tab page's default interactivity settings:
 

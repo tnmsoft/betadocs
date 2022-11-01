@@ -37,7 +37,7 @@ To enable interaction between the Pie and other dashboard items, you can use int
 * [Drill-Down](#drilldown)
 
 ### <a name="masterfiltering"/>Master Filtering
-You can use the Pie dashboard item as a filter for other dashboard items. To learn more about filtering concepts common to all dashboard items, see the [Master Filtering](../../interactivity/master-filtering.md) topic.
+You can use the Pie dashboard item as a filter for other dashboard items. To learn more about filtering concepts common to all dashboard items, see the [Master Filtering]({% link _docs/dashboard-designer/interactivity/master-filtering.md %}) topic.
 
 The Pie dashboard item supports filtering by **arguments**, **series** or **points**.
 * Filtering **by arguments** allows you to make other dashboard items display only data related to selected argument values by clicking a pie segment.

@@ -39,7 +39,7 @@ To enable interaction between the Scatter Chart and other dashboard items, you c
 * [Drill-Down](#drilldown)
 
 ### <a name="masterfiltering"/>Master Filtering
-The Web Dashboard allows you to use any data aware dashboard item as a filter for other dashboard items. To learn more about filtering concepts common to all dashboard items, see the [Master Filtering](../../interactivity/master-filtering.md) topic.
+The Web Dashboard allows you to use any data aware dashboard item as a filter for other dashboard items. To learn more about filtering concepts common to all dashboard items, see the [Master Filtering]({% link _docs/dashboard-designer/interactivity/master-filtering.md %}) topic.
 
 The Scatter Chart dashboard item supports filtering by points that correspond to specific argument values or their combinations.
 

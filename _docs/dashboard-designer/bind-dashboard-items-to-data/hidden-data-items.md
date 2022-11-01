@@ -17,7 +17,7 @@ You can perform the following operations using hidden data items.
 * [Conditional Formatting](#cf)
 
 ## <a name="filtering"/>Filtering
-You can use **hidden dimensions** to apply [filtering](../data-shaping/filtering.md) to the dashboard item.
+You can use **hidden dimensions** to apply [filtering]({% link _docs/dashboard-designer/data-shaping/filtering.md %}) to the dashboard item.
 
 ![wdd-hidden-data-item-filtering](/assets/images/dashboards/img124648.png)
 

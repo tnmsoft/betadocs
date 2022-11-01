@@ -43,7 +43,7 @@ You can prevent the pivot from being affected by other master filter items using
 
 ![wdd-pivot-interactivity](/assets/images/dashboards/img125456.png)
 
-To learn more about filtering concepts common to all dashboard items, see the [Master Filtering](../../interactivity/master-filtering.md) topic.
+To learn more about filtering concepts common to all dashboard items, see the [Master Filtering]({% link _docs/dashboard-designer/interactivity/master-filtering.md %}) topic.
 
 
 ## Conditional Formatting

@@ -6,7 +6,7 @@ parent: UI Elements
 grand_parent: Dashboard Designer
 ---
 # Dashboard Menu
-The dashboard menu allows you to create, save or open dashboards and invokes pages containing global dashboard settings. To invoke this menu, use the **Dashboard Menu button** on the [Toolbox](toolbox.md).
+The dashboard menu allows you to create, save or open dashboards and invokes pages containing global dashboard settings. To invoke this menu, use the **Dashboard Menu button** on the [Toolbox]({% link _docs/dashboard-designer/ui-elements/toolbox.md %}).
 
 The dashboard menu consists of the following buttons.
 

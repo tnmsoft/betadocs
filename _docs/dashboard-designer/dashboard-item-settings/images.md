@@ -10,18 +10,18 @@ The Image dashboard item is used to display static images within a dashboard.
 
 ![wdd-dashboard-items-image](/assets/images/dashboards/img125123.png)
 
-You can either add a static image or you can use the Bound Image as a detail item along with the [Master Filtering](../interactivity/master-filtering.md) feature.
+You can either add a static image or you can use the Bound Image as a detail item along with the [Master Filtering]({% link _docs/dashboard-designer/interactivity/master-filtering.md %}) feature.
 
 ## Image Overview
 The Web Dashboard allows you to create two types of **Image** dashboard items.
 * The **Image** dashboard item allows you to add a static image to the dashboard.
 	
 	![Image_Web](/assets/images/dashboards/img22523.png)
-* The **Bound Image** dashboard item can be bound to a set of images (for instance, stored in the database). You can use the Bound Image as a detail item along with the [Master Filtering](../../interactivity/master-filtering.md) feature.
+* The **Bound Image** dashboard item can be bound to a set of images (for instance, stored in the database). You can use the Bound Image as a detail item along with the [Master Filtering]({% link _docs/dashboard-designer/interactivity/master-filtering.md %}) feature.
 	
 	![wdd-image-bound](/assets/images/dashboards/img125706.png)
 
-To create a required Image dashboard item, use the **Image** and **Bound Image** buttons in the [Toolbox](../../ui-elements/toolbox.md).
+To create a required Image dashboard item, use the **Image** and **Bound Image** buttons in the [Toolbox]({% link _docs/dashboard-designer/ui-elements/toolbox.md %}).
 
 ## Providing Images
 This topic describes how to provide images for the **Image** and **Bound Image** dashboard items.
@@ -50,7 +50,7 @@ You can specify the binding mode for the Bound Image. Go to the Bound Image's [O
 
 > [!NOTE]
 > Note that the **Bound Image** can display only a single image simultaneously. If Master Filtering is not applied to the Bound Image, it selects the displayed image in the following ways.
-> * In the **Binary Array** mode, the displayed image cannot be predicted precisely as a result of sorting limitations for the image/binary data types. Use the [Master Filtering](../../interactivity/master-filtering.md) feature to display the specified image.
+> * In the **Binary Array** mode, the displayed image cannot be predicted precisely as a result of sorting limitations for the image/binary data types. Use the [Master Filtering]({% link _docs/dashboard-designer/interactivity/master-filtering.md %}) feature to display the specified image.
 > * In the **URI** mode, the Bound Image displays an image corresponding a first attribute value taking into account the attribute's sort order.
 
 
@@ -66,7 +66,7 @@ You can prevent the Bound Image from being affected by other master filter items
 
 ![wdd-pivot-interactivity](/assets/images/dashboards/img125456.png)
 
-To learn more about filtering concepts common to all dashboard items, see the [Master Filtering](../../interactivity/master-filtering.md) topic.
+To learn more about filtering concepts common to all dashboard items, see the [Master Filtering]({% link _docs/dashboard-designer/interactivity/master-filtering.md %}) topic.
 
 ## Image Settings
 This topic describes settings related to the representation of **Image** dashboard items.

@@ -58,7 +58,7 @@ The following options are available.
 | **Caption** | Specifies the series caption. |
 | **Plot on secondary axis** | Specifies whether or not the secondary axis is used to plot the current series. |
 | **Ignore empty points** | Specifies whether or not empty points are ignored when plotting the current series. |
-| **Show point markers** | Specifies whether or not to show point markers for the current series. This option is in effect for the **Line** and **Area** series. Note that point markers are always shown when [Master Filtering](../../interactivity/master-filtering.md) is enabled for the Chart dashboard item. |
+| **Show point markers** | Specifies whether or not to show point markers for the current series. This option is in effect for the **Line** and **Area** series. Note that point markers are always shown when [Master Filtering]({% link _docs/dashboard-designer/interactivity/master-filtering.md %}) is enabled for the Chart dashboard item. |
 
 ### <a name="configurepl"/>Configure Series Point Label
 The **Point Label** section of a value data item allows you to enable series point labels and manage their settings.
@@ -109,7 +109,7 @@ To enable interaction between the Chart and other dashboard items, you can use t
 * [Drill-Down](#drilldown)
 
 ### <a name="masterfiltering"/>Master Filtering
-You can use the Chart dashboard item as a filter for other dashboard items. To learn more about filtering concepts common to all dashboard items, see the [Master Filtering](../../interactivity/master-filtering.md) topic.
+You can use the Chart dashboard item as a filter for other dashboard items. To learn more about filtering concepts common to all dashboard items, see the [Master Filtering]({% link _docs/dashboard-designer/interactivity/master-filtering.md %}) topic.
 
 The Chart supports filtering by **argument**, **series** or **points**.
 * Filtering **by arguments** allows you to make other dashboard items display only data related to selected argument values by clicking series points.

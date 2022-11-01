@@ -59,7 +59,7 @@ The Dashboard allows you to use any data-aware dashboard item as a filter for ot
 
 ![wdd-dashboard-items-range-filter](/assets/images/dashboards/img125127.png)
 
-The Range Filter supports the **Ignore Master Filters** and **Cross Data Source Filtering** options. To learn more, see the [Master Filtering](../../interactivity/master-filtering.md) topic.
+The Range Filter supports the **Ignore Master Filters** and **Cross Data Source Filtering** options. To learn more, see the [Master Filtering]({% link _docs/dashboard-designer/interactivity/master-filtering.md %}) topic.
 
 ### Predefined Periods
 The Range Filter dashboard item allows you to add a number of _predefined date-time periods_ that can be used to perform a selection.

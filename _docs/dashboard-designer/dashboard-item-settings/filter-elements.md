@@ -82,7 +82,7 @@ To learn about the specifics of binding various filter elements to data, see the
 This document describes filtering capabilities supported by filter elements. You can use filter elements to apply master filtering to other dashboard items or introduce hierarchical filtering by adding several connected filters.
 
 ### Master Filtering
-The Dashboard allows you to use any data aware dashboard item as a filter for other dashboard items ([Master Filter](../../interactivity/master-filtering.md)).
+The Dashboard allows you to use any data aware dashboard item as a filter for other dashboard items ([Master Filter]({% link _docs/dashboard-designer/interactivity/master-filtering.md %})).
 
 > [!IMPORTANT]
 > Note that filter elements do not support Master Filter selection modes. You can switch the selection mode by [changing the type](filter-elements-overview.md) of the required filter element.

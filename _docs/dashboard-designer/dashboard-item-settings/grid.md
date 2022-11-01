@@ -86,7 +86,7 @@ To enable interaction between the Grid and other dashboard items, you can use th
 * [Drill-Down](#drilldown)
 
 ### <a name="masterfiltering"/>Master Filtering
-You can use the **Grid** dashboard item as a filter for other dashboard items. To learn more about filtering concepts common to all dashboard items, see the [Master Filtering](../../interactivity/master-filtering.md) topic.
+You can use the **Grid** dashboard item as a filter for other dashboard items. To learn more about filtering concepts common to all dashboard items, see the [Master Filtering]({% link _docs/dashboard-designer/interactivity/master-filtering.md %}) topic.
 
 The Grid dashboard item supports filtering by rows.
 

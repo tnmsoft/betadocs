@@ -164,7 +164,7 @@ To enable interaction between the Card and other dashboard items, you can use in
 * [Drill-Down](#drilldown)
 
 ### <a name="masterfiltering"/>Master Filtering
-The Dashboard allows you to use the Card dashboard item as a filter for other dashboard items. To learn more about filtering concepts common to all dashboard items, see the [Master Filtering](../../interactivity/master-filtering.md) topic.
+The Dashboard allows you to use the Card dashboard item as a filter for other dashboard items. To learn more about filtering concepts common to all dashboard items, see the [Master Filtering]({% link _docs/dashboard-designer/interactivity/master-filtering.md %}) topic.
 
 When **Master Filtering** is enabled, you can click a card(s) to make other dashboard items only display data related to the selected card(s).
 

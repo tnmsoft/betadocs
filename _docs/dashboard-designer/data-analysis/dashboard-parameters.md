@@ -11,7 +11,7 @@ You can use **dashboard parameters** when it is necessary to pass data of a cert
 
 ## Creating Parameters
 To create a dashboard parameter in the Web Dashboard, perform the following steps.
-1. Invoke the [Dashboard Menu](../../ui-elements/dashboard-menu.md) and select **Parameters**.
+1. Invoke the [Dashboard Menu]({% link _docs/dashboard-designer/ui-elements/dashboard-menu.md %}) and select **Parameters**.
 2. In the **Parameter List**, click the **Add New Parameter** button. The following settings will be displayed for the created parameter.
 	
 	![WebDashboard_Parameters_NewParameter](/assets/images/dashboards/img126106.png)
@@ -59,7 +59,7 @@ Do the following to bind a dashboard parameter to an SQL query or stored procedu
 * In the Expression Editor, add the required dashboard parameter from the Parameters column.
 
 ### <a name="filtering"/>Filtering
-You can filter the specified [query](../../provide-data/working-with-sql-data-sources/filter-queries.md) of the SQL Data Source, the entire [Excel Data Source](../../provide-data/filter-data-sources.md)/[Object Data Source](../../provide-data/filter-data-sources.md) or [apply filtering](../../data-shaping/filtering.md) to a specific dashboard item according to the current parameter value(s) using the Filter Editor.
+You can filter the specified [query](../../provide-data/working-with-sql-data-sources/filter-queries.md) of the SQL Data Source, the entire [Excel Data Source](../../provide-data/filter-data-sources.md)/[Object Data Source](../../provide-data/filter-data-sources.md) or [apply filtering]({% link _docs/dashboard-designer/data-shaping/filtering.md %}) to a specific dashboard item according to the current parameter value(s) using the Filter Editor.
 
 In the Filter Editor, you can compare a field value with different objects such as static values, values of another field or parameter values. To switch between values, click a down arrow glyph in the operand value placeholder to expand the list of available objects. Select the **Parameter** object to compare a field value with a parameter value.
 

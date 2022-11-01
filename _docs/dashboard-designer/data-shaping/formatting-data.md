@@ -109,7 +109,7 @@ The Web Dashboard allows you to specify currency formats for the current data it
 	![wdd-format-type-currency](/assets/images/dashboards/img126159.png)
 	
 	You can also specify the data item to use the client culture. For this, select the _Use client system settings_ in the combo box.
-* To set the dashboard currency, open the [dashboard menu](../ui-elements/dashboard-menu.md) and go to the **Currency** page. Here you can select the required currency from the list.
+* To set the dashboard currency, open the [dashboard menu]({% link _docs/dashboard-designer/ui-elements/dashboard-menu.md %}) and go to the **Currency** page. Here you can select the required currency from the list.
 	
 	![wdd-format-type-currency-entire-dashboard](/assets/images/dashboards/img124766.png)
 	

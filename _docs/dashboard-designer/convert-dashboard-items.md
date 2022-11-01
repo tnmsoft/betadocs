@@ -20,7 +20,7 @@ The Web Dashboard always preserves the following settings for data-bound dashboa
 * A custom name displayed within the dashboard item caption.
 
 The following settings are kept if the dashboard item is being converted to an item that also supports this feature.
-* [Master Filtering](interactivity/master-filtering.md) settings (e.g., the specified master filter mode).
+* [Master Filtering]({% link _docs/dashboard-designer/interactivity/master-filtering.md %}) settings (e.g., the specified master filter mode).
 * [Drill-Down](interactivity/drill-down.md) settings (e.g., the target dimension).
 * [Conditional Formatting](appearance-customization/conditional-formatting.md) settings.
 * [Coloring](appearance-customization/coloring.md) settings.

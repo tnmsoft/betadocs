@@ -6,7 +6,7 @@ parent: Dashboard Designer
 ---
 # Save a Dashboard
 The Web Dashboard provides the capability to save a dashboard definition (dashboard items, data source, data binding and layout settings, etc.) to an XML definition. This can be accomplished in the following ways.
-* You can save the dashboard definition manually. For this, open the [dashboard menu](ui-elements/dashboard-menu.md) and click **Save**.
+* You can save the dashboard definition manually. For this, open the [dashboard menu]({% link _docs/dashboard-designer/ui-elements/dashboard-menu.md %}) and click **Save**.
 	
 	![wdd-save-dashboard](/assets/images/dashboards/img122631.png)
 	

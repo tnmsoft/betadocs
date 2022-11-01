@@ -12,7 +12,7 @@ The main parts of the Toolbox are listed below.
 
 ![wdd-toolbox](/assets/images/dashboards/img125795.png)
 
-* **Dashboard Menu** - contains the dashboard menu elements. They allow you to save or load dashboards and configure general dashboard settings. To invoke this menu, click on the [Dashboard Menu](dashboard-menu.md) button.
+* **Dashboard Menu** - contains the dashboard menu elements. They allow you to save or load dashboards and configure general dashboard settings. To invoke this menu, click on the [Dashboard Menu]({% link _docs/dashboard-designer/ui-elements/dashboard-menu.md %}) button.
 * **Toolbox** - contains buttons that allow you to add dashboard items like [Grid]({% link _docs/dashboard-designer/dashboard-item-settings/grid.md %}), [Maps]({% link _docs/dashboard-designer/dashboard-item-settings/geo-point-maps.md %}), [Treemap]({% link _docs/dashboard-designer/dashboard-item-settings/treemap.md %}), [Filter Elements Overview]({% link _docs/dashboard-designer/dashboard-item-settings/filter-elements.md %}) or custom items.
 * **Toolbar** - the bottom part of the Toolbox that contains undo/redo buttons and buttons with custom functionality.
 

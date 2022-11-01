@@ -10,7 +10,7 @@ The **Dashboard Title** is located at the top of the [dashboard surface](../ui-e
 
 ![wdd-dashboard-title](/assets/images/dashboards/img126004.png)
 
-To change title settings, invoke the [dashboard menu](../ui-elements/dashboard-menu.md) and open the **Title** page.
+To change title settings, invoke the [dashboard menu]({% link _docs/dashboard-designer/ui-elements/dashboard-menu.md %}) and open the **Title** page.
 
 ![wdd-title-page](/assets/images/dashboards/img126668.png)
 

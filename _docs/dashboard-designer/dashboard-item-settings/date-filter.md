@@ -17,7 +17,7 @@ The Date Filter item displays a set of intervals that can be used as quick filte
 
 ## Add a New Date Filter to the Dashboard
 
-To create a Date Filter item, click the **Date Filter** item (the  ![](/assets/images/dashboards/wdd-datefilter-icon.png)  icon) in the [Toolbox](../ui-elements/toolbox.md) **Filter** section:
+To create a Date Filter item, click the **Date Filter** item (the  ![](/assets/images/dashboards/wdd-datefilter-icon.png)  icon) in the [Toolbox]({% link _docs/dashboard-designer/ui-elements/toolbox.md %}) **Filter** section:
 
 ![](/assets/images/dashboards/wdd-toolbox-filter-elements125330.png)
 

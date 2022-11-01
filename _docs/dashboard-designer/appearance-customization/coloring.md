@@ -83,7 +83,7 @@ A new color scheme will be applied to the dashboard item(s).
 ![wdd-coloring-change-local-scheme](/assets/images/dashboards/img126127.png)
 
 ## <a name="customizecpp"/>Customizing Color Palettes Using the Color Schemes Page
-The Color Scheme page of the [dashboard menu](../ui-elements/dashboard-menu.md) allows you to customize color tables by editing and adding colors.
+The Color Scheme page of the [dashboard menu]({% link _docs/dashboard-designer/ui-elements/dashboard-menu.md %}) allows you to customize color tables by editing and adding colors.
 
 ![wdd-coloring-scheme-page](/assets/images/dashboards/img126124.png)
 * **Edit colors**. You can reassign a color in the selected color table. For this, select one of the available schemes in the **Color Schemes** pane and click the required color in the **Colors** pane to provide access to the **Color** combo box.

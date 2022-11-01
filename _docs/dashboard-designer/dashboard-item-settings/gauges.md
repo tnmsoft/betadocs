@@ -70,7 +70,7 @@ To enable interaction between the Gauge and other dashboard items, you can use t
 * [Drill-Down](#drilldown)
 
 ### <a name="masterfiltering"/>Master Filtering
-You can use the **Gauge** dashboard item as a filter for other dashboard items. To learn more about filtering concepts common to all dashboard items, see the [Master Filtering](../../interactivity/master-filtering.md) topic.
+You can use the **Gauge** dashboard item as a filter for other dashboard items. To learn more about filtering concepts common to all dashboard items, see the [Master Filtering]({% link _docs/dashboard-designer/interactivity/master-filtering.md %}) topic.
 
 When **Master Filtering** is enabled, you can click a gauge(s) to make other dashboard items only display data related to the selected gauge(s).
 

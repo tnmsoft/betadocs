@@ -36,7 +36,7 @@ To enable interaction between the Treemap and other dashboard items, you can use
 * [Drill-Down](#drilldown)
 
 ### <a name="masterfiltering"/>Master-Filtering
-The Web Dashboard allows you to use any data aware dashboard item as a filter for other dashboard items (Master Filter). To learn more about filtering concepts common to all dashboard items, see the [Master Filtering](../../interactivity/master-filtering.md) topic.
+The Web Dashboard allows you to use any data aware dashboard item as a filter for other dashboard items (Master Filter). To learn more about filtering concepts common to all dashboard items, see the [Master Filtering]({% link _docs/dashboard-designer/interactivity/master-filtering.md %}) topic.
 
 The Treemap dashboard item supports filtering by tiles/[groups](grouping.md).
 
