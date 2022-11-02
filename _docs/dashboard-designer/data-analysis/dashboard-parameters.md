@@ -42,20 +42,9 @@ To create a dashboard parameter in the Web Dashboard, perform the following step
 In this topic, it describes how to pass the created dashboard parameter to the dashboard. 
 
 The created dashboard parameter can be used in the following scenarios:
-* [SQL Queries](#query)
 * [Filtering](#filtering)
 * [Conditional Formatting](#formatrules)
 * [Window Calculations](#windows-calculations)
-
-### <a name="query"/>SQL Queries {#query}
-The Web Dashboard provides the capability to bind a dashboard parameter and the existing [SQL query](../../provide-data/working-with-sql-data-sources/pass-query-parameters.md)/[stored procedure](../../provide-data/working-with-sql-data-sources/stored-procedures.md) parameter. This can be useful when you need to [filter the SQL query](../../provide-data/working-with-sql-data-sources/filter-queries.md) dynamically by including the parameter value in the _WHERE_ clause.
-
-![wdd-configure-query-param-page2](/assets/images/dashboards/img124955.png)
-
-Do the following to bind a dashboard parameter to an SQL query or stored procedure parameter in the [Dashboard Data Source Wizard](../../ui-elements/dialogs-and-wizards/dashboard-data-source-wizard.md):
-* Select the existing query or stored procedure parameter, or use the **Add** button to create a new query parameter.
-* Set the **Expression** as a parameter value and click the ellipsis button to invoke the Expression Editor for this parameter.
-* In the Expression Editor, add the required dashboard parameter from the Parameters column.
 
 ### <a name="filtering"/>Filtering {#filtering}
 You can [apply filtering]({% link _docs/dashboard-designer/data-shaping/filtering.md %}) to a specific dashboard item according to the current parameter value(s) using the Filter Editor.
