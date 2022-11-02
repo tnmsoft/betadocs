@@ -137,7 +137,7 @@ _CriteriaOperator.Parse("[Region] != ?")_
 | Total(SummaryExpression) | Returns the total based on values from the underlying data source for the specified expression in a calculation window. | Total(Sum([Sales])) | ![CalculationFunction_Total](/assets/images/dashboards/calculationfunction_total123030.png) |
 
 > [!IMPORTANT]
-> Note that window functions cannot be used inside [Aggr](aggregations.md).
+> Note that window functions cannot be used inside [Aggr]({% link _docs/dashboard-designer/data-analysis/aggregations.md %}).
 
 **Date-time Functions**
 

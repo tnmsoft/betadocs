@@ -16,28 +16,28 @@ Filters that are applied to a dashboard item affect only this item. Open a dashb
 
 ![wdd-invoke-filter-editor](/assets/images/dashboards/wdd-invoke-filter-editor124630.png)
 
-This invokes the [Filter Editor](../ui-elements/dialogs-and-wizards/filter-editor.md) dialog where you can specify filter criteria:
+This invokes the [Filter Editor]({% link _docs/dashboard-designer/ui-elements/filter-editor.md %}) dialog where you can specify filter criteria:
 
 ![Filtering_FilterEditor_Empty](/assets/images/dashboards/filtering_filtereditor_empty132417.png)
 
 > [!Tip]
-> **Documentation**: [Filter Editor](../ui-elements/dialogs-and-wizards/filter-editor.md) 
+> **Documentation**: [Filter Editor]({% link _docs/dashboard-designer/ui-elements/filter-editor.md %}) 
 
 ## Measure Filter
 
 You can apply filters to individual [measures]({% link _docs/dashboard-designer/bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md %}). If you create multiple measures that only differ in applied filters, you can compare values calculated over different date-time periods or against different categories.
 
-Open a dashboard item's [Binding]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and select a measure to filter. In the invoked [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}), open the **Filter** section and click **Edit**. This invokes the [Filter Editor](../ui-elements/dialogs-and-wizards/filter-editor.md) dialog where you can specify filter criteria. 
+Open a dashboard item's [Binding]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and select a measure to filter. In the invoked [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}), open the **Filter** section and click **Edit**. This invokes the [Filter Editor]({% link _docs/dashboard-designer/ui-elements/filter-editor.md %}) dialog where you can specify filter criteria. 
 
 ![web-filter-to-measure-menu](/assets/images/dashboards/web-filter-to-measure-menu.png)
 
 > [!Tip]
-> **Documentation**: [Filter Editor](../ui-elements/dialogs-and-wizards/filter-editor.md)
+> **Documentation**: [Filter Editor]({% link _docs/dashboard-designer/ui-elements/filter-editor.md %})
 
 You can clear the applied filter in the [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %})'s **Filter** section.
 
 > [!Note]
-> The measure filter is technically an expression that uses the `filter(summaryExpression, filterCriteria)` function, where `summaryExpression` is the measure to be filtered and `filterCriteria` is the filter. See the following topic for more information about functions you can use in dashboard expressions: [Expression Constants, Operators, and Functions](../data-analysis/expression-constants-operators-and-functions.md).
+> The measure filter is technically an expression that uses the `filter(summaryExpression, filterCriteria)` function, where `summaryExpression` is the measure to be filtered and `filterCriteria` is the filter. See the following topic for more information about functions you can use in dashboard expressions: [Expression Constants, Operators, and Functions]({% link _docs/dashboard-designer/data-analysis/expression-constants-operators-and-functions.md %}).
 
 The image below shows a Chart with three measures: 
 
