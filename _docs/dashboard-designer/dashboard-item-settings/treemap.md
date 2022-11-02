@@ -27,7 +27,7 @@ The table below lists and describes the Treemap's data sections.
 | Section | Processed as | Description |
 |---|---|---|
 | **Values** | Measure | Contains data items that provide numeric data. You can fill several data item containers in the Values section and use the **Values** drop-down menu to switch between the provided values. To invoke the Values menu, click the ![DashboardItems_OtherElements](/assets/images/dashboards/img20169.png) icon in the [dashboard item caption]({% link _docs/dashboard-designer/dashboard-layout/dashboard-item-caption.md %}). |
-| **Arguments** | Dimension | Contains data items that provide discrete categorical data. If the Arguments section contains several dimensions, you can [group](grouping.md) child tiles by values of the parent dimension. |
+| **Arguments** | Dimension | Contains data items that provide discrete categorical data. If the Arguments section contains several dimensions, you can [group](#grouping) child tiles by values of the parent dimension. |
 
 
 ## Interactivity
@@ -38,7 +38,7 @@ To enable interaction between the Treemap and other dashboard items, you can use
 ### <a name="masterfiltering"/>Master-Filtering
 The Web Dashboard allows you to use any data aware dashboard item as a filter for other dashboard items (Master Filter). To learn more about filtering concepts common to all dashboard items, see the [Master Filtering]({% link _docs/dashboard-designer/interactivity/master-filtering.md %}) topic.
 
-The Treemap dashboard item supports filtering by tiles/[groups](grouping.md).
+The Treemap dashboard item supports filtering by tiles/[groups](#grouping).
 
 When **Master Filtering** is enabled, you can click a tile or group caption (or multiple tiles/groups) to make other dashboard items only display data related to the selected tile/group(s).
 
@@ -71,10 +71,10 @@ To enable **Drill-Down**, go to the Treemap's [Interactivity]({% link _docs/dash
 
 ![wdd-dashboard-items-interactivity-section](/assets/images/dashboards/img125270.png)
 
-To return to the previous detail level, click the **Drill Up** button (the ![wdd-drill-up-icon](/assets/images/dashboards/img125074.png) icon) in the Treemap's [caption](../../dashboard-layout/dashboard-item-caption.md).
+To return to the previous detail level, click the **Drill Up** button (the ![wdd-drill-up-icon](/assets/images/dashboards/img125074.png) icon) in the Treemap's caption.
 
 > [!NOTE]
-> [Grouping](grouping.md) is not in effect when drill-down is enabled.
+> [Grouping](#grouping) is not in effect when drill-down is enabled.
 
 
 ## Layout
@@ -102,7 +102,7 @@ You can also set a layout direction to specify an arrangement of tiles depending
 * **Top Right - Bottom Left** arranges tiles from the top-right to the bottom-left corner.
 
 
-## Grouping
+## Grouping {#grouping}
 If you use several arguments in the Treemap, you can group tiles corresponding to child values by parent values. For example, the following Treemap dashboard item displays combinations of categories and sub-categories.
 
 ![wdd-treemap-ungroupped](/assets/images/dashboards/img125968.png)

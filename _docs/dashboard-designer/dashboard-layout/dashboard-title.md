@@ -6,7 +6,7 @@ parent: Dashboard Layout
 grand_parent: Dashboard Designer
 ---
 # Dashboard Title
-The **Dashboard Title** is located at the top of the [dashboard surface](../ui-elements/dashboard-surface.md) and can contain text and image content.
+The **Dashboard Title** is located at the top of the [dashboard surface]({% link _docs/dashboard-designer/ui-elements/dashboard-surface.md %}) and can contain text and image content.
 
 ![wdd-dashboard-title](/assets/images/dashboards/img126004.png)
 
@@ -26,5 +26,5 @@ Here you can specify the following options.
 * **Image** - Allows you to specify the image displayed within the dashboard title. The dashboard definition will contain an image as a byte array.
 
 The dashboard title can contain the following command buttons.
-* **Export To** - Allows you to export the entire dashboard. To learn more about exporting, see [Exporting](../exporting.md).
-* **Parameters** - Allows you to modify dashboard parameter values. To learn more about parameters, see [Parameters](../data-analysis/dashboard-parameters.md).
+* **Export To** - Allows you to export the entire dashboard.
+* **Parameters** - Allows you to modify dashboard parameter values. To learn more about parameters, see [Parameters]({% link _docs/dashboard-designer/data-analysis/dashboard-parameters.md %}).

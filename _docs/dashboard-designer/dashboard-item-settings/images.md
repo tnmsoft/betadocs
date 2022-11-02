@@ -31,7 +31,7 @@ To provide an image to the Image dashboard item, open the Image's [Options]({% l
 
 ![wdd-image-provide-image](/assets/images/dashboards/img125751.png)
 
-The URL option saves the path to the image in the [dashboard definition](../../save-a-dashboard.md).
+The URL option saves the path to the image in the [dashboard definition]({% link _docs/dashboard-designer/save-a-dashboard.md %}).
 
 ### Provide a Set of Images
 The **Bound Image** dashboard item provides the **Attribute** data section containing the corresponding placeholder.
@@ -58,7 +58,7 @@ You can specify the binding mode for the Bound Image. Go to the Bound Image's [O
 This document describes the features that enable interaction between the Bound Image and other dashboard items. These features include **Master Filtering**.
 
 ### Master Filtering
-Data displayed in the Bound Image dashboard item can be filtered by other master filter items. The image below displays the Bound Image dashboard item filtered by [List Box](../filter-elements.md).
+Data displayed in the Bound Image dashboard item can be filtered by other master filter items. The image below displays the Bound Image dashboard item filtered by [List Box]({% link _docs/dashboard-designer/dashboard-item-settings/filter-elements.md %}).
 
 ![wdd-image-bound](/assets/images/dashboards/img125706.png)
 

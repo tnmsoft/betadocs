@@ -27,11 +27,11 @@ The table below lists and describes the Grid's data sections.
 
 | Section | Processed as | Description |
 |---|---|---|
-| **Columns** | Dimension or Measure (depending on the selected column type) | Contains data items that provide values for grid columns. The data item menu allows you to select the [column type](columns.md) and specify their options. |
-| **Sparkline** | Dimension | Contains a data item that provides arguments for sparkline columns. To learn more, see [Columns](columns.md). |
+| **Columns** | Dimension or Measure (depending on the selected column type) | Contains data items that provide values for grid columns. The data item menu allows you to select the [column type](#columns) and specify their options. |
+| **Sparkline** | Dimension | Contains a data item that provides arguments for sparkline columns. To learn more, see [Columns](#columns). |
 
 
-## Columns
+## Columns {#columns}
 The Grid dashboard item supports four types of columns.
 
 ![wdd-grid-columns-overview](/assets/images/dashboards/img125253.png)
@@ -122,7 +122,7 @@ To return to the previous detail level, click the **Drill Up** button (the ![wdd
 
 
 ## Conditional Formatting
-Use conditional formatting to highlight individual cells or rows based on specific conditions. You can apply format rules to the **dimension** and **measure** [column types](columns.md). You can use [hidden measures]({% link _docs/dashboard-designer/bind-dashboard-items-to-data/hidden-data-items.md %}) to specify a condition used to apply formatting to visible values. 
+Use conditional formatting to highlight individual cells or rows based on specific conditions. You can apply format rules to the **dimension** and **measure** [column types](#columns). You can use [hidden measures]({% link _docs/dashboard-designer/bind-dashboard-items-to-data/hidden-data-items.md %}) to specify a condition used to apply formatting to visible values. 
 
 ![wdd-grid-conditional-formatting](/assets/images/dashboards/img125791.png) 
 
@@ -197,7 +197,7 @@ You can use the following summary functions when creating totals.
 	
 	![func_average](/assets/images/dashboards/img4457.png)
 * **Auto** - 
-	The total is calculated using the type of [summary function](../../data-shaping/summarization.md) specified for the measure corresponding to the current Grid column. Note that in this case, the total is calculated based on values of the corresponding data field from the underlying data source. 
+	The total is calculated using the type of [summary function]({% link _docs/dashboard-designer/data-shaping/summarization.md %}) specified for the measure corresponding to the current Grid column. Note that in this case, the total is calculated based on values of the corresponding data field from the underlying data source. 
 	
 	> [!NOTE]
 	> Note that the **Auto** type is not supported when the Grid is bound to the OLAP data source.
@@ -205,7 +205,7 @@ You can use the following summary functions when creating totals.
 You can create totals using different sets of summary functions. This depends on the type of the data source field providing data for the target column.
 
 > [!IMPORTANT]
-> Note that the **Auto** type is available only for the [measure](columns.md) column.
+> Note that the **Auto** type is available only for the [measure](#columns) column.
 
 ### <a name="create"/>Create and Edit Totals
 To create a total, open a [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}) and go to the **Totals** section. Click "+" to add a new total.

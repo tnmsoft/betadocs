@@ -27,7 +27,7 @@ The table below lists and describes the Range Filter's data sections.
 | Section | Processed as | Description |
 |---|---|---|
 | **Values** | Measure | Contains data items against which the Y-coordinates of data points are calculated. |
-| **Arguments** | Dimension | Contains data items that provide values displayed along the horizontal axis of the Range Filter. Data filtering is performed based on these values. Note that the **Custom Periods** section in the **Options** menu allows you to create [predefined ranges](predefined-periods.md) used to select the required date-time interval. |
+| **Arguments** | Dimension | Contains data items that provide values displayed along the horizontal axis of the Range Filter. Data filtering is performed based on these values. Note that the **Custom Periods** section in the **Options** menu allows you to create [predefined ranges](#predefined-periods) used to select the required date-time interval. |
 | **Series** | Dimension | Contains data items whose values are used to create chart series. |
 
 ## Series
@@ -61,20 +61,13 @@ The Dashboard allows you to use any data-aware dashboard item as a filter for ot
 
 The Range Filter supports the **Ignore Master Filters** and **Cross Data Source Filtering** options. To learn more, see the [Master Filtering]({% link _docs/dashboard-designer/interactivity/master-filtering.md %}) topic.
 
-### Predefined Periods
-The Range Filter dashboard item allows you to add a number of _predefined date-time periods_ that can be used to perform a selection.
-
-![wdd-range-filter-select-custom-period](/assets/images/dashboards/img125361.png)
-
-To learn more about predefined periods, see [Predefined Periods](predefined-periods.md).
-
-## Predefined Periods
+## Predefined Periods {#predefined-periods}
 The Range Filter dashboard item allows you to add a number of predefined date-time periods that can be used to perform a selection (for instance, _year-to-date_ or _quarter-to-date_).
 
 - [Add Predefined Ranges](#add-predefined-ranges)
 - [Select Predefined Ranges](#select-predefined-ranges)
 
-### Add Predefined Ranges
+### Add Predefined Ranges {#add-predefined-ranges}
 To add predefined ranges, open the Range Filter's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and go to the **Custom Periods** section. Click "+" to add a new period.
 
 ![wdd-range-filter-custom-intervals](/assets/images/dashboards/img125362.png)
@@ -147,7 +140,7 @@ Below you can find some examples of how to set up custom periods:
 	- Interval: Month
 	- Offset: 0
 
-### Select Predefined Ranges
+### Select Predefined Ranges {#select-predefined-ranges}
 To select a predefined period, click the **Select Date Time Period** button (the ![wdd-range-filter-custom-period-icon](/assets/images/dashboards/img125360.png) icon) in the Range Filter's [caption]({% link _docs/dashboard-designer/dashboard-layout/dashboard-item-caption.md %}) and select the required period from the list.
 
 ![wdd-range-filter-select-custom-period](/assets/images/dashboards/img125361.png)

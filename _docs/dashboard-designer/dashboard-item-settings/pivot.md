@@ -35,7 +35,7 @@ The table below lists and describes the Pivot's data sections.
 To enable interaction between the Pivot and other dashboard items, you can use the interactivity features. These features include **Master Filtering**.
 
 ### Master Filtering
-Data displayed in the Pivot dashboard item can be filtered by other master filter items. The image below displays the Pivot dashboard item filtered by [Tree View](../filter-elements.md).
+Data displayed in the Pivot dashboard item can be filtered by other master filter items. The image below displays the Pivot dashboard item filtered by [Tree View]({% link _docs/dashboard-designer/dashboard-item-settings/filter-elements.md %}).
 
 ![wdd-pivot-interactivity](/assets/images/dashboards/img125754.png)
 

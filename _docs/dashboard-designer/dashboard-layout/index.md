@@ -20,7 +20,7 @@ As an alternative, you can set content size in pixels. If the width or height is
 ![Web Dashboard Scrollable Layout](/assets/images/dashboards/web-dashboard-scrollable-layout.gif)
 
 
-Specify the following options in the [Designer Toolbar](ui-elements/designer-toolbar.md):
+Specify the following options in the [Designer Toolbar]({% link _docs/dashboard-designer/data-analysis/designer-toolbar.md %}):
 
 * _Auto_
 
@@ -30,7 +30,7 @@ Specify the following options in the [Designer Toolbar](ui-elements/designer-too
     The height or width of a dashboard surface is set in pixels.
 
 ## Dashboard Title
-The Dashboard Title is at the top of the [dashboard surface](ui-elements/dashboard-surface.md) and can contain static text, svg images, and command buttons. These elements are called toolbar items:
+The Dashboard Title is at the top of the [dashboard surface]({% link _docs/dashboard-designer/ui-elements/dashboard-surface.md %}) and can contain static text, svg images, and command buttons. These elements are called toolbar items:
 
 ![wdd-dashboard-title](/assets/images/dashboards/img126004.png)
 

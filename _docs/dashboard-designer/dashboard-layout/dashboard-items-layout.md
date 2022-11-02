@@ -32,7 +32,7 @@ You can resize individual items/groups of items by dragging their edges. For thi
 ## Maximize and Restore Item
 You can expand any dashboard item to fit the dashboard to examine data in greater detail. The expanded dashboard item size in this case is the same as the root layout group.
 
-1. Click the **Maximize** button in the [dashboard item caption](dashboard-item-caption.md) to maximize a dashboard item.
+1. Click the **Maximize** button in the [dashboard item caption]({% link _docs/dashboard-designer/dashboard-layout/dashboard-item-caption.md %}) to maximize a dashboard item.
 
 	![](/assets/images/dashboards/wdd-maximize-dashboard-item.png)
 

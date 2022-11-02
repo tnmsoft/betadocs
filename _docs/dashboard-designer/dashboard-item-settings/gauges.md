@@ -26,11 +26,11 @@ The table below lists and describes the Gauge's data sections.
 
 | Section | Processed as | Description |
 |---|---|---|
-| **Gauges** | Measure (both _Actual_ and _Target_ values) | Contains data items used to calculate values displayed by gauges. After you add the data item containing **actual** data, you can add the second data item (optional) that contains **target** data. If both items are provided, gauges show the difference between actual and target values, called _delta_. To learn more, see [Delta](delta.md). You can fill several data item containers in the Gauges section and use the **Values** drop-down menu to switch between the provided values. To invoke the Values menu, click the ![DashboardItems_OtherElements](/assets/images/dashboards/img20169.png) icon in the dashboard item caption. |
+| **Gauges** | Measure (both _Actual_ and _Target_ values) | Contains data items used to calculate values displayed by gauges. After you add the data item containing **actual** data, you can add the second data item (optional) that contains **target** data. If both items are provided, gauges show the difference between actual and target values, called _delta_. To learn more, see [Delta](#delta). You can fill several data item containers in the Gauges section and use the **Values** drop-down menu to switch between the provided values. To invoke the Values menu, click the ![DashboardItems_OtherElements](/assets/images/dashboards/img20169.png) icon in the dashboard item caption. |
 | **Series** | Dimension | Contains data items whose values are used to label gauges.. |
 
 
-## Delta
+## Delta {#delta}
 Gauges allow you to display the difference between the _actual_ and _target_ values of a particular parameter. This difference is called **delta**.
 
 Delta is shown with a _delta indicator_ (indicating whether the actual value is less than or greater than the target value) and _delta values_ (representing this difference as an absolute value or a variation).

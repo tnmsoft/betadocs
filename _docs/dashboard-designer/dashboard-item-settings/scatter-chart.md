@@ -91,7 +91,7 @@ The following settings are available.
 | **Position** | Sets a legend position and orientation. |
 
 
-## Axes
+## Axes {#axes}
 Scatter Chart X and Y-axes are numerical axis of values. You can specify various axes settings to change visual data presentation.
 
 To access X and Y-axis settings, go to the Scatter Chart's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and open the **Axis X** or **Axis Y** section.
@@ -113,7 +113,7 @@ The following options are available.
 
 
 ## Orientation
-You can rotate the Scatter Chart so that the [X-axis](axes.md) becomes vertical, and the [Y-axis](axes.md) becomes horizontal.
+You can rotate the Scatter Chart so that the [X-axis](#axes) becomes vertical, and the [Y-axis](#axes) becomes horizontal.
 
 To rotate a Scatter Chart in the Web Dashboard, open the Scatter Chart's [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and go to **Common** section. Then, turn the **Rotated** option on.
 

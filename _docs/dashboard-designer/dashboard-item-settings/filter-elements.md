@@ -11,7 +11,7 @@ Filter elements represent a special type of dashboard item that allows you to ap
 ![wdd-dashboard-items-filters](/assets/images/dashboards/img125353.png)
 
 
-## Filter Elements Overview
+## Filter Elements Overview {#overview}
 The Web Dashboard allows you to create filter elements that used to filter other dashboard items.
 * [Combo Box](#combo-box)
 * [List Box](#list-box)
@@ -57,7 +57,7 @@ The **Date Filter** dashboard item allows you to filter dashboard data based on 
 
 ![datefilter](/assets/images/dashboards/datefilter-web-autoheight.png)
 
-See [Date Filter](../date-filter.md) for details.
+See [Date Filter]({% link _docs/dashboard-designer/dashboard-item-settings/date-filter.md %}) for details.
 
 
 ## Providing Data {#providing-data}
@@ -85,7 +85,7 @@ This document describes filtering capabilities supported by filter elements. You
 The Dashboard allows you to use any data aware dashboard item as a filter for other dashboard items ([Master Filter]({% link _docs/dashboard-designer/interactivity/master-filtering.md %})).
 
 > [!IMPORTANT]
-> Note that filter elements do not support Master Filter selection modes. You can switch the selection mode by [changing the type](filter-elements-overview.md) of the required filter element.
+> Note that filter elements do not support Master Filter selection modes. You can switch the selection mode by [changing the type](#overview) of the required filter element.
 
 Depending on the filter element type, you can select a value(s) to make other dashboard items display only data related to the selected value(s).
 
