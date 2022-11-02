@@ -57,7 +57,7 @@ To configure filtering type, open the Pie's [Interactivity]({% link _docs/dashbo
 To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](/assets/images/dashboards/img125072.png) icon) in the Pie's [caption]({% link _docs/dashboard-designer/dashboard-layout/dashboard-item-caption.md %}).
 
 ### <a name="drilldown"/>Drill-Down
-The drill-down capability allows you to change the detail level of data displayed in the Pie dashboard item. To learn more about drill-down concepts common to all dashboard items, see the [Drill-Down](../../interactivity/drill-down.md) topic.
+The drill-down capability allows you to change the detail level of data displayed in the Pie dashboard item. To learn more about drill-down concepts common to all dashboard items, see the [Drill-Down]({% link _docs/dashboard-designer/interactivity/drill-down.md %}) topic.
 
 The Pie supports drill-down on **argument** or **series** values.
 * To drill down on **arguments**, click a pie segment to view a detail diagram for the corresponding argument value.

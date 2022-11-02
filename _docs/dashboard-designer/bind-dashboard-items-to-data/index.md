@@ -6,4 +6,4 @@ has_children: true
 parent: Dashboard Designer
 ---
 # Bind Dashboard Items to Data
-To display data, dashboard items should be bound to [data source](provide-data.md) fields. The topics in this section describe how to do this.
+To display data, dashboard items should be bound to data source fields. Each report added to a dashboard will behave as a data source.

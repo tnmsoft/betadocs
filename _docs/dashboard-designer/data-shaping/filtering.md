@@ -6,7 +6,7 @@ parent: Data Shaping
 grand_parent: Dashboard Designer
 ---
 # Filtering
-Web Dashboard allows you to filter data in the [dashboard items]({% link _docs/dashboard-designer/dashboard-item-settings/index.md %}) or apply filters to a specific measure. You can use [dimensions](../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md) and [hidden dimensions](../bind-dashboard-items-to-data/hidden-data-items.md) to build filter criteria.
+Web Dashboard allows you to filter data in the [dashboard items]({% link _docs/dashboard-designer/dashboard-item-settings/index.md %}) or apply filters to a specific measure. You can use [dimensions]({% link _docs/dashboard-designer/bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md %}) and [hidden dimensions]({% link _docs/dashboard-designer/bind-dashboard-items-to-data/hidden-data-items.md %}) to build filter criteria.
 
 ![Filtering_Main](/assets/images/dashboards/filtering_main132414.png)
 
@@ -25,7 +25,7 @@ This invokes the [Filter Editor](../ui-elements/dialogs-and-wizards/filter-edito
 
 ## Measure Filter
 
-You can apply filters to individual [measures](../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md). If you create multiple measures that only differ in applied filters, you can compare values calculated over different date-time periods or against different categories.
+You can apply filters to individual [measures]({% link _docs/dashboard-designer/bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md %}). If you create multiple measures that only differ in applied filters, you can compare values calculated over different date-time periods or against different categories.
 
 Open a dashboard item's [Binding]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and select a measure to filter. In the invoked [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}), open the **Filter** section and click **Edit**. This invokes the [Filter Editor](../ui-elements/dialogs-and-wizards/filter-editor.md) dialog where you can specify filter criteria. 
 

@@ -129,7 +129,7 @@ To configure filtering type, open the Chart's [Interactivity]({% link _docs/dash
 To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](/assets/images/dashboards/img125072.png) icon) in the Chart's [caption]({% link _docs/dashboard-designer/dashboard-layout/dashboard-item-caption.md %}).
 
 ### <a name="drilldown"/>Drill-Down
-The drill-down capability allows you to change the detail level of data displayed in the Chart dashboard item. To learn more about drill-down concepts common to all dashboard items, see the [Drill-Down](../../interactivity/drill-down.md) topic.
+The drill-down capability allows you to change the detail level of data displayed in the Chart dashboard item. To learn more about drill-down concepts common to all dashboard items, see the [Drill-Down]({% link _docs/dashboard-designer/interactivity/drill-down.md %}) topic.
 
 The Chart supports drill-down on **argument** or **series** values.
 * To drill down on arguments, click a series point to view a detail chart for the corresponding argument value.
@@ -248,9 +248,9 @@ The following [series types](#series) support conditional formatting:
 
 You can use the following data in rule calculations:
 
-- [measures](../../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md) from the **Values** section 
-- [dimensions](../../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md) from the **Arguments**/**Series** section 
-- [hidden measures](../../bind-dashboard-items-to-data/hidden-data-items.md) 
+- [measures]({% link _docs/dashboard-designer/bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md %}) from the **Values** section 
+- [dimensions]({% link _docs/dashboard-designer/bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md %}) from the **Arguments**/**Series** section 
+- [hidden measures]({% link _docs/dashboard-designer/bind-dashboard-items-to-data/hidden-data-items.md %}) 
 
 Format conditions that can be applied to different data item types are as follows:
 * numeric 
@@ -321,4 +321,4 @@ Enable coloring for series to restore the color scheme:
 
 > [!Tip]
 > **Documentation:**
-> [Web Dashboard - Coloring](../../appearance-customization/coloring.md)
+> [Web Dashboard - Coloring]({% link _docs/dashboard-designer/appearance-customization/coloring.md %})

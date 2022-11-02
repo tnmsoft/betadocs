@@ -19,7 +19,7 @@ Click the plus button next to the operator to add a new condition or group.
 
 ![Filtering_FilterEditor_AddConditionMenu](/assets/images/dashboards/filtering_filtereditor_addconditionmenu132418.png)
 
-To set a new condition, specify the dimension (including [hidden dimensions](../../bind-dashboard-items-to-data/hidden-data-items.md)):
+To set a new condition, specify the dimension (including [hidden dimensions]({% link _docs/dashboard-designer/bind-dashboard-items-to-data/hidden-data-items.md %})):
 
 ![Filtering_FilterEditor_SelectField](/assets/images/dashboards/filtering_filtereditor_selectfield132426.png)
 

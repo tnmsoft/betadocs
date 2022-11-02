@@ -35,7 +35,7 @@ The table below lists the information and buttons that can be displayed in the d
 | Icon / Text | Item | Description |
 |---|---|---|
 | ![](/assets/images/dashboards/web-item-caption-data-reducing.png) | **Data Reducing** icon | **Static**. Shows that visible data is limited. |
-| Text | **Drill-Down Text** | **Static**.Shows a value or values from the current drill-down hierarchy. See [Drill-Down](../interactivity/drill-down.md) for more details. |
+| Text | **Drill-Down Text** | **Static**.Shows a value or values from the current drill-down hierarchy. See [Drill-Down]({% link _docs/dashboard-designer/interactivity/drill-down.md %}) for more details. |
 | Text | **Caption Text** | **Static**. Shows a static text in the caption. |
 | ![](/assets/images/dashboards/web-item-caption-maximize.png) | **Maximize** button | **Action**. Expands any dashboard item into the whole dashboard size to examine data in greater detail. Refer to [Dashboard Items Layout](dashboard-items-layout.md) for more information. |
 | ![](/assets/images/dashboards/web-item-caption-restore.png) | **Restore** button | **Action**. Restores the expanded item to its initial state. |
@@ -45,7 +45,7 @@ The table below lists the information and buttons that can be displayed in the d
 | ![](/assets/images/dashboards/web-item-caption-select-date-time-period.png) | **Select Date Time Period** menu / button | **Action**. Allows you to select date-time periods for the Range Filter. |
 | ![](/assets/images/dashboards/web-item-caption-filters.png) | **Filters** button | **Action**. Displays filters affecting the current dashboard item or entire dashboard. This button is only available in [mobile layout](../../web-dashboard-viewer-mode/mobile-layout.md). |
 | ![](/assets/images/dashboards/web-item-caption-clear-master-filter.png) | **Clear Master Filter** button | **State**. Allows you to reset filtering when a dashboard item acts as the Master Filter. To learn more, see Master Filtering. |
-| ![](/assets/images/dashboards/web-item-caption-drill-up.png) | **Drill Up** button |  **State**. Allows you to return to the previous detail level when the [drill-down](../interactivity/drill-down.md) capability is enabled for this item. |
+| ![](/assets/images/dashboards/web-item-caption-drill-up.png) | **Drill Up** button |  **State**. Allows you to return to the previous detail level when the [drill-down]({% link _docs/dashboard-designer/interactivity/drill-down.md %}) capability is enabled for this item. |
 | ![](/assets/images/dashboards/web-item-caption-clear-selection.png) | **Clear Selection** button |  **State**. Allows you to clear the selection inside an item. |
 | ![](/assets/images/dashboards/web-item-caption-initial-extent.png) | **Initial Extent** button |  **State**. Restores the default size and position of the Map dashboard items. |
 | Dashboards | **Dashboards** button |  **Navigation**. Displays a list of available dashboards. |

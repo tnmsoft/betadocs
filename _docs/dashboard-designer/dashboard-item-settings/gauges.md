@@ -83,7 +83,7 @@ To enable **Master Filtering**, go to the Gauge's [Interactivity]({% link _docs/
 To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](/assets/images/dashboards/img125072.png) icon) in the Gauge's [caption]({% link _docs/dashboard-designer/dashboard-layout/dashboard-item-caption.md %}).
 
 ### <a name="drilldown"/>Drill-Down
-The built-in drill-down capability allows you to change the detail level of data displayed in dashboard items on the fly. To learn more about drill-down concepts common to all dashboard items, see the [Drill-Down](../../interactivity/drill-down.md) topic.
+The built-in drill-down capability allows you to change the detail level of data displayed in dashboard items on the fly. To learn more about drill-down concepts common to all dashboard items, see the [Drill-Down]({% link _docs/dashboard-designer/interactivity/drill-down.md %}) topic.
 
 When drill-down is enabled, you can click a gauge to view the details.
 

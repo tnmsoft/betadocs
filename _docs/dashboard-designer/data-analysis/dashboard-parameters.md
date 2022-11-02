@@ -84,7 +84,7 @@ You can use parameters when constructing [expressions](../../provide-data/calcul
 To include a parameter in the expression, double-click the required parameter in the Fields pane.
 
 ### <a name="windowscalculations"/>Window Calculations
-You can use parameters when customizing expressions for [window calculations](../calculations.md). This allows you to apply a calculation dynamically, depending on the current parameter value.
+You can use parameters when customizing expressions for [window calculations]({% link _docs/dashboard-designer/data-analysis/calculations.md %}). This allows you to apply a calculation dynamically, depending on the current parameter value.
 
 ![wdd-parameters-window-calculations](/assets/images/dashboards/img126562.png)
 

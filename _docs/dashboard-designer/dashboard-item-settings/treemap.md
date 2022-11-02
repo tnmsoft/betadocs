@@ -54,7 +54,7 @@ To enable **Master Filtering**, go to the Treemap's [Interactivity]({% link _doc
 To reset multiple filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](/assets/images/dashboards/img125072.png) icon) in the Treemap's [caption]({% link _docs/dashboard-designer/dashboard-layout/dashboard-item-caption.md %}).
 
 ### <a name="drilldown"/>Drill-Down
-The built-in drill-down capability allows end-users to change the detail level of data displayed in dashboard items on the fly. To learn more about drill-down concepts common to all dashboard items, see the [Drill-Down](../../interactivity/drill-down.md) topic.
+The built-in drill-down capability allows end-users to change the detail level of data displayed in dashboard items on the fly. To learn more about drill-down concepts common to all dashboard items, see the [Drill-Down]({% link _docs/dashboard-designer/interactivity/drill-down.md %}) topic.
 
 When drill-down is enabled, an end-user can click a tile to view the details.
 
@@ -119,7 +119,7 @@ Product tiles will be grouped into category groups.
 > Note that grouping is unavailable for the bottommost level.
 
 ## Coloring
-Treemap provides the capability to color its tiles by associating dimension values/measures and specified colors. You can choose whether to use a global color scheme to provide consistent colors for identical values or specify a local color scheme for each dashboard item. To learn more about coloring concepts common for all dashboard items, see [Coloring](../../appearance-customization/coloring.md).
+Treemap provides the capability to color its tiles by associating dimension values/measures and specified colors. You can choose whether to use a global color scheme to provide consistent colors for identical values or specify a local color scheme for each dashboard item. To learn more about coloring concepts common for all dashboard items, see [Coloring]({% link _docs/dashboard-designer/appearance-customization/coloring.md %}).
 
 By default, the Treemap dashboard item colors its tiles in the following way.
 * If the Treemap contains only measures (the _Values_ section), values corresponding to different measures are colored by different hues.

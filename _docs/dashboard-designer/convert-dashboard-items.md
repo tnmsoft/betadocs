@@ -21,10 +21,10 @@ The Web Dashboard always preserves the following settings for data-bound dashboa
 
 The following settings are kept if the dashboard item is being converted to an item that also supports this feature.
 * [Master Filtering]({% link _docs/dashboard-designer/interactivity/master-filtering.md %}) settings (e.g., the specified master filter mode).
-* [Drill-Down](interactivity/drill-down.md) settings (e.g., the target dimension).
+* [Drill-Down]({% link _docs/dashboard-designer/interactivity/drill-down.md %}) settings (e.g., the target dimension).
 * [Conditional Formatting]({% link _docs/dashboard-designer/appearance-customization/conditional-formatting.md %}) settings.
-* [Coloring](appearance-customization/coloring.md) settings.
-* [Calculation](data-analysis/calculations.md) settings.
+* [Coloring]({% link _docs/dashboard-designer/appearance-customization/coloring.md %}) settings.
+* [Calculation]({% link _docs/dashboard-designer/data-analysis/calculations.md %}) settings.
 
 For different types of dashboard items, some specific settings can be preserved. For example, the following settings are preserved.
 * Legend settings for the [Chart]({% link _docs/dashboard-designer/dashboard-item-settings/chart.md %})/[Scatter Chart]({% link _docs/dashboard-designer/dashboard-item-settings/scatter-chart.md %}) dashboard items.

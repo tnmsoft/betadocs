@@ -54,7 +54,7 @@ To enable **Master Filtering**, go to the Scatter Chart's [Interactivity]({% lin
 To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](/assets/images/dashboards/img125072.png) icon) in the Scatter Chart's [caption]({% link _docs/dashboard-designer/dashboard-layout/dashboard-item-caption.md %}).
 
 ### <a name="drilldown"/>Drill-Down
-The Drill-Down feature allows you to change the detail level of data displayed in dashboard items. To learn more about concepts common to all dashboard items, see the [Drill-Down](../../interactivity/drill-down.md) topic.
+The Drill-Down feature allows you to change the detail level of data displayed in dashboard items. To learn more about concepts common to all dashboard items, see the [Drill-Down]({% link _docs/dashboard-designer/interactivity/drill-down.md %}) topic.
 
 When drill-down is enabled, you can click a point to view the details (or double-click a point in case of enabled Master Filtering).
 
@@ -152,9 +152,9 @@ Use conditional formatting to highlight points in a Scatter Chart dashboard item
 
 You can use the following data in rule calculations:
 
-- [measures](../../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md) from the **X and Y axis** sections 
-- [measures](../../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md) from the **Weight** section
-- [dimensions](../../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md) from the **Arguments** section 
+- [measures]({% link _docs/dashboard-designer/bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md %}) from the **X and Y axis** sections 
+- [measures]({% link _docs/dashboard-designer/bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md %}) from the **Weight** section
+- [dimensions]({% link _docs/dashboard-designer/bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md %}) from the **Arguments** section 
 - hidden measures 
 
 Format conditions that can be applied to different data item types are as follows:
@@ -218,4 +218,4 @@ Enable coloring for arguments to restore the color scheme:
 
 > [!Tip]
 > **Documentation:**
-> [Web Dashboard - Coloring](../../appearance-customization/coloring.md)
+> [Web Dashboard - Coloring]({% link _docs/dashboard-designer/appearance-customization/coloring.md %})

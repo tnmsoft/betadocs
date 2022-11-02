@@ -31,7 +31,7 @@ The table below lists and describes the Card's data sections.
 | **Sparkline** | Dimension | Provides a date-time dimension whose data will be used to visualize values using [sparklines](#sparkline). |
 
 
-## Layout
+## Layout {#layout}
 The Card dashboard item allows you to manage the position and visibility of elements displayed on cards. These elements include actual and target values, a [delta indicator and corresponding delta values](#delta), a [sparkline](#sparkline), etc.
 
 To manage the position and visibility of card elements, choose a predefined layout template and customize its settings.
@@ -88,11 +88,11 @@ Use the **Apply to All Cards** button to propagate the specified layout settings
 
 
 ## Delta {#delta}
-Cards allow you to visualize the difference between the [actual and target](#providing-data) values using special delta values and a delta indicator. If the default layout is used ([Stretched layout type](layout.md)), the card displays the following delta values/elements:
+Cards allow you to visualize the difference between the [actual and target](#providing-data) values using special delta values and a delta indicator. If the default layout is used ([Stretched layout type](#layout)), the card displays the following delta values/elements:
 
 ![Card_StretchedLayout_Web_DeltaElements](/assets/images/dashboards/img128474.png)
 * **Delta Indicator** - Indicates whether the actual value is less or greater than the target value.
-* **Percent Variation** and **Absolute Variation** - delta values that show a difference between the actual and target value. You can also display the **Percent of Target** value. To do this, customize the [card's layout](layout.md).
+* **Percent Variation** and **Absolute Variation** - delta values that show a difference between the actual and target value. You can also display the **Percent of Target** value. To do this, customize the [card's layout](#layout).
 
 To customize settings that relate to the calculation and display of delta values/elements, invoke the [Binding menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}), click the required data item in the [Cards](#providing-data) section and go to **Delta Options** in the [data item's menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).
 
@@ -122,7 +122,7 @@ _Sparklines_ can be used to visualize the variation of [actual or target](#provi
 
 ![wdd-cards-sparkline](/assets/images/dashboards/img125308.png)
 
-To learn how to display the sparkline for different layout types, see [Layout](layout.md).
+To learn how to display the sparkline for different layout types, see [Layout](#layout).
 * [Data Binding Specifics](#binding)
 * [Change Sparkline Options](#options)
 
@@ -145,10 +145,10 @@ The following options are available:
 
 
 ## Formatting
-The Card dashboard item formats the [actual and target](#providing-data) values displayed within cards using [format settings](../../data-shaping/formatting-data.md) specified for data items.
+The Card dashboard item formats the [actual and target](#providing-data) values displayed within cards using [format settings]({% link _docs/dashboard-designer/data-shaping/formatting-data.md %}) specified for data items.
 
 To change format settings in the Web Dashboard's UI, invoke the **[Binding menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %})**, click the required data item in the **[Cards](#providing-data)** section and go to **Format Options** in the [data item's menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).
-You can change format settings for the following [value types](layout.md):
+You can change format settings for the following [value types](#layout):
 * **Actual Value**
 * **Target Value**
 * **Absolute Variation**
@@ -156,7 +156,7 @@ You can change format settings for the following [value types](layout.md):
 * **Percent Variation**
 
 To change format settings for the selected value type, click the **Edit** button (the ![wdd-icon-edit-collection-value-item](/assets/images/dashboards/img126050.png) icon).
-To learn more about format settings, see **Formatting Numeric Values** in the [Formatting Data](../../data-shaping/formatting-data.md) topic.
+To learn more about format settings, see **Formatting Numeric Values** in the [Formatting Data]({% link _docs/dashboard-designer/data-shaping/formatting-data.md %}) topic.
 
 ## Interactivity
 To enable interaction between the Card and other dashboard items, you can use interactivity features like **Master Filtering** and **Drill-Down**.
@@ -177,7 +177,7 @@ To enable **Master Filtering**, go to the Card's [Interactivity]({% link _docs/d
 To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](/assets/images/dashboards/img125072.png) icon) in the Card's [caption]({% link _docs/dashboard-designer/dashboard-layout/dashboard-item-caption.md %}).
 
 ### <a name="drilldown"/>Drill-Down
-The built-in drill-down capability allows you to change the detail level of data displayed in dashboard items on the fly. To learn more about drill-down concepts common to all dashboard items, see the [Drill-Down](../../interactivity/drill-down.md) topic.
+The built-in drill-down capability allows you to change the detail level of data displayed in dashboard items on the fly. To learn more about drill-down concepts common to all dashboard items, see the [Drill-Down]({% link _docs/dashboard-designer/interactivity/drill-down.md %}) topic.
 
 When drill-down is enabled, you can click a card to view the details.
 
