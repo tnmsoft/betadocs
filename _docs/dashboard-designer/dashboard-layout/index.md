@@ -20,7 +20,7 @@ As an alternative, you can set content size in pixels. If the width or height is
 ![Web Dashboard Scrollable Layout](/assets/images/dashboards/web-dashboard-scrollable-layout.gif)
 
 
-Specify the following options in the [Designer Toolbar]({% link _docs/dashboard-designer/data-analysis/designer-toolbar.md %}):
+Specify the following options in the [Designer Toolbar]({% link _docs/dashboard-designer/ui-elements/designer-toolbar.md %}):
 
 * _Auto_
 
