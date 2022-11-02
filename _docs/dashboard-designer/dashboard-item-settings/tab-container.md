@@ -7,7 +7,7 @@ grand_parent: Dashboard Designer
 ---
 # Tab Container
 
-Like the [Dashboard Item Group]({% link _docs/dashboard-designer/dashboard-item-settings/dashboard-item-groups.md %}), the **Tab Container** dashboard item allows you to combine elements within a dashboard. The main Tab Container's purpose is to split the dashboard layout into several pages. For example, you can place common filter elements on a separate tab page to display only data dashboard items. 
+Like the [Dashboard Item Group]({% link _docs/dashboard-designer/dashboard-item-settings/dashboard-item-group.md %}), the **Tab Container** dashboard item allows you to combine elements within a dashboard. The main Tab Container's purpose is to split the dashboard layout into several pages. For example, you can place common filter elements on a separate tab page to display only data dashboard items. 
 
 ![](/assets/images/dashboards/wdd-dashboard-item-tab-container.png)
 
@@ -21,7 +21,7 @@ To create a tab container, use the **Tab Container** button (the ![Insert Tab Co
 
 Click the **Add page** button (the ![](/assets/images/dashboards/wdd-tab-container-add-page-button.png) icon) to add a new page to the tab container.
 
-A tab page can contain [dashboard items]({% link _docs/dashboard-designer/dashboard-item-settings/index.md %}) and [dashboard item groups]({% link _docs/dashboard-designer/dashboard-item-settings/dashboard-item-groups.md %}). You can add them to a tab page using one of the following ways:
+A tab page can contain [dashboard items]({% link _docs/dashboard-designer/dashboard-item-settings/index.md %}) and [dashboard item groups]({% link _docs/dashboard-designer/dashboard-item-settings/dashboard-item-group.md %}). You can add them to a tab page using one of the following ways:
 
 * Create a new item using the buttons inside the empty tab page.
 * Drag a new item from the [Toolbox]({% link _docs/dashboard-designer/ui-elements/toolbox.md %}) and drop it to the tab page.
