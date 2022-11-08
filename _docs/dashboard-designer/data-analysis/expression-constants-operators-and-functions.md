@@ -136,8 +136,8 @@ _CriteriaOperator.Parse("[Region] != ?")_
 | WindowStdDevp(SummaryExpression, StartOffset, EndOffset) | Returns the biased standard deviation of the expression within the window. | WindowStdDevp(Sum([Sales]), First(), Last()) | - |
 | Total(SummaryExpression) | Returns the total based on values from the underlying data source for the specified expression in a calculation window. | Total(Sum([Sales])) | ![CalculationFunction_Total](/assets/images/dashboards/calculationfunction_total123030.png) |
 
-> [!IMPORTANT]
-> Note that window functions cannot be used inside [Aggr]({% link _docs/dashboard-designer/data-analysis/aggregations.md %}).
+{: .note }
+Note that window functions cannot be used inside [Aggr]({% link _docs/dashboard-designer/data-analysis/aggregations.md %}).
 
 **Date-time Functions**
 

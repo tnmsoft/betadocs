@@ -199,8 +199,8 @@ You can use the following summary functions when creating totals.
 
 You can create totals using different sets of summary functions. This depends on the type of the data source field providing data for the target column.
 
-> [!IMPORTANT]
-> Note that the **Auto** type is available only for the [measure](#columns) column.
+{: .note }
+Note that the **Auto** type is available only for the [measure](#columns) column.
 
 ### <a name="create"/>Create and Edit Totals
 To create a total, open a [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}) and go to the **Totals** section. Click "+" to add a new total.

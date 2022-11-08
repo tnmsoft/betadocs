@@ -28,12 +28,12 @@ The dashboard provides two ways of coloring dashboard item elements.
 	
 	![wdd-coloring-global-scheme](/assets/images/dashboards/img126076.png)
 	
-	> [!IMPORTANT]
-	> When a global color scheme is used, the dashboard reserves automatically generated colors for certain values regardless of the filter state.
+	{: .note }
+	When a global color scheme is used, the dashboard reserves automatically generated colors for certain values regardless of the filter state.
 * **Local color scheme**. This color scheme provides an _independent_ set of colors for each dashboard item.
 	
-	> [!IMPORTANT]
-	> When a local color scheme is used, the dashboard reassigns palette colors when the filter state is changed.
+	{: .note }
+	When a local color scheme is used, the dashboard reassigns palette colors when the filter state is changed.
 
 To select a type of coloring dashboard item elements, open the [dashboard item menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}), go to the **Color Scheme** section and use the **Color Scheme Type** option.
 
