@@ -63,10 +63,10 @@ mermaid:
 callouts:
   note:
     title: Note
-    color: orange
+    color: yellow
   tip:
     title: Tip
-    color: white
+    color: green
   
 # Aux links for the upper right navigation
 #aux_links:
