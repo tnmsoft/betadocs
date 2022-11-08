@@ -316,6 +316,7 @@ Enable coloring for series to restore the color scheme:
 
 ![web-chart-coloring-by-hue-with-applied-format-rule](/assets/images/dashboards/web-chart-coloring-by-hue-with-applied-format-rule.png)
 
-> [!Tip]
+{: .important-title }
+> Tip
 > **Documentation:**
 > [Web Dashboard - Coloring]({% link _docs/dashboard-designer/appearance-customization/coloring.md %})
