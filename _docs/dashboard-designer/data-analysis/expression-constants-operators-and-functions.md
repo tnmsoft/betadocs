@@ -118,7 +118,7 @@ _CriteriaOperator.Parse("[Region] != ?")_
 | RankPercentile(SummaryExpression, [ 'asc' / 'desc' ]) | Returns the percentile rank for the current row in the window. | RankPercentile(Sum([Sales]), 'desc') | - |
 | RunningAvg(SummaryExpression) | Returns the running average of the specified expression from the first row in the window to the current row. | RunningAvg(Sum([Sales])) | ![CalculationFunction_RunningAvg](/assets/images/dashboards/calculationfunction_runningavg123020.png) |
 | RunningCount(SummaryExpression) | Returns the running count of the specified expression from the first row in the window to the current row. | RunningCount(Sum([Sales])) | - |
-| RunningMax(SummaryExpression) | Returns the running maximum of the specified expression from the first row in the window to the current row. | | RunningMax(Sum([Sales])) | ![CalculationFunction_RunningMax](/assets/images/dashboards/calculationfunction_runningmax123021.png) |
+| RunningMax(SummaryExpression) | Returns the running maximum of the specified expression from the first row in the window to the current row. | RunningMax(Sum([Sales])) | ![CalculationFunction_RunningMax](/assets/images/dashboards/calculationfunction_runningmax123021.png) |
 | RunningMin(SummaryExpression) | Returns the running minimum of the specified expression from the first row in the window to the current row. | RunningMin(Sum([Sales])) | ![CalculationFunction_RunningMin](/assets/images/dashboards/calculationfunction_runningmin123026.png) |
 | RunningSum(SummaryExpression) | Returns the running sum of the specified expression from the first row in the window to the current row. | RunningSum(Sum([Sales])) | ![CalculationFunction_RunningSum](/assets/images/dashboards/calculationfunction_runningsum123027.png) |
 | WindowAvg(SummaryExpression, StartOffset, EndOffset) | Returns the average of the expression within the window, which is defined using offsets from the current row. | WindowAvg(Sum([Sales]), First(), Last()) | ![CalculationFunction_WindowAvg](/assets/images/dashboards/calculationfunction_windowavg123031.png) |
@@ -228,51 +228,13 @@ Note that window functions cannot be used inside [Aggr]({% link _docs/dashboard-
 
 **Logical Functions**
 
-{|
-|-
-
-! Function
-! Description
-! Example
-|-
-
-| Iif(Expression1, True_Value1, ..., ExpressionN, True_ValueN, False_Value)
-| Returns one of several specified values depending upon the values of logical expressions.
-
-The function can take *2N+1* arguments (*N* - the number of specified logical expressions):
-
-- Each odd argument specifies a logical expression;
-
-- Each even argument specifies the value that is returned if the previous expression evaluates to **true**; 
-
-- **...**
-
-- The last argument specifies the value that is returned if the previously evaluated logical expressions yielded **false**.
-| Iif(Name = 'Bob', 1, 0)") 
-
-Iif(Name = 'Bob', 1, Name = 'Dan', 2, Name = 'Sam', 3, 0)
- 
-|-
-
-| IsNull(Value)
-| Returns True if the specified Value is NULL.
-| IsNull([OrderDate])
-|-
-
-| IsNull(Value1, Value2)
-| Returns Value1 if it is not set to NULL; otherwise, Value2 is returned.
-| IsNull([ShipDate], [RequiredDate])
-|-
-
-| IsNullOrEmpty(String)
-| Returns True if the specified String object is NULL or an empty string; otherwise, False is returned.
-| IsNullOrEmpty([ProductName])
-|-
-
-| ToBoolean(Value)
-| Converts Value to an equivalent Boolean value.
-| ToBoolean([Value])
-|}
+| Function | Description | Example |
+|---|---|---|
+| Iif(Expression1, True_Value1, ..., ExpressionN, True_ValueN, False_Value) | Returns one of several specified values depending upon the values of logical expressions. The function can take *2N+1* arguments (*N* - the number of specified logical expressions). The last argument specifies the value that is returned if the previously evaluated logical expressions yielded **false**. | Iif(Name = 'Bob', 1, 0)") |
+| IsNull(Value) | Returns True if the specified Value is NULL. | IsNull([OrderDate]) |
+| IsNull(Value1, Value2) | Returns Value1 if it is not set to NULL; otherwise, Value2 is returned. | IsNull([ShipDate], [RequiredDate]) |
+| IsNullOrEmpty(String) | Returns True if the specified String object is NULL or an empty string; otherwise, False is returned. | IsNullOrEmpty[ProductName]) |
+| ToBoolean(Value) | Converts Value to an equivalent Boolean value. | ToBoolean([Value]) |
 
 **Math Functions**
 
