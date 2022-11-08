@@ -111,11 +111,11 @@ _CriteriaOperator.Parse("[Region] != ?")_
 | Index() | Returns the index of the current row in the window. | Index() | ![CalculationFunction_Index](/assets/images/dashboards/calculationfunction_index123017.png) |
 | Size() | Returns the number of rows in the window. | Size() | ![CalculationFunction_Size](/assets/images/dashboards/calculationfunction_size123029.png) |
 | Lookup(SummaryExpression, Position) | Returns the value of the expression in a target position specified as a relative offset from the current position. | Lookup(Sum([Sales]), 3) | ![CalculationFunction_Lookup](/assets/images/dashboards/calculationfunction_lookup123019.png) |
-| RankCompetition(SummaryExpression, [ 'asc' | 'desc' ]) | Returns the standard competition rank for the current row in the window. | RankCompetition(Sum([Sales]), 'asc') | - |
-| RankDense(SummaryExpression, [ 'asc' | 'desc' ]) | Returns the dense rank for the current row in the window. | RankDense(Sum([Sales]), 'asc') | - |
-| RankUnique(SummaryExpression, [ 'asc' | 'desc' ]) | Returns the unique rank for the current row in the window. | RankUnique(Sum([Sales]), 'asc') | - |
-| RankModified(SummaryExpression, [ 'asc' | 'desc' ]) | Returns the modified competition rank for the current row in the window. | RankModified(Sum([Sales]), 'asc')  | - |
-| RankPercentile(SummaryExpression, [ 'asc' | 'desc' ]) | Returns the percentile rank for the current row in the window. | RankPercentile(Sum([Sales]), 'desc') | - |
+| RankCompetition(SummaryExpression, [ 'asc' / 'desc' ]) | Returns the standard competition rank for the current row in the window. | RankCompetition(Sum([Sales]), 'asc') | - |
+| RankDense(SummaryExpression, [ 'asc' / 'desc' ]) | Returns the dense rank for the current row in the window. | RankDense(Sum([Sales]), 'asc') | - |
+| RankUnique(SummaryExpression, [ 'asc' / 'desc' ]) | Returns the unique rank for the current row in the window. | RankUnique(Sum([Sales]), 'asc') | - |
+| RankModified(SummaryExpression, [ 'asc' / 'desc' ]) | Returns the modified competition rank for the current row in the window. | RankModified(Sum([Sales]), 'asc')  | - |
+| RankPercentile(SummaryExpression, [ 'asc' / 'desc' ]) | Returns the percentile rank for the current row in the window. | RankPercentile(Sum([Sales]), 'desc') | - |
 | RunningAvg(SummaryExpression) | Returns the running average of the specified expression from the first row in the window to the current row. | RunningAvg(Sum([Sales])) | ![CalculationFunction_RunningAvg](/assets/images/dashboards/calculationfunction_runningavg123020.png) |
 | RunningCount(SummaryExpression) | Returns the running count of the specified expression from the first row in the window to the current row. | RunningCount(Sum([Sales])) | - |
 | RunningMax(SummaryExpression) | Returns the running maximum of the specified expression from the first row in the window to the current row. | | RunningMax(Sum([Sales])) | ![CalculationFunction_RunningMax](/assets/images/dashboards/calculationfunction_runningmax123021.png) |
