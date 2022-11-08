@@ -84,8 +84,8 @@ This document describes filtering capabilities supported by filter elements. You
 ### Master Filtering
 The Dashboard allows you to use any data aware dashboard item as a filter for other dashboard items ([Master Filter]({% link _docs/dashboard-designer/interactivity/master-filtering.md %})).
 
-> [!IMPORTANT]
-> Note that filter elements do not support Master Filter selection modes. You can switch the selection mode by [changing the type](#overview) of the required filter element.
+{: .note }
+Note that filter elements do not support Master Filter selection modes. You can switch the selection mode by [changing the type](#overview) of the required filter element.
 
 Depending on the filter element type, you can select a value(s) to make other dashboard items display only data related to the selected value(s).
 
