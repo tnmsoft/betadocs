@@ -213,7 +213,5 @@ Enable coloring for arguments to restore the color scheme:
 
 ![web-scatter-chart-color-by-hue](/assets/images/dashboards/web-scatter-chart-color-by-hue.png)
 
-{: .important-title }
-> Tip
-> **Documentation:**
-> [Web Dashboard - Coloring]({% link _docs/dashboard-designer/appearance-customization/coloring.md %})
+{: .tip }
+**Documentation:** [Web Dashboard - Coloring]({% link _docs/dashboard-designer/appearance-customization/coloring.md %})

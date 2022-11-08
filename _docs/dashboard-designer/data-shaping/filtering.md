@@ -20,9 +20,8 @@ This invokes the [Filter Editor]({% link _docs/dashboard-designer/ui-elements/fi
 
 ![Filtering_FilterEditor_Empty](/assets/images/dashboards/filtering_filtereditor_empty132417.png)
 
-{: .important-title }
-> Tip
-> **Documentation**: [Filter Editor]({% link _docs/dashboard-designer/ui-elements/filter-editor.md %}) 
+{: .tip }
+**Documentation**: [Filter Editor]({% link _docs/dashboard-designer/ui-elements/filter-editor.md %}) 
 
 ## Measure Filter
 
@@ -32,9 +31,8 @@ Open a dashboard item's [Binding]({% link _docs/dashboard-designer/ui-elements/d
 
 ![web-filter-to-measure-menu](/assets/images/dashboards/web-filter-to-measure-menu.png)
 
-{: .important-title }
-> Tip
-> **Documentation**: [Filter Editor]({% link _docs/dashboard-designer/ui-elements/filter-editor.md %})
+{: .tip }
+**Documentation**: [Filter Editor]({% link _docs/dashboard-designer/ui-elements/filter-editor.md %})
 
 You can clear the applied filter in the [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %})'s **Filter** section.
 
