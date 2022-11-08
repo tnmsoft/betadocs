@@ -42,7 +42,7 @@ To specify a format for date-time values, use the **Format Type** option in the 
 ![wdd-format-type-date-time](/assets/images/dashboards/img124765.png)
 
 {: .note }
-> Specific group intervals do not have format options. This means that corresponding values can only be presented in a single manner. The **Format** section is not displayed for such group intervals.
+Specific group intervals do not have format options. This means that corresponding values can only be presented in a single manner. The **Format** section is not displayed for such group intervals.
 
 The following list shows format types by group interval.
 * Year

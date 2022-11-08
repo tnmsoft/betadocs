@@ -372,9 +372,7 @@ _Amount == (2 + 48) * 2_
 Operators are case insensitive. Although field values’ case sensitivity depends on the data source.
 
 {: .note }
-> A data source affects certain operators' behavior. For instance, by default, the SQL Server Express 2005 is configured as case insensitive. In this case, the following expression always evaluates to **true**:
-> 
-> _Lower(Name) == Upper(Name)_
+A data source affects certain operators' behavior. For instance, by default, the SQL Server Express 2005 is configured as case insensitive. In this case, the following expression always evaluates to **true**: _Lower(Name) == Upper(Name)_
 
 ## Escape Keywords
 You can mark a keyword&#0045;like field name with an escape character (@ sign). In the expression below, the **CriteriaOperator.Parse** method interprets \@Or as the field named "Or", not the logical operator OR.

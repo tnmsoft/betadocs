@@ -22,7 +22,7 @@ You can combine dashboard items into a group using several ways.
 * Move the existing items into a group using drag-and-drop.
 
 {: .note }
-> A dashboard item group cannot be added to another group.
+A dashboard item group cannot be added to another group.
 
 ## Interactivity
 The dashboard item group provides the capability to manage [interaction]({% link _docs/dashboard-designer/interactivity/index.md %}) between dashboard items within and outside the group. To specify interactivity settings, open the Group's [Interactivity]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu.

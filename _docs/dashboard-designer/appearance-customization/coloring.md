@@ -67,7 +67,7 @@ For example, the image below shows the Chart dashboard item whose _Country_ **di
 ![wdd-coloring-by-measure](/assets/images/dashboards/img126108.png)
 
 {: .note }
-> If you enabled coloring by different hues for several dimensions/measures, all combinations of dimension values/measures will be automatically colored using different colors from the default palette.
+If you enabled coloring by different hues for several dimensions/measures, all combinations of dimension values/measures will be automatically colored using different colors from the default palette.
 
 ## <a name="customizedim"/>Customizing Color Palettes Using the Dashboard Item Menu
 The Web Dashboard allows you to customize colors of the specific palette using the **Color Scheme** section of the dashboard item [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu. To edit the color scheme, click the **Edit** button (the ![wdd-icon-edit-collection-value-item](/assets/images/dashboards/img126050.png) icon) of the corresponding color.

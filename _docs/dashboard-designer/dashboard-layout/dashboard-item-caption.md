@@ -21,7 +21,7 @@ To show or hide the caption of a dashboard item, go to the dashboard item **Opti
 ![wdd-di-caption-options](/assets/images/dashboards/img126136.png)
 
 {: .note }
-> The [Range Filter]({% link _docs/dashboard-designer/dashboard-item-settings/range-filter.md %}) dashboard item's caption is not visible by default.
+The [Range Filter]({% link _docs/dashboard-designer/dashboard-item-settings/range-filter.md %}) dashboard item's caption is not visible by default.
 
 The dashboard item caption consists of the following elements:
 

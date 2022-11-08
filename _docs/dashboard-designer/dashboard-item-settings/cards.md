@@ -59,7 +59,7 @@ The Card dashboard item uses the [Stretched](#available) layout template that ar
 To learn more about the available value types and visual elements, see [Change Layout](#change).
 
 {: .note }
-> **Delta Indicator** and delta values (such as **Percent Variation** or **Absolute Variation**) are colored depending on delta settings. To learn how to manage delta settings, see [Delta](#delta).
+**Delta Indicator** and delta values (such as **Percent Variation** or **Absolute Variation**) are colored depending on delta settings. To learn how to manage delta settings, see [Delta](#delta).
 
 ### <a name="change"/>Change Layout
 To change a card's layout in the Web Dashboard's UI, invoke the **[Binding menu]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %})**, click the required data item in the **[Cards](#providing-data)** section and go to **Cards Layout** in the [data item's menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %}).

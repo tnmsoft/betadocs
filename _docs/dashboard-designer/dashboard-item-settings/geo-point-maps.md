@@ -44,7 +44,7 @@ The **DevExpress Dashboard**  ships with a set of default maps showing various p
 * **Canada** - a map of Canada
 
 {: .note }
-> The **World Countries** map has a lower level of detail than maps of specific regions and may not contain some of the countries. As an alternative, you can load a custom map with required granularity.
+The **World Countries** map has a lower level of detail than maps of specific regions and may not contain some of the countries. As an alternative, you can load a custom map with required granularity.
 
 To select a required default map, go to the [Options]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and use the **Default Map** dropdown list located in the **Common** section.
 
@@ -106,7 +106,7 @@ The Geo Point Map dashboard item supports filtering by callout/bubble/pie. When 
 ![wdd-geo-point-master-filtering](/assets/images/dashboards/img125454.png)
 
 {: .note }
-> When you select a clustered bubble or pie, master filtering is applied by all points that are clustered into this bubble/pie.
+When you select a clustered bubble or pie, master filtering is applied by all points that are clustered into this bubble/pie.
 
 To learn more about filtering concepts common to all dashboard items, see the [Master Filtering]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) topic.
 
