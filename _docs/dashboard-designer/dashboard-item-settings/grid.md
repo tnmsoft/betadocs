@@ -111,9 +111,6 @@ Drill-down requires that the Columns section contains several dimensions at the 
 
 ![wdd-grid-interactivity-several-dimensions](/assets/images/dashboards/img125410.png)
 
-> [!NOTE]
-> In OLAP mode, you can perform drill-down for either a hierarchy data item or several dimension attributes.
-
 To enable **Drill-Down**, go to the Grid's [Interactivity]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and turn the **Drill-Down** option on.
 
 ![wdd-dashboard-items-interactivity-section](/assets/images/dashboards/img125270.png)
@@ -199,8 +196,6 @@ You can use the following summary functions when creating totals.
 * **Auto** - 
 	The total is calculated using the type of [summary function]({% link _docs/dashboard-designer/data-shaping/summarization.md %}) specified for the measure corresponding to the current Grid column. Note that in this case, the total is calculated based on values of the corresponding data field from the underlying data source. 
 	
-	> [!NOTE]
-	> Note that the **Auto** type is not supported when the Grid is bound to the OLAP data source.
 
 You can create totals using different sets of summary functions. This depends on the type of the data source field providing data for the target column.
 

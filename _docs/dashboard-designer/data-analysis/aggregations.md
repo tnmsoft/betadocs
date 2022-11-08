@@ -28,7 +28,7 @@ To compute values of the calculated field on a visualization (or summary) level,
 | StdDev(Value) | Returns an estimate of the standard deviation of a population, where the sample is a subset of the entire population. | StdDev([Orders]) |
 | StdDevp(Value) | Returns the standard deviation of a population, where the population is the entire data to be summarized. | StdDevp([Orders]) |
 
-These functions can be used for all types of numeric fields. After creating such calculated fields, you can use them as measures contained in an OLAP cube.
+These functions can be used for all types of numeric fields.
 
 ## Intermediate Level Aggregations
 The Web Dashboard can aggregate and summarize data on different levels.

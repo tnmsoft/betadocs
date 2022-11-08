@@ -187,9 +187,6 @@ Drill-down requires that the Series section contains several dimensions at the t
 
 ![wdd-cards-series-section.png](/assets/images/dashboards/img125599.png)
 
-> [!NOTE]
-> In OLAP mode, you can perform drill-down for either a hierarchy data item or several dimension attributes.
-
 To enable **Drill-Down**, go to the Card's [Interactivity]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and turn the **Drill-Down** option on.
 
 ![wdd-dashboard-items-interactivity-section](/assets/images/dashboards/img125270.png)

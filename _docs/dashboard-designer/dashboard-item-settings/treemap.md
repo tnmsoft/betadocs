@@ -64,9 +64,6 @@ Drill-down requires that the **Arguments** section contains several dimensions a
 
 ![wdd-drill-down-arguments](/assets/images/dashboards/img127984.png)
 
-> [!NOTE]
-> In OLAP mode, you can perform drill-down for either a hierarchy data item or several dimension attributes.
-
 To enable **Drill-Down**, go to the Treemap's [Interactivity]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and turn the **Drill-Down** option on.
 
 ![wdd-dashboard-items-interactivity-section](/assets/images/dashboards/img125270.png)

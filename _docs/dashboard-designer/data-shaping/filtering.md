@@ -66,19 +66,3 @@ The image below shows the difference between filters (the filter condition is th
 - **Visible Data Filter**: sales percentages remain the same because this filter type does not affect calculations.
 
 ![web-filter-visible-data-filter-grids](/assets/images/dashboards/web-filter-visible-data-filter-grids.png)
-
-## OLAP Filtering Specifics
-
-You cannot build complex filter criteria to filter data in OLAP mode. Filters for a measure are also not supported. Instead, you can filter dimension attributes and hierarchies: you can select the values you want (or do not want) to include in the dashboard.
-
-### Dimension Attribute
-
-For dimension attributes, the Filter Editor contains a list of all values. The search panel is available for non-hierarchical fields.
-
-![wdd-olap-filtering-attribute](/assets/images/dashboards/img124640.png)
-
-### Dimension Hierarchy
-
-The Filter Editor displays hierarchies as a tree and allows you to filter values at any hierarchy level.
-
-![wdd-olap-filtering-hierarchy](/assets/images/dashboards/img124639.png)

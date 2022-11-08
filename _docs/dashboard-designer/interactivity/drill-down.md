@@ -13,10 +13,6 @@ Drill-down requires that the data section contains several dimensions...
 
 ![wdd-drill-down-hierarchy](/assets/images/dashboards/img124803.png)
 
-... or a hierarchy data item (in OLAP mode).
-
-![wdd-drill-down-hierarchy-olap](/assets/images/dashboards/img124804.png)
-
 To be able to change the detail level of data, go to the dashboard item's **Interactivity** menu and enable the **Drill Down** option.
 
 ![wdd-drill-down](/assets/images/dashboards/img124784.png)
