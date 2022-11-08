@@ -36,7 +36,7 @@ Open a dashboard item's [Binding]({% link _docs/dashboard-designer/ui-elements/d
 
 You can clear the applied filter in the [data item menu]({% link _docs/dashboard-designer/ui-elements/data-item-menu.md %})'s **Filter** section.
 
-> [!Note]
+{: .note }
 > The measure filter is technically an expression that uses the `filter(summaryExpression, filterCriteria)` function, where `summaryExpression` is the measure to be filtered and `filterCriteria` is the filter. See the following topic for more information about functions you can use in dashboard expressions: [Expression Constants, Operators, and Functions]({% link _docs/dashboard-designer/data-analysis/expression-constants-operators-and-functions.md %}).
 
 The image below shows a Chart with three measures: 

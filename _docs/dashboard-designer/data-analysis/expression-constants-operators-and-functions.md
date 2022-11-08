@@ -371,7 +371,7 @@ _Amount == (2 + 48) * 2_
 ## Case Sensitivity
 Operators are case insensitive. Although field values’ case sensitivity depends on the data source.
 
-> [!NOTE]
+{: .note }
 > A data source affects certain operators' behavior. For instance, by default, the SQL Server Express 2005 is configured as case insensitive. In this case, the following expression always evaluates to **true**:
 > 
 > _Lower(Name) == Upper(Name)_

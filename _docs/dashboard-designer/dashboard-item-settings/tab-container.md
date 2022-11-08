@@ -27,7 +27,7 @@ A tab page can contain [dashboard items]({% link _docs/dashboard-designer/dashbo
 * Drag a new item from the [Toolbox]({% link _docs/dashboard-designer/ui-elements/toolbox.md %}) and drop it to the tab page.
 * Use [drag-and-drop]({% link _docs/dashboard-designer/dashboard-layout/dashboard-items-layout.md %}) to move existing items to the tab page.
 
-> [!NOTE]
+{: .note }
 > Tab containers cannot be added to another tab container.
 
 ## Interactivity

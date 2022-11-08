@@ -44,7 +44,7 @@ When **Master Filtering** is enabled, you can click a tile or group caption (or 
 
 ![wdd-treemap-interactivity](/assets/images/dashboards/img125959.png)
 
-> [!NOTE]
+{: .note }
 > If the Single Master Filter is used, you can select only tiles corresponding to the bottommost level.
 
 To enable **Master Filtering**, go to the Treemap's [Interactivity]({% link _docs/dashboard-designer/ui-elements/dashboard-item-menu.md %}) menu and select the required Master Filtering mode.
@@ -70,7 +70,7 @@ To enable **Drill-Down**, go to the Treemap's [Interactivity]({% link _docs/dash
 
 To return to the previous detail level, click the **Drill Up** button (the ![wdd-drill-up-icon](/assets/images/dashboards/img125074.png) icon) in the Treemap's caption.
 
-> [!NOTE]
+{: .note }
 > [Grouping](#grouping) is not in effect when drill-down is enabled.
 
 
@@ -112,7 +112,7 @@ Product tiles will be grouped into category groups.
 
 ![wdd-treemap-grouped](/assets/images/dashboards/img125970.png)
 
-> [!NOTE]
+{: .note }
 > Note that grouping is unavailable for the bottommost level.
 
 ## Coloring
@@ -130,7 +130,7 @@ To change the default coloring behavior, go to the **Coloring** section of the T
 
 ![wdd-treemap-coloring-options](/assets/images/dashboards/img125996.png)
 
-> [!NOTE]
+{: .note }
 > You can change the default palette used to color Treemap tiles. For this, go to the **Color Scheme** section of the Treemap's **Options** menu.
 
 ## Labels

@@ -21,7 +21,7 @@ You can combine dashboard items into a group using several ways.
 * Create a new dashboard item using the buttons inside a group or drag a new item from the [Toolbox]({% link _docs/dashboard-designer/ui-elements/toolbox.md %}).
 * Move the existing items into a group using drag-and-drop.
 
-> [!NOTE]
+{: .note }
 > A dashboard item group cannot be added to another group.
 
 ## Interactivity

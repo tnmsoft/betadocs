@@ -66,7 +66,7 @@ For example, the image below shows the Chart dashboard item whose _Country_ **di
 
 ![wdd-coloring-by-measure](/assets/images/dashboards/img126108.png)
 
-> [!NOTE]
+{: .note }
 > If you enabled coloring by different hues for several dimensions/measures, all combinations of dimension values/measures will be automatically colored using different colors from the default palette.
 
 ## <a name="customizedim"/>Customizing Color Palettes Using the Dashboard Item Menu

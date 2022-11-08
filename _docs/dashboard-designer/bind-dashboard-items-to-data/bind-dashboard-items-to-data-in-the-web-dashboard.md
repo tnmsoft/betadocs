@@ -28,7 +28,7 @@ To rename the data item, go to the **Options** section and specify the data item
 
 ![WDD-rename-data-item](/assets/images/dashboards/img124591.png)
 
-> [!NOTE]
+{: .note }
 > To learn how to bind a specific dashboard item to data, see the **Providing Data** topic for the [required dashboard item]({% link _docs/dashboard-designer/dashboard-item-settings/index.md %}).
 
 ## <a name="modify"/>Modify Binding
@@ -50,5 +50,5 @@ You can change the default  data source (or a data member / query, optionally) o
 
 In the invoked section you can change the data source (data member) for the selected dashboard item. Click **OK** to save the changes.
 
-> [!NOTE]
+{: .note }
 > Note that this action removes all data items from the current dashboard item.

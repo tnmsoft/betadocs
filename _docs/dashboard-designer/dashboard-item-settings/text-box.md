@@ -18,5 +18,5 @@ To do this, go to the Text Box's [Options]({% link _docs/dashboard-designer/ui-e
 
 This invokes the Open dialog, which allows you to locate the RTF file.
 
-> [!Note]
+{: .note }
 > The loaded RTF file's content in the Text Box can differ from the original RTF file's layout because of RTF to HTML conversion limitations and browser specifics.
