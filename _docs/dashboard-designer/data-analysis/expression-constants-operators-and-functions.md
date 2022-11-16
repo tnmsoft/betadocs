@@ -7,7 +7,7 @@ grand_parent: Dashboard Designer
 ---
 # Expression Constants, Operators, and Functions
 
-The Web Dashboard uses criteria language that you can use for building expressions. An expression is a string that evaluates some value. The criteria language is based on the the cross-platform library with some additions and subtractions specific for dashboards. This topic details basic and dashboard-specific constants, operators, and functions. 
+The Web Dashboard uses criteria language that you can use for building expressions. An expression is a string that evaluates some value. The criteria language is based on the cross-platform library with some additions and subtractions specific for dashboards. This topic details basic and dashboard-specific constants, operators, and functions. 
 
 The tables below contain constants, operators, and functions you can use in dashboard expressions.
 
