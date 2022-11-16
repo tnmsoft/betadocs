@@ -11,13 +11,13 @@ The topics in this section describe the features available in the Choropleth Map
 ![wdd-dashboard-items-choropleth-map](/assets/images/dashboards/img125119.png)
 
 ## Providing Maps {#providing-maps}
-This topic describes how to use the default **DevExpress Dashboard** maps and configure their attributes.
+This topic describes how to use the default **Web Dashboard** maps and configure their attributes.
 * [Default Maps](#defaultmaps)
 * [Custom Maps](#custommaps)
 * [Map Attributes](#attributes)
 
 ### <a name="defaultmaps"/>Default Maps
-The **DevExpress Dashboard** ships with a set of default maps showing various parts of the world. The following maps are included.
+The **Web Dashboard** ships with a set of default maps showing various parts of the world. The following maps are included.
 * **World Countries** - a map of the world
 * **Europe** - a map of Europe
 * **Asia** - a map of Asia

@@ -7,7 +7,7 @@ grand_parent: Dashboard Designer
 ---
 # Expression Constants, Operators, and Functions
 
-The DevExpress Dashboard uses criteria language that you can use in various DevExpress products for building expressions. An expression is a string that evaluates some value. The criteria language is based on the the cross-platform library with some additions and subtractions specific for dashboards. This topic details basic and dashboard-specific constants, operators, and functions. 
+The Web Dashboard uses criteria language that you can use for building expressions. An expression is a string that evaluates some value. The criteria language is based on the the cross-platform library with some additions and subtractions specific for dashboards. This topic details basic and dashboard-specific constants, operators, and functions. 
 
 The tables below contain constants, operators, and functions you can use in dashboard expressions.
 
@@ -278,8 +278,8 @@ Note that window functions cannot be used inside [Aggr]({% link _docs/dashboard-
 |---|---|---|
 | Ascii(String) | Returns the ASCII code value of the leftmost character in a character expression. | Ascii('a') | 
 | Char(Number) | Converts an integerASCIICode to a character. | Char(65) + Char(51) | 
-| CharIndex(String1, String2) | Returns the starting position of String1 within String2, beginning from the zero character position to the end of a string. | CharIndex('e', 'devexpress') | 
-| CharIndex(String1, String2, StartLocation) | Returns the starting position of String1 within String2, beginning from the StartLocation character position to the end of a string. | CharIndex('e', 'devexpress', 2) | 
+| CharIndex(String1, String2) | Returns the starting position of String1 within String2, beginning from the zero character position to the end of a string. | CharIndex('e', 'dashboard') | 
+| CharIndex(String1, String2, StartLocation) | Returns the starting position of String1 within String2, beginning from the StartLocation character position to the end of a string. | CharIndex('e', 'dashboard', 2) | 
 | Concat(String1, ... , StringN) | Returns a string value containing the concatenation of the current string with any additional strings. | Concat('A', ')', [ProductName]) | 
 | EndsWith(String1, SubString1) | Returns True if the end of String1 matches SubString1; otherwise, False is returned. | EndsWith([Description], 'The end.') | 
 | Insert(String1, StartPosition, String2) | Inserts String2 into String1 at the position specified by StartPositon | Insert([Name], 0, 'ABC-') | 

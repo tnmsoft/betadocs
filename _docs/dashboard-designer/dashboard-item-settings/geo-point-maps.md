@@ -33,7 +33,7 @@ This topic describes how to use the default **Dashboard** maps and configure the
 * [Custom Maps](#custommaps)
 
 ### <a name="defaultmaps"/>Default Maps
-The **DevExpress Dashboard**  ships with a set of default maps showing various parts of the world. The following maps are included.
+The **Web Dashboard**  ships with a set of default maps showing various parts of the world. The following maps are included.
 * **World Countries** - a map of the world
 * **Europe** - a map of Europe
 * **Asia** - a map of Asia
