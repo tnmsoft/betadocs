@@ -9,12 +9,11 @@ Step 3 allows you to control the layout of the reports in the dashboard and how 
 
 ![](/assets/images/dashboardwizard3.png)
 
-By default, {{ site.app_name }} lays out reports horizontally, from left to right, in the order they appear in the *Selected reports* list in step 2. You can rearrange the order by dragging a report to the desired position, either beside or below another report.
+By default, {{ site.app_name }} lays out reports automatically to best fit the window. The default visualization for each report depends on the type of report. Quick reports are displayed with a data grid, crosstabs with a pivot grid, and charts are displayed with a bar diagram.
 
-To change the properties of a report in the dashboard, click the report. The properties available are:
 
-* *Width*: the width of the report in the dashboard. This is a relative value; if one report has a width of 1 and another has a width of 2, the second one is twice as wide as the first.
+*Refresh interval*: a dashboard automatically refreshes the data in each of its reports at an interval you determine. The default is every 120 seconds (2 minutes) but you can set it to a different value if you wish. If you don't want the dashboard to refresh the data, set the value to 0.
 
-* *Height*: the height of the report in the dashboard. This is a relative value; if one report has a height of 1 and another has a height of 2, the second one is twice as tall as the first.
+To customize the layout or change the visualization for any of the reports, use the *Launch Dashboard Designer* button to launch a [design tool]({% link _docs/dashboard-designer/index.md %}) that allows you to make these changes. 
 
-* *Refresh interval*: a dashboard automatically refreshes the data in each of its reports at an interval you determine. The default is every 30 seconds but you can set it to a different value if you wish.
+You can use the *Reset Dashboard* button to delete any changes made in the dashboard design tool. Doing so will reset the layout and visualizations for the dashboard to default values. 

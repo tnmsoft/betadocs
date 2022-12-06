@@ -5,11 +5,11 @@ nav_order: 10
 has_children: true
 parent: Creating Reports
 ---
-A dashboard is a set of reports that appears in its own window, outside of {{ site.app_name }}. In fact, when a dashboard is run, the normal {{ site.app_name }} user interface may not appear.
+A dashboard allows you to display a number of inter-connected data analysis elements such as grids, charts, maps, gauges, and others. You can use your existing reports as data sources for the dashboard, but then visualize that data in different ways. 
 
-![](/assets/images/dashboardpreview.png)
+![](/assets/images/dashboards/dashboardoverview.png)
 
-You typically run a dashboard to view important information about your business. You may run a dashboard at the start of the day and leave the dashboard window open all day, or open and close it as you see fit. The elements in the dashboard refresh themselves at an interval you specify (the default is every 120 seconds) so the data is always current.
+The elements in the dashboard refresh themselves at an interval you specify (the default is every 120 seconds) so the data is always current.
 
 You run a dashboard by previewing it. Note that the preview displays in a separate tab in your browser.
 
