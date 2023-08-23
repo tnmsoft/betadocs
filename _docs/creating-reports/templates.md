@@ -142,3 +142,7 @@ The cross-tab templates that come with {{ site.app_name }} have the following ob
 A template may have other objects as well. For example, the CrossTab Elegant template has a line above the grand totals. Since grand totals are treated like any other line in the detail band of the report, a formatting rule called VisibleForTotalRule is used so it's only visible for the grand totals row. The condition for that rule is [ROWFIELD]='Grand total'. [ROWFIELD] is automatically replaced with the name of the row field, so the rule only takes effect when that field contains "Grand total". The line's Tag property contains "DataFill," which means its width is expanded to match that of the data.
 
 You can also use rules to format the data for the grand totals row differently. If a rule named DetailRule exists, it's automatically applied to rows in the cross-tab. The CrossTab Elegant template has this rule use a bold font when [ROWFIELD]='Grand total'.
+
+## Template parameters
+
+Most built-in templates have several pre-defined parameters, including ReportTitle, ReportDatabase, and ReportFilter. The values for these parameters are set automatically by Horizon Reports when a report is run. You can also define an additional parameter in a template, and then drag the parameter to the report surface to display the value in the output. When a report uses a template with additional parameters, a prompt will appear for each parameter when the report is run. 

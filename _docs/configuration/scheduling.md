@@ -12,7 +12,7 @@ To schedule one or more reports, choose Schedule from the New menu to bring up t
 
 ![](/assets/images/schedule1.png)
 
-In Step 1, specify the name to assign to the schedule, the starting date and time for the schedule, whether the schedule ends or not, and if so, the ending date. Select how often the schedule is run: daily, weekly, monthly, or monthly - day of month. For a daily schedule, choose how many days apart the schedule runs, such as every 2 days, whether the schedule should repeat, and if so after how many minutes it should repeat. If you specify that it should repeat, you can also specify the duration for the repeat interval.
+In Step 1, specify the name to assign to the schedule, the starting date and time for the schedule, whether the schedule ends or not, and if so, the ending date. Select how often the schedule is run: daily, weekly, monthly, monthly - day of month, or cron expression. For a daily schedule, choose how many days apart the schedule runs, such as every 2 days, whether the schedule should repeat, and if so after how many minutes it should repeat. If you specify that it should repeat, you can also specify the duration for the repeat interval.
 
 For a weekly schedule, specify how many weeks apart the schedule runs (such as every 3 weeks) and on which days to run the schedule.
 
@@ -24,7 +24,11 @@ For a monthly schedule, specify which date of every month (for example, the 15th
 
 For a monthly - day of month schedule, select which day of the month (such as the second Monday) and which months the schedule runs on.
 
-![](/assets/images/schedulemonthly.png)
+![](/assets/images/schedulemonthlydayofmonth.png)
+
+For a cron expression schedule, enter the cron expression that defines when the schedule should run. Horizon Reports uses [Quartz](https://www.quartz-scheduler.org/) style cron expressions. You can use a [tool](https://freeformatter.com/cron-expression-generator-quartz.html) to help generate the cron expression you need.
+
+![](/assets/images/schedulecron.png)
 
 ![](/assets/images/schedule2.png)
 

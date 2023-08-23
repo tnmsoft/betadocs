@@ -107,7 +107,7 @@ If *Use date only* is turned off, the bottom of the calendar has a ![](/assets/i
 
 ![](/assets/images/calendarclock.png)
 
-If you want to be prompted to enter the values when you run the report, turn on the *Ask at runtime* option.
+If you want to be prompted to enter the values when you run the report, turn on the *Ask at runtime* option. With this option turned on, an additional option, *Update filter value on run*, will be visible. If you turn this option on, then the value entered for the filter prompt when the report is run will be saved and used as the default value for the prompt the next time the report is run.
 
 To compare a field to another field rather than a value, select *Field* from the *Compare to* option (the default is Value, which means a value is used). Select the field to compare against in the drop-down list that appears in place of the value text box. Note that this only allows you to select fields from the same table and the same data type as the field you're filtering on; for example, if you choose a date field, only date fields from the same table appear in the list. Also note that *Compare to* isn't available if you choose the *is blank*, *is not blank*, *is Yes*, *is No*, *is one of*, or *is not one of* operators. To compare a field in one table to a field in another table, use a database expression (described next) and specify the name of the field in the other table as the expression.
 
@@ -116,6 +116,8 @@ To compare a field to another field rather than a value, select *Field* from the
 To compare a field to an expression, select either *Database Expression* or *Expression* from the *Compare to* option. The difference between the two is that *Database Expression* is an expression the database engine evaluates and *Expression* is an expression that {{ site.app_name }} evaluates. Typically, you'll use *Database Expression* to specify a field or a function that you know the database engine can evaluate and you'll use *Expression* for any other type of expression.
 
 Enter the expression into the text box. For example, to look for all records with a date field falling in the last week, use the "is between" operator and AddDays(Now(), -7) for the first expression and Now() for the second expression. Since Now() gives today's date and AddDays() adds the specified number of days to a date, AddDays(Now(), -7) is seven days ago, so this gives all records with the date being between one week ago and today. The [Expressions and Functions Reference]({% link _docs/reference/function-reference.md %}) topic has a list of the most useful functions.
+
+If you turn on the *Ask at runtime* option for a filter with an expression, then the expression will be evaluated before the report is run, and the resulting value will be used as the default value for an *Ask at runtime* filter prompt.
 
 Note that the "is one of" and "is not one of" operators are only available if *Compare to* is set to *Value*.
 

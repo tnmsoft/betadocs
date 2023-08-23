@@ -7,34 +7,48 @@ parent: Home
 
 # Version 1.1
 
-* [Dashboards]({% link _docs/creating-reports/dashboards/index.md %}) have been updated with a new modern web dashboard control. Dashboards now allow you to display a number of inter-connected data analysis elements such as grids, charts, maps, gauges, and others; all within an automatically-arranged layout. 
+* A new export option, [Create Tabbed Document]({% link _docs/creating-reports/exporting.md %}), allows you to combine separate group files in to a single spreadsheet. The option is only available when outputting to Excel format.
 
-* A new [report monitor]({% link _docs/configuration/monitor-reports.md %}) dialog is available. You can use this tool to monitor active reports. If a report is consuming too many server resources, you can also request that the server try to cancel the report from this screen.
+* A new [Update filter value on run]({% link _docs/creating-reports/filtering/including-records.md %}) option for filter conditions allows you to update the default value for an ask-at-runtime prompt with the latest value used to run the report.
 
-* When turning on [Two Factor Authentication]({% link _docs/configuration/configuration.md %}), the generated QR Code now has an issuer defined for apps that require it. 
+* If you turn on [ask-at-runtime]({% link _docs/creating-reports/filtering/including-records.md %}) for an expression based filter, the expression is now evaluated and used as the default value for the value prompt.
 
-* The [manage reports]({% link _docs/configuration/managing-reports.md %}) dialog has new "Updated by" and "Updated on" columns. 
+* You can now define parameters in a [report template]({% link _docs/creating-reports/templates.md %}), and the parameters will be added to any report that uses the template. This allows you to create templates that prompt the user for a value, and display or use that value somewhere when running the report. 
 
-* When creating a [new formula]({% link _docs/creating-reports/formulas.md %}), it's no longer necessary to preview the formula before saving. Instead, a warning is shown if the formula hasn't been previewed first. 
+* You can now use a cron expression as the trigger for a [schedule]({% link _docs/configuring/scheduling.md %}).
 
-* Improved performance in the browser when creating formulas in a project with a large data dictionary.
+* You can now enter more text for the [title]({% link _docs/creating-reports/quick-reports/step5.md %}) of a report.
 
-* You can now include multiple [subreports]({% link _docs/creating-reports/subreports.md %}) in the header of a report.
+* [Tags]({% link _docs/creating-reports/tags.md %}) that aren't accessible or have been deleted are now removed from a report definition when exporting.
 
-* Added a preview button to [dashboard wizard]({% link _docs/creating-reports/dashboards/index.md %}) to allow previewing changes before saving.
+* When outputting a cross-tab to an Excel pivot table, the columns are now named using the column headings in the report.
 
-* You can now use charts and pivot grids directly in a report with an [advanced layout]({% link _docs/creating-reports/advanced-layout-designer/index.md %}).
+* Improved loading performance and support for large reports in the advanced layout editor.
+
+* Improved support for executing stored procedures with "EXEC" in a [SQL Passthrough]({% link _docs/creating-reports/sql-passthrough.md %}) report.
+
+* Is-one-of filter conditions with no values are now automatically ignored when running a report. 
+
+* When a report is deleted, any schedule that used that report is now automatically updated.
 
 ## Bug Fixes
 
-* Fixed a bug that prevented users from being logged out properly.
+* Fixed a bug with compound filter conditions not working correctly when the query for a report is split.
 
-* Fixed a bug that occurred when creating new SQL Passthrough reports. 
+* Fixed a bug with summary values on charts not handling mixed case values.
 
-* The tour prompt that appears for new users should now only appear once.
+* Fixed a bug with the Top N option not working properly for chart reports.
 
-* Fixed a bug with SFTP upload not uploading the output file properly. 
+* Fixed a bug with reports using old/saved parameter values when running instead of the entered value.
 
-* Fixed an issue with an "is between" filter on a date value not setting the end time to include the last day.
+* Fixed a bug with filter groups getting removed when "is between" filter conditions are automatically converted to a date range. 
 
-* A formula with a blank name should no longer cause an error when logging in.
+* Fields with a lot of text now automatically force Word Wrap to be on. This works around a GDI+ error that occurs otherwise.
+
+* Fixed a bug with custom SQL Statements not handling parameter values properly.
+
+* Fixed an issue with the Contains operator for a filter not working on calculated values.
+
+* Fixed a bug with automatic parameter naming for SQL Passthrough reports.
+
+* Fixed a bug with reports containing the same field more than once.

@@ -22,6 +22,10 @@ The export options in the *General* section are:
 
 * *Output each group as separate file*: if you turn this option on, each group in the report is output as a separate file, with the file name being the name you chose followed by the group value. For example, if you have a report showing customers grouped by country and specify "Customers.PDF" as the file name, turning this option on results in files named "Customers Argentina.PDF" (including only customers from Argentina), "Customers Austria.PDF" (including only customers from Austria), and so on. This is useful if, for example, you want to create an invoice for each customer without having to run an invoice report multiple times, each with a filter on a different customer name. This option is only available if there's at least one grouped field in the report. The individual files are zipped up into a single file which is downloaded to your browser.
 
+* *Create tabbed document instead of zip*: If you turn this option on, rather than generating an individual file for each group, a tabbed spreadsheet will be created, with each tab corresponding to a group on the report. This option is only available if *Output each group as separate file* is turned on, and will only work when outputting to an Excel document.
+
+* *Get email address from field*: this option, which is only available if *Output each group as separate file* is turned on, uses a field from the report as the email address to send the group's file to. To follow the example from the previous item, suppose you wanted to email an invoice to each customer. Make sure the report includes the field containing the customer's email address, even if the *Display in report* setting is turned off for that field, then turn on *Get email address from field* and select the field containing the email address from the drop-down list beside this option. This creates one file for each group and emails that file to the address indicated in the field you select.
+
 * *Password*: fill this in if you want to password protect the file. In the case of a PDF file, the file itself is encrypted; other file types are added to an encrypted ZIP file using the same name as the output file but with a "zip" extension.
 
 * *Separator character*: The character to use as a separator when outputting to CSV format. A comma is the default separator.
@@ -51,8 +55,6 @@ The options in the *Email* section are:
 {% endif %}
 
 * *Email body*: the body of the email. Like *Subject*, you can use an expression in *Email body*.
-
-* *Get email address from field*: this option, which is only available if *Output each group as separate file* is turned on, uses a field from the report as the email address to send the group's file to. To follow the example from the previous item, suppose you wanted to email an invoice to each customer. Make sure the report includes the field containing the customer's email address, even if the *Display in report* setting is turned off for that field, then turn on *Get email address from field* and select the field containing the email address from the drop-down list beside this option. This creates one file for each group and emails that file to the address indicated in the field you select.
 
 ![](/assets/images/exportoptionsftp.png)
 
