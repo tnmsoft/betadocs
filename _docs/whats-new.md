@@ -5,7 +5,7 @@ nav_order: 2
 parent: Home
 ---
 
-# Version 1.1
+# Version 1.2
 
 * A new export option, [Create Tabbed Document]({% link _docs/creating-reports/exporting.md %}), allows you to combine separate group files in to a single spreadsheet. The option is only available when outputting to Excel format.
 
