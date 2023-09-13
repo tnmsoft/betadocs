@@ -15,7 +15,7 @@ parent: Home
 
 * You can now define parameters in a [report template]({% link _docs/creating-reports/templates.md %}), and the parameters will be added to any report that uses the template. This allows you to create templates that prompt the user for a value, and display or use that value somewhere when running the report. 
 
-* You can now use a cron expression as the trigger for a [schedule]({% link _docs/configuring/scheduling.md %}).
+* You can now use a cron expression as the trigger for a [schedule]({% link _docs/configuration/scheduling.md %}).
 
 * You can now enter more text for the [title]({% link _docs/creating-reports/quick-reports/step5.md %}) of a report.
 
